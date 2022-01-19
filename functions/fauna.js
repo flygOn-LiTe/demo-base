@@ -1,7 +1,8 @@
 const axios = require('axios');
 
 exports.faunaFetch = async ({ query, variables }) => {
-  return await axios('https://graphql.fauna.com/graphql', {
+  return await axios({
+    url: 'https://graphql.fauna.com/graphql',
     method: 'POST',
     headers: {
       Authorization: `Bearer ${process.env.FAUNA_SERVER_KEY}`,
