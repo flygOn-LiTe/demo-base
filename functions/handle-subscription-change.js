@@ -1,5 +1,5 @@
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-const fetch = require('node-fetch');
+const fetch = require('cross-fetch');
 const { faunaFetch } = require('./fauna');
 
 exports.handler = async ({ body, headers }, context) => {
