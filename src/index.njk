@@ -190,11 +190,6 @@ title: home
 
    const handleUserStateChange = (user) => {
      updateUserInfo(user);
-        if(user.app_metadata.roles[0] === "pro"){
-              document.querySelector('.free').style.setProperty('display', 'none');
-          }else{
-              document.querySelector('.free').style.setProperty('display', 'block');
-          }
      loadSubscriptionContent(user);
    };
 
