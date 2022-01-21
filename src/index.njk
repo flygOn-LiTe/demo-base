@@ -178,11 +178,7 @@ title: home
            const caption = content.querySelector('figcaption');
            caption.innerText = data.message;
            caption.appendChild(credit);
-          if(user.app_metadata.roles[0] === "pro"){
-              document.querySelector('.free').style.setProperty('display', 'none');
-          }else{
-              document.querySelector('.free').style.setProperty('display', 'block');
-          }
+      
            container.appendChild(content);
         });
      });
@@ -194,6 +190,11 @@ title: home
 
    const handleUserStateChange = (user) => {
      updateUserInfo(user);
+        if(user.app_metadata.roles[0] === "pro"){
+              document.querySelector('.free').style.setProperty('display', 'none');
+          }else{
+              document.querySelector('.free').style.setProperty('display', 'block');
+          }
      loadSubscriptionContent(user);
    };
 
