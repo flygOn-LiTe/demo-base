@@ -190,7 +190,7 @@ title: home
 function userRoler(user){
   console.log(user);
   console.log(user.app_metadata.roles[0]);
-document.querySelector('.greeting').innerText = "Welcome " + user.user_metadata.full_name + ", you are a " + user.app_metadata.roles[0] + " member!";   
+document.querySelector('.greeting').innerText = "Welcome " + user.user_metadata.full_name;   
 }
 
 function removeRoler(){
