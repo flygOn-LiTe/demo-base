@@ -5,7 +5,7 @@ const content = {
       alt: 'corgi in the park with a sunset in the background',
       credit: 'Jacob Van Blarcom',
       creditLink: 'https://unsplash.com/photos/lkzjENdWgd8',
-      message: 'To view this content, you need to create an account!',
+      message: 'This is free content',
       allowedRoles: ['free', 'pro'],
     },
     pro: {

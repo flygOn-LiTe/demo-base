@@ -1,0 +1,2 @@
+/members/*          200!  Role=pro
+/members/* /nonmembers         401!
