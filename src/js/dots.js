@@ -70,7 +70,7 @@ function drawCircles() {
       // draw the circle on the canvas
       ctx.beginPath();
       ctx.arc(x, y, 4, 0, Math.PI * 2, true);
-      ctx.fillStyle = `rgba(26, 42, 59, ${opacity})`;
+      ctx.fillStyle = `rgba(42, 241, 235, ${opacity})`;
       ctx.fill();
     }
   }
