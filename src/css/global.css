@@ -11,11 +11,11 @@
   --white: white;
   --lwj-gradient: linear-gradient(
     90deg,
-    var(--pink) 0%,
-    var(--yellow) 25%,
+    var(--blue) 0%,
+    var(--pink) 25%,
     var(--blue) 50%,
-    var(--yellow) 75%,
-    var(--pink) 100%
+    var(--pink) 75%,
+    var(--blue) 100%
   );
   --text: var(--gray);
   --text-muted: #687889;
@@ -54,12 +54,13 @@ h6 {
 }
 
 main {
-  margin: 4rem auto;
-  max-width: 640px;
-  min-height: calc(100vh - 242px);
-  width: 90vw;
+  width: 100%;
+  text-align: center;
 }
-
+ul{
+  list-style: none;
+  padding: 0;
+}
 @keyframes gradient-roll {
   0% {
     background-position: -100vw 0;

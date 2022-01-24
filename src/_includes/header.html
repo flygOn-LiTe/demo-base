@@ -46,7 +46,7 @@
     border: 1px solid var(--dark-gray);
     border-radius: 0.25rem;
     color: var(--dark-gray);
-    content: 'Check out Learn With Jason!';
+    content: '(🎩,🎩)🧙‍♂️🐸!!!!';
     display: block;
     left: -0.5rem;
     opacity: 0;
@@ -122,13 +122,41 @@
     height: 1px;
     background-color: var(--black);
   }
+  .user-info {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding: 0;
+  }
+
+  .user-info button {
+    background: var(--dark-gray);
+    border: 0;
+    border-radius: 0.5rem;
+    color: var(--white);
+    display: block;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+  }
+.button-container{
+  margin: 4rem auto;
+  max-width: 640px;
+  width: 90vw;
+  text-align: center;
+}
 </style>
 
 <header class="lwj-demo-header">
   <div class="logo-wrapper">
     <canvas id="canvas" width="300" height="56"></canvas>
-    <a href="https://www.learnwithjason.dev" class="logo"
-      ><img src="/images/learn-with-jason-dark.svg" alt="Learn With Jason"
+    <a href="/" class="logo"
+      ><img src="/images/berryog72.png" alt="Berry Crypto"
     /></a>
     <a href="/" rel="home" class="home-link"> {{ meta.title }} </a>
   </div>
@@ -136,8 +164,79 @@
   <div class="top-bar"></div>
 </header>
 
+<div class="button-container">
+  <h1>Sign Up for Premium Berry Bro's Crypto Content</h1>
+<div class="user-info">
+  <button id="left">Log In</button>
+  <button id="right">Sign Up</button>
+</div>
+</div>
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script type="module">
   import { startAnimation } from '/js/dots.js';
 
   startAnimation();
+
+  const button1 = document.getElementById('left');
+   const button2 = document.getElementById('right');
+  
+  const login = () => netlifyIdentity.open('login');
+  const signup = () => netlifyIdentity.open('signup');
+  
+ // by default, add login and signup functionality
+  button1.addEventListener('click', login);
+  button2.addEventListener('click', signup);
+
+  
+  const updateUserInfo = (user) => {
+     const container = document.querySelector('.user-info');
+    
+     // cloning the buttons removes existing event listeners
+    const b1 = button1.cloneNode(true);
+     const b2 = button2.cloneNode(true);
+
+     // empty the user info div
+     container.innerHTML = '';
+
+     if (user) {
+      b1.innerText = 'Log Out';
+       b1.addEventListener('click', () => {
+         netlifyIdentity.logout();
+       });
+
+       b2.innerText = 'Manage Subscription';
+       b2.addEventListener('click', () => {
+        fetch('/.netlify/functions/create-manage-link', {
+         method: 'POST',
+         headers: {
+           Authorization: `Bearer ${user.token.access_token}`,
+         },
+       })
+         .then((res) => res.json())
+         .then((link) => {
+           window.location.href = link;
+         })
+         .catch((err) => console.error(err));
+       });
+     } else {
+       // if no one is logged in, show login/signup options
+       b1.innerText = 'Log In';
+       b1.addEventListener('click', login);
+
+       b2.innerText = 'Sign Up';
+       b2.addEventListener('click', signup);
+     }
+
+     // add the updated buttons back to the user info div
+     container.appendChild(b1);
+     container.appendChild(b2);
+   };
+
+  const handleUserButtonChange = (user) => {
+     updateUserInfo(user);
+   };
+
+   netlifyIdentity.on('init', handleUserButtonChange);
+   netlifyIdentity.on('login', handleUserButtonChange);
+   netlifyIdentity.on('logout', handleUserButtonChange);
 </script>
