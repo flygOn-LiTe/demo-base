@@ -170,7 +170,7 @@
 </header>
 
 <div class="button-container">
-  <h1>Sign Up for Premium Berry Bro's Crypto Content</h1>
+  <h1 id="topMessage"></h1>
 <div class="user-info">
   <button id="left">Log In</button>
   <button id="right">Sign Up</button>
@@ -185,6 +185,7 @@
   const button1 = document.getElementById('left');
    const button2 = document.getElementById('right');
   
+  
   const login = () => netlifyIdentity.open('login');
   const signup = () => netlifyIdentity.open('signup');
   
@@ -195,20 +196,20 @@
   
   const updateUserInfo = (user) => {
      const container = document.querySelector('.user-info');
-    
+     const topMessage = document.getElementById('topMessage');
      // cloning the buttons removes existing event listeners
     const b1 = button1.cloneNode(true);
      const b2 = button2.cloneNode(true);
-
+    
      // empty the user info div
      container.innerHTML = '';
-
+     topMessage.innerHTML = '';
      if (user) {
       b1.innerText = 'Log Out';
        b1.addEventListener('click', () => {
          netlifyIdentity.logout();
        });
-
+       topMessage.innerText = "Welcome " + user.user_metadata.full_name + " you are a " + user.app_metadata.roles[0];
        b2.innerText = 'Manage Subscription';
        b2.addEventListener('click', () => {
         fetch('/.netlify/functions/create-manage-link', {
@@ -225,6 +226,7 @@
        });
      } else {
        // if no one is logged in, show login/signup options
+       topMessage.innerText = 'Sign up for Berry Bros crypto content';
        b1.innerText = 'Log In';
        b1.addEventListener('click', login);
 

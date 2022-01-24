@@ -3,7 +3,7 @@ const content = {
       src:
         'https://images.unsplash.com/photo-1550159930-40066082a4fc?auto=format&fit=crop&w=600&h=600&q=80',
       alt: 'corgi in the park with a sunset in the background',
-      credit: 'Jacob Van Blarcom',
+      credit: 'You may enter the free members area',
       creditLink: './freemembers/',
       message: 'This is free content',
       allowedRoles: ['free', 'pro'],

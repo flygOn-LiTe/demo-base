@@ -72,12 +72,12 @@ margin-top: 0;
 </svg>
 <div class="infographic">
 <svg id="Layer_1" width="100%" height="100%" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="697" height="322" viewBox="0 0 697 322">
-<defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{font-size:32px;font-family:tensentype-jinzhuanheijf, sans-serif;}.cls-3,.cls-5{fill:#fff;}.cls-18,.cls-19,.cls-20,.cls-4{fill:none;stroke-miterlimit:10;}.cls-4{stroke:#2af1eb;}.cls-20,.cls-4{stroke-width:8px;}.cls-5{font-size:24px;font-family:Calibri;}.cls-6{letter-spacing:-0.01em;}.cls-7{letter-spacing:-0.02em;}.cls-8{letter-spacing:-0.02em;}.cls-9{letter-spacing:0em;}.cls-10{letter-spacing:-0.02em;}.cls-11{letter-spacing:-0.02em;}.cls-12{letter-spacing:-0.01em;}.cls-13{letter-spacing:-0.01em;}.cls-14{letter-spacing:-0.01em;}.cls-15{letter-spacing:-0.01em;}.cls-16{letter-spacing:-0.02em;}.cls-17{fill:url(#linear-gradient-3);}.cls-18,.cls-19{stroke:#fff;}.cls-18{stroke-width:10px;}.cls-19{stroke-width:5px;}.cls-20{stroke:#600c96;}</style>
+<defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{font-size:32px;font-family:tensentype-jinzhuanheijf, sans-serif;}.cls-3,.cls-5{fill:#fff;}.cls-18,.cls-19,.cls-20,.cls-4{fill:none;stroke-miterlimit:10;}.cls-4{stroke:#2af1eb;}.cls-20,.cls-4{stroke-width:8px;}.cls-5{font-size:24px;font-family:Calibri;}.cls-17{fill:url(#linear-gradient-3);}.cls-18,.cls-19{stroke:#fff;}.cls-18{stroke-width:10px;}.cls-19{stroke-width:5px;}.cls-20{stroke:#600c96;}</style>
 <linearGradient id="linear-gradient" y1="140.5" x2="561" y2="140.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#600c96"/><stop offset="0.14" stop-color="#6e0b93"/><stop offset="0.39" stop-color="#93088a"/><stop offset="0.74" stop-color="#ce047c"/><stop offset="1" stop-color="#ff0071"/></linearGradient>
 <linearGradient id="linear-gradient-2" x1="298" y1="159.5" x2="427" y2="159.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff0071"/><stop offset="0.41" stop-color="#fd0071"/><stop offset="0.56" stop-color="#f60173"/><stop offset="0.66" stop-color="#eb0276"/><stop offset="0.75" stop-color="#da037a"/><stop offset="0.82" stop-color="#c4047f"/><stop offset="0.88" stop-color="#a80785"/><stop offset="0.94" stop-color="#89098d"/><stop offset="0.99" stop-color="#640c95"/><stop offset="1" stop-color="#600c96"/></linearGradient>
 <linearGradient id="linear-gradient-3" x1="427" y1="160" x2="561" y2="160" xlink:href="#linear-gradient-2"/></defs>
 <rect class="cls-1" width="561" height="281" rx="11.5"/><rect class="cls-2" x="298" y="38" width="129" height="243"/><text class="cls-3" transform="translate(327 29.8)">Free</text><text class="cls-3" transform="translate(467 30.19)">Pro</text><polyline class="cls-4" points="344 80.97 353.11 90 373 58"/><text class="cls-3" transform="translate(81.5 29.19)">Features</text><text class="cls-5" transform="translate(41.22 79.66)">F<tspan class="cls-6" x="11.03" y="0">r</tspan><tspan x="19.08" y="0">ee membe</tspan><tspan class="cls-7" x="123.22" y="0">r</tspan><tspan x="131.18" y="0">s blog</tspan></text><text class="cls-5" transform="translate(47.97 142)">P<tspan class="cls-8" x="12.4" y="0">r</tspan><tspan x="20.38" y="0">o membe</tspan><tspan class="cls-7" x="113.3" y="0">r</tspan><tspan x="121.25" y="0">s a</tspan><tspan class="cls-6" x="147.56" y="0">r</tspan><tspan x="155.61" y="0">ea</tspan></text><text class="cls-5" transform="translate(42.45 202)">Ber<tspan class="cls-9" x="33.36" y="0">r</tspan>
-<tspan x="41.85" y="0">y B</tspan><tspan class="cls-8" x="71.19" y="0">r</tspan><tspan x="79.17" y="0">os </tspan>
+<tspan x="41.85" y="0">y B</tspan>ros 
 <tspan class="cls-10" x="106.64" y="0">P</tspan><tspan x="118.56" y="0">or</tspan><tspan class="cls-11" x="139.58" y="0">tf</tspan>
 <tspan x="153.77" y="0">olio</tspan></text><text class="cls-5" transform="translate(37.58 243)">Link <tspan class="cls-12" x="44.54" y="0">t</tspan>
 <tspan x="52.35" y="0">o pri</tspan><tspan class="cls-13" x="96.91" y="0">v</tspan><tspan class="cls-14" x="107.4" y="0">a</tspan><tspan class="cls-15" x="118.68" y="0">t</tspan>
@@ -200,23 +200,12 @@ margin-top: 0;
      });
    };
 
-function userRoler(user){
-  console.log(user);
-  console.log(user.app_metadata.roles[0]);
-document.querySelector('.greeting').innerText = "Welcome " + user.user_metadata.full_name;   
-}
-
-function removeRoler(){
-  document.querySelector('.greeting').innerText = '';
-}
 
    const handleUserStateChange = (user) => {
      loadSubscriptionContent(user);
    };
 
    netlifyIdentity.on('init', handleUserStateChange);
-   netlifyIdentity.on('login', function(user){userRoler(user)});
    netlifyIdentity.on('login', handleUserStateChange);
-   netlifyIdentity.on('logout', function(){removeRoler()});
    netlifyIdentity.on('logout', handleUserStateChange);
    </script>
