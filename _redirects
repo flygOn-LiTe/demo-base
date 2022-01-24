@@ -1,2 +1,5 @@
 /members/* 200! Role=pro
 /members/* /members/nonmembers 401!
+
+/freemembers/* 200! Role=free,pro
+/freemembers/* /members/nonmembers 401!

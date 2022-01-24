@@ -4,7 +4,7 @@ const content = {
         'https://images.unsplash.com/photo-1550159930-40066082a4fc?auto=format&fit=crop&w=600&h=600&q=80',
       alt: 'corgi in the park with a sunset in the background',
       credit: 'Jacob Van Blarcom',
-      creditLink: 'https://unsplash.com/photos/lkzjENdWgd8',
+      creditLink: './freemembers/',
       message: 'This is free content',
       allowedRoles: ['free', 'pro'],
     },
@@ -14,8 +14,7 @@ const content = {
       alt: 'close-up of a corgi with its tongue hanging out',
       credit: 'You may now enter the members area',
       creditLink: './members/',
-      message:
-        'This is protected content! It’s only available if you have a pro plan or higher.',
+      message: 'This is protected content! It’s only available if you have a pro plan or higher.',
       allowedRoles: ['pro'],
     },
   };
