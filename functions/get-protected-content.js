@@ -33,7 +33,7 @@ const content = {
              src: 'https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto/v1592618179/stripe-subscription/subscription-required.jpg',
              alt: 'corgi in a crossed circle with the text “subscription required”',
              credit: 'Sign Up',
-             creditLink: './members/nonmembers/',
+             creditLink: './signup/',
              message: `This content requires a ${type} members subscription.`,
            }),
          };
