@@ -38,20 +38,7 @@ title: home
     font-size: 1.5rem;
     margin-bottom: 25px;
 }
-  .credit {
-    background: #FF0071;
-    border: 0;
-    color: var(--white);
-    display: block;
-    font-family: var(--font-family);
-    font-size: 1.5rem;
-    font-weight: 900;
-    padding: 1rem;
-    text-decoration: none;
-    width: 50%;
-    display: inline;
-     border-radius: 0.5rem;
-  }
+
 
   .content img {
     width: 100%;
@@ -202,8 +189,9 @@ height: 50%;
 <template id="content">
      <div class="content-display">
        <img />
+       <a class="credit">
        <div class="caption"></div>
-         <a class="credit"></a>
+         </a>
      </div>
    </template>
 
@@ -241,7 +229,7 @@ height: 50%;
 
            const credit = content.querySelector('.credit');
            credit.href = data.creditLink;
-           credit.innerText = `${data.credit}`;
+           
 
            const caption = content.querySelector('.caption');
            caption.innerText = data.message;

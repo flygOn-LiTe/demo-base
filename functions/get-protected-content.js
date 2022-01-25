@@ -3,7 +3,6 @@ const content = {
       src:
         '/images/freemembers.png',
       alt: 'free members portal',
-      credit: 'Enter Now',
       creditLink: './freemembers/',
       message: 'You now have access to the free members area',
       allowedRoles: ['free', 'pro'],
@@ -12,7 +11,6 @@ const content = {
       src:
         '/images/membersarea.png',
       alt: 'McBerry portal',
-      credit: 'Enter Now',
       creditLink: './members/',
       message: 'You now have access to The McBerry Realm.',
       allowedRoles: ['pro'],
@@ -32,7 +30,6 @@ const content = {
            body: JSON.stringify({
              src: '/images/nomember.png',
              alt: 'Gated Content',
-             credit: 'Sign Up',
              creditLink: './signup/',
              message: `This content requires a ${type} members subscription.`,
            }),
