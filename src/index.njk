@@ -17,10 +17,13 @@ title: home
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    margin-bottom: 25px;
   }
 
   .content h2 {
     font-size: 1.25rem;
+    color: var(--black);
   }
 
   .content-display {
@@ -36,7 +39,7 @@ title: home
     margin-bottom: 25px;
 }
   .credit {
-    background: #630C95;
+    background: #FF0071;
     border: 0;
     color: var(--white);
     display: block;
@@ -47,14 +50,15 @@ title: home
     text-decoration: none;
     width: 50%;
     display: inline;
+     border-radius: 0.5rem;
   }
 
   .content img {
     width: 100%;
   }
 
-      .dream-team {
-    display: grid;
+  .dream-team {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 0px;
   }
@@ -64,33 +68,52 @@ title: home
     height: 300px;
   }
 
-
-
 .infographic{
   width: 100%;
-  height: auto;
+  height: 40vh;
   display: block;
   background: #630C95;
 }
+@media only screen and (max-width: 1200px) {
+  .infographic{
+   width: 100%;
+  height: auto;
+  display: block;
+  background: #630C95;
+  }
+}
 #svg-container{
 padding-left: 15%;
-padding-top: 15%;
 }
 .waves{
-display: block;
-margin-top: 0;
+display: none;
 }
-
-
+@media only screen and (max-width: 1200px) {
+  .waves{
+    display: block;
+    margin-top: 0;
+  }
+}
+#infosvg{
+margin-top: 50px;
+width: 50%;
+height: 50%;
+}
+@media only screen and (max-width: 1200px) {
+  #infosvg{
+   width: 100%;
+  height: 100%;
+  }
+}
 </style>
-<h1>Welcome to Berry Bro's Crypto Membership Site</h1>
+<h1>Berry Bro's Crypto Membership Site</h1>
 
 <svg xmlns="http://www.w3.org/2000/svg" class="waves" width="100%" viewBox="0 0 1440 319">
 <path fill="#630C95" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,213.3C384,224,480,256,576,266.7C672,277,768,267,864,256C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
 </svg>
 <div class="infographic">
   <div id="svg-container">
-<svg id="Layer_1" width="100%" height="100%" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="697" height="322" viewBox="0 0 697 322">
+<svg id="infosvg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 697 322">
 <defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{font-size:32px;font-family:tensentype-jinzhuanheijf, sans-serif;}.cls-3,.cls-5{fill:#fff;}.cls-18,.cls-19,.cls-20,.cls-4{fill:none;stroke-miterlimit:10;}.cls-4{stroke:#2af1eb;}.cls-20,.cls-4{stroke-width:8px;}.cls-5{font-size:24px;font-family:Calibri;}.cls-17{fill:url(#linear-gradient-3);}.cls-18,.cls-19{stroke:#fff;}.cls-18{stroke-width:10px;}.cls-19{stroke-width:5px;}.cls-20{stroke:#600c96;}</style>
 <linearGradient id="linear-gradient" y1="140.5" x2="561" y2="140.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#600c96"/><stop offset="0.14" stop-color="#6e0b93"/><stop offset="0.39" stop-color="#93088a"/><stop offset="0.74" stop-color="#ce047c"/><stop offset="1" stop-color="#ff0071"/></linearGradient>
 <linearGradient id="linear-gradient-2" x1="298" y1="159.5" x2="427" y2="159.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff0071"/><stop offset="0.41" stop-color="#fd0071"/><stop offset="0.56" stop-color="#f60173"/><stop offset="0.66" stop-color="#eb0276"/><stop offset="0.75" stop-color="#da037a"/><stop offset="0.82" stop-color="#c4047f"/><stop offset="0.88" stop-color="#a80785"/><stop offset="0.94" stop-color="#89098d"/><stop offset="0.99" stop-color="#640c95"/><stop offset="1" stop-color="#600c96"/></linearGradient>
@@ -112,6 +135,20 @@ margin-top: 0;
 <svg xmlns="http://www.w3.org/2000/svg" class="waves" viewBox="0 0 1440 320">
 <path fill="#630C95" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,213.3C384,224,480,256,576,266.7C672,277,768,267,864,256C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
 </svg>
+
+
+<div class="protected-content">
+  <div class="content">
+    <h2>Free Members</h2>
+    <div class="free"></div>
+  </div>
+  <div class="content">
+    <h2>Pro Members</h2>
+    <div class="pro"></div>
+  </div>
+</div>
+
+
 
 <h1>Berry Bro's Crypto Team</h1>
 <div class="dream-team">
@@ -161,19 +198,6 @@ margin-top: 0;
       </ul>
   </div>
 </div>
-
-
-<div class="protected-content">
-  <div class="content">
-    <h2>Free Content</h2>
-    <div class="free"></div>
-  </div>
-  <div class="content">
-    <h2>Pro Content</h2>
-    <div class="pro"></div>
-  </div>
-</div>
-
 
 <template id="content">
      <div class="content-display">
