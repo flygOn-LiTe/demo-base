@@ -21,16 +21,32 @@ title: home
 
   .content h2 {
     font-size: 1.25rem;
-    text-align: center;
   }
 
   .content-display {
     margin: 0;
   }
 
-  .credit {
+.caption{
+    border: 0;
+    color: var(--black);
     display: block;
-    font-size: 0.75rem;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+  .credit {
+    background: #630C95;
+    border: 0;
+    color: var(--white);
+    display: block;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem;
+    text-decoration: none;
+    width: 50%;
+    display: inline;
   }
 
   .content img {
@@ -48,12 +64,8 @@ title: home
     height: 300px;
   }
 
-.content-container{
-  margin: 4rem auto;
-  max-width: 640px;
-  min-height: calc(100vh - 242px);
-  width: 90vw;
-}
+
+
 .infographic{
   padding-top: 5%;
   width: 100%;
@@ -66,6 +78,8 @@ title: home
 display: block;
 margin-top: 0;
 }
+
+
 </style>
 <svg xmlns="http://www.w3.org/2000/svg" class="waves" width="100%" viewBox="0 0 1440 319">
 <path fill="#630C95" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,213.3C384,224,480,256,576,266.7C672,277,768,267,864,256C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -92,47 +106,56 @@ margin-top: 0;
 <svg xmlns="http://www.w3.org/2000/svg" class="waves" viewBox="0 0 1440 320">
 <path fill="#630C95" fill-opacity="1" d="M0,224L48,218.7C96,213,192,203,288,213.3C384,224,480,256,576,266.7C672,277,768,267,864,256C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
 </svg>
-<h1>Berry Bro's Crypto Dream Team</h1>
+<h1>Berry Bro's Crypto Team</h1>
 <div class="dream-team">
-  <div class="content grid-col-span">
+  <div class="content">
     <img src="/images/andrew.png">
     <h2>iberryboi</h2>
     <ul>
-      <li>Blockchain Developer</li>
+      <li>Web Developer</li>
+      <li>Smart Contract Auditer</li>
       <li>DeFi Advocate</li>
-      <li>Worked at Lowes Home Improvment</li>
       </ul>
   </div>
-  <div class="content grid-col-span">
+  <div class="content">
     <img src="/images/michael.png">
     <h2>Defi Degen</h2>
     <ul>
+      <li>Market Researcher</li>
+      <li>Data Analyst</li>
       <li>Mathmetician</li>
-      <li>Whale Investor</li>
-      <li>EX McDonalds Manager</li>
       </ul>
   </div>
-  <div class="content grid-col-span">
+  <div class="content">
     <img src="/images/al.png">
     <h2>Maddog Al</h2>
      <ul>
-      <li>Technical Advisor</li>
-      <li>Python Developer</li>
+      <li>Technology Advisor</li>
+      <li>Python/Unity Developer</li>
       <li>Public Speaker @Utah Technical University</li>
       </ul>
   </div>
-  <div class="content grid-col-span">
+  <div class="content">
     <img src="/images/matt.png">
-    <h2>Cyan supernatural</h2>
+    <h2>Cyan Supernatural</h2>
      <ul>
       <li>Digital Marketer</li>
-      <li>Designer</li>
-      <li>EX Geico Insurance Salesmen</li>
+      <li>Graphic Designer</li>
+      <li>Social Media Specialist</li>
+      </ul>
+  </div>
+  <div class="content">
+    <img src="/images/jacob.jpeg">
+    <h2>Revanous</h2>
+     <ul>
+      <li>Research Consultant</li>
+      <li>Fleece-Collar Engineer</li>
+      <li>Financial Officer</li>
       </ul>
   </div>
 </div>
-<div class="content-container">
-<h2 class="greeting"></h2>
+
+
 <div class="protected-content">
   <div class="content">
     <h2>Free Content</h2>
@@ -143,16 +166,14 @@ margin-top: 0;
     <div class="pro"></div>
   </div>
 </div>
-</div>
 
 
 <template id="content">
-     <figure class="content-display">
+     <div class="content-display">
        <img />
-       <figcaption>
+       <div class="caption"></div>
          <a class="credit"></a>
-       </figcaption>
-     </figure>
+     </div>
    </template>
 
 
@@ -189,17 +210,16 @@ margin-top: 0;
 
            const credit = content.querySelector('.credit');
            credit.href = data.creditLink;
-           credit.innerText = `Credit: ${data.credit}`;
+           credit.innerText = `${data.credit}`;
 
-           const caption = content.querySelector('figcaption');
+           const caption = content.querySelector('.caption');
            caption.innerText = data.message;
-           caption.appendChild(credit);
+           
 
            container.appendChild(content);
         });
      });
    };
-
 
    const handleUserStateChange = (user) => {
      loadSubscriptionContent(user);

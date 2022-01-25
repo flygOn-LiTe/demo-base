@@ -3,18 +3,18 @@ const content = {
       src:
         'https://images.unsplash.com/photo-1550159930-40066082a4fc?auto=format&fit=crop&w=600&h=600&q=80',
       alt: 'corgi in the park with a sunset in the background',
-      credit: 'You may enter the free members area',
+      credit: 'Enter Now',
       creditLink: './freemembers/',
-      message: 'This is free content',
+      message: 'Thanks for becoming a Free Member, you may now enter the free members area.',
       allowedRoles: ['free', 'pro'],
     },
     pro: {
       src:
-        'https://images.unsplash.com/photo-1519098901909-b1553a1190af?auto=format&fit=crop&w=600&h=600&q=80',
-      alt: 'close-up of a corgi with its tongue hanging out',
-      credit: 'You may now enter the members area',
+        '/images/membersarea.png',
+      alt: 'portal',
+      credit: 'Enter Now',
       creditLink: './members/',
-      message: 'This is protected content! It’s only available if you have a pro plan or higher.',
+      message: 'Thanks for becoming a Pro Member! You now have access to The McBerry Realm.',
       allowedRoles: ['pro'],
     },
   };
@@ -32,9 +32,9 @@ const content = {
            body: JSON.stringify({
              src: 'https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto/v1592618179/stripe-subscription/subscription-required.jpg',
              alt: 'corgi in a crossed circle with the text “subscription required”',
-             credit: 'Jason Lengstorf',
-             creditLink: 'https://dribbble.com/jlengstorf',
-             message: `This content requires a ${type} subscription.`,
+             credit: 'Sign Up',
+             creditLink: './members/nonmembers/',
+             message: `This content requires a ${type} members subscription.`,
            }),
          };
        }

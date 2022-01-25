@@ -132,7 +132,7 @@
   }
 
   .user-info button {
-    background: #FF0071;
+    background: #630C95;
     border: 0;
     border-radius: 0.5rem;
     color: var(--white);
@@ -145,7 +145,7 @@
     text-decoration: none;
   }
   .user-info button:hover {
-    background: #630C95;
+    background: #FF0071;
   }
 .button-container{
   margin: auto;
@@ -197,6 +197,7 @@
   const updateUserInfo = (user) => {
      const container = document.querySelector('.user-info');
      const topMessage = document.getElementById('topMessage');
+ 
      // cloning the buttons removes existing event listeners
     const b1 = button1.cloneNode(true);
      const b2 = button2.cloneNode(true);
@@ -209,7 +210,7 @@
        b1.addEventListener('click', () => {
          netlifyIdentity.logout();
        });
-       topMessage.innerText = "Welcome " + user.user_metadata.full_name + " you are a " + user.app_metadata.roles[0];
+       topMessage.innerText = "Welcome " + user.user_metadata.full_name;
        b2.innerText = 'Manage Subscription';
        b2.addEventListener('click', () => {
         fetch('/.netlify/functions/create-manage-link', {
@@ -227,6 +228,7 @@
      } else {
        // if no one is logged in, show login/signup options
        topMessage.innerText = 'Sign up for Berry Bros crypto content';
+
        b1.innerText = 'Log In';
        b1.addEventListener('click', login);
 
