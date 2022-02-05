@@ -3595,7 +3595,7 @@ color: white;
 	transform: translateX(-50%);
 	display: inline-block;
 	width: 6em; height: 6em;
-	background: var(--ss-blueshadow);
+	background: var(--ss-pink);
 	border-radius: 50%;
 	text-align: center;
 }
@@ -3615,14 +3615,14 @@ color: white;
 	transform-origin: center;
 	transform: rotate(90deg);
 	fill: transparent;
-	stroke: #0584a4;
+	stroke:#8A0FF6;
 	stroke-width: 1em;
 	stroke-dasharray: 14.4513em;
 	transition: all 0.3s ease-in-out;
 }
 
 .healthYolk {
-	fill: #09c9d8;
+	fill: #F60FB1;
 }
 
 .healthSvg {
