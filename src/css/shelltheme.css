@@ -53,7 +53,7 @@
 	--ss-blueshadow: #0a577187;
 	--ss-darkoverlay: rgba(0, 0, 0, 0.8);
 	--ss-darkoverlay2: rgba(0, 0, 0, 0.2);
-	--ss-lightoverlay: url('https://media.discordapp.net/attachments/835899144702787595/847838971651555348/815f796.jpeg');
+	--ss-lightoverlay: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);
 	--ss-lightbackground: linear-gradient(var(--ss-blue2), var(--ss-blue2) );
 	--ss-blueblend1: linear-gradient(#09c9d8, #09c9d8);
 	--ss-scrollmask1: linear-gradient(var(--ss-blue2clear), var(--ss-blue2));
