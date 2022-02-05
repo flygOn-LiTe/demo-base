@@ -1368,7 +1368,7 @@ button:focus { outline: none; }
 .egg_icon {
 	height: 2em;
 	margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
-  content: url('https://www.berrybroscrypto.com/images/flygonlogo.png');
+  content: url('https://www.berrybroscrypto.com/images/flygonlogobig.png');
 }
 
 .egg_icon_sm {
@@ -3583,7 +3583,7 @@ color: white;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
 
-	background-image: url(https://www.berrybroscrypto.com/images/flygonlogo.png);
+	background-image: url(https://www.berrybroscrypto.com/images/flygonlogobig.png);
     background-position: right center;
 	background-size: contain;
     background-repeat: no-repeat;
@@ -4502,7 +4502,7 @@ color: var(--ss-transparent);
 
 .playerSlot--icons .vip-egg {
 	text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
-  content: url('https://www.berrybroscrypto.com/images/flygonlogo.png') !important;
+  content: url('https://www.berrybroscrypto.com/images/flygonlogobig.png') !important;
   max-height: 1.1em;
   max-width: 1.1em;
 }
