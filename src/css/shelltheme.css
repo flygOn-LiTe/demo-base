@@ -4527,14 +4527,14 @@ color: var(--ss-transparent);
 	white-space: nowrap;
 }
 .playerSlot-player-is-me {
-	background: var(--ss-me-player-bg);
+	background: var(--ss-pink);
 	color: var(--ss-white-90);
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-	background: var(--ss-me-red-bg);
+	background: var(--ss-pink);
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-	background: var(--ss-me-blue-bg);
+	background: var(--ss-pink);
 }
 .playerSlot-player-is-them {
 	color: var(--ss-white-60);
