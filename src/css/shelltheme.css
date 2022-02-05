@@ -45,7 +45,7 @@
 	--ss-green1: #0584a4;
 	--ss-green2: #0584a4;
 	--ss-orange1: #022741;
-	--ss-vip-gold: linear-gradient(to right, #D1A943, #CFCDAF, #CC8630, #D1AA44, #CC8630);
+	--ss-vip-gold: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);
 	--ss-gold: #D1AA44;
 	--ss-clear: rgba(255, 255, 255, 0);
 	--ss-blue2clear: rgba(94, 186, 217, 0);
@@ -54,7 +54,7 @@
 	--ss-darkoverlay: rgba(0, 0, 0, 0.8);
 	--ss-darkoverlay2: rgba(0, 0, 0, 0.2);
 	--ss-lightoverlay: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);
-	--ss-lightbackground: linear-gradient(var(--ss-blue2), var(--ss-blue2) );
+	--ss-lightbackground: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);
 	--ss-blueblend1: linear-gradient(#09c9d8, #09c9d8);
 	--ss-scrollmask1: linear-gradient(var(--ss-blue2clear), var(--ss-blue2));
 	--ss-scrollmask2: linear-gradient(rgba(56, 158, 192, 0), #389EC0);
