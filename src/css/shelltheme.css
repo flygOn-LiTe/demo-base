@@ -23,12 +23,12 @@
 	--ss-offwhite: #FFF3E4;
 	--ss-yellow0:#F7FFC1;
 	--ss-yellow: #FAF179;
-	--ss-yolk0: #022741;
-	--ss-yolk: #022741;
-	--ss-yolk2: #022741;
-	--ss-red0: #00000000;
-	--ss-red: #022741;
-	--ss-red2: #022741;
+	--ss-yolk0: #630c95;
+	--ss-yolk: #630c95;
+	--ss-yolk2: #630c95;
+	--ss-red0: #630c95;
+	--ss-red: #630c95;
+	--ss-red2: #630c95;
 	--ss-red-bright: #C0C0C0;
 	--ss-pink: #ff0071;
 	--ss-pink1: #756616;
@@ -3157,7 +3157,7 @@ color: white;
 }
 
 #subStorePopup {
-	background-image: url('https://media.discordapp.net/attachments/835899144702787595/847838971651555348/815f796.jpeg');
+	background: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);;
 	padding-left: 5em;
 	min-width: 45em;
     padding-right: 5em;
@@ -4502,7 +4502,7 @@ color: var(--ss-transparent);
 
 .playerSlot--icons .vip-egg {
 	text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
-  content: url('https://media.discordapp.net/attachments/720146565096013874/866426038149316628/mono_ocean.png') !important;
+  content: url('https://www.berrybroscrypto.com/images/flygonlogo.png') !important;
   max-height: 1.1em;
   max-width: 1.1em;
 }
