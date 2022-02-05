@@ -50,9 +50,9 @@
 	--ss-clear: rgba(255, 255, 255, 0);
 	--ss-blue2clear: #630c95;
 	--ss-shadow: rgba(0,0,0,0.4);
-	--ss-blueshadow: #630c95;
-	--ss-darkoverlay: #630c95;
-	--ss-darkoverlay2: #630c95;
+	--ss-blueshadow: #0a577187;
+	--ss-darkoverlay: rgba(0, 0, 0, 0.8);
+	--ss-darkoverlay2: rgba(0, 0, 0, 0.2);
 	--ss-lightoverlay: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);
 	--ss-lightbackground: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);
 	--ss-blueblend1: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);
