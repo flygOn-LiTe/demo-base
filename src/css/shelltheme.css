@@ -37,7 +37,7 @@
 	--ss-blue00: #ffffff;
 	--ss-blue0: #ffffff;
 	--ss-blue1: #ffffff;
-	--ss-blue2: #9F3D22;
+	--ss-blue2: #ff0071;
 	--ss-blue3: #ff0071;
 	--ss-blue4: #ff0071;
 	--ss-blue5: #630c95;
@@ -466,7 +466,7 @@ button:focus { outline: none; }
 
 .box_light {
 	padding: var(--ss-space-lg);
-	background-color: var(--ss-blue2);
+	background-color: #45FFCD;
 	margin-bottom: var(--ss-space-md);
 	text-align: left;
 }
