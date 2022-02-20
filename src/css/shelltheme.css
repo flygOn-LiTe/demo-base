@@ -121,6 +121,12 @@ img {
   -o-user-drag: none;
 }
 
+/*     icons   */
+input .account_icon .roundme_sm{
+content: url("https://www.berrybroscrypto.com/images/flygonlogobig.png");
+}
+
+
 a { color: var(--ss-white); }
 a:hover {color: var(--ss-yolk0); }
 
@@ -3586,7 +3592,7 @@ color: white;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
 
-	background-image: url(https://www.berrybroscrypto.com/images/flygonlogobig.png);
+	background-image: url("https://www.berrybroscrypto.com/images/flygonlogobig.png");
     background-position: right center;
 	background-size: contain;
     background-repeat: no-repeat;
