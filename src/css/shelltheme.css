@@ -38,7 +38,7 @@
 	--ss-blue0: #ffffff;
 	--ss-blue1: #ffffff;
 	--ss-blue2: #ff0071;
-	--ss-blue3: #00ffe5;
+	--ss-blue3: #ff0071;
 	--ss-blue4: #ff0071;
 	--ss-blue5: #630c95;
 	--ss-green0: #630c95;
@@ -1454,7 +1454,7 @@ button:focus { outline: none; }
 
 .news_item,
 .stream_item {
-	background: var(--ss-blue3);
+	background: #ff003c;
 	color: var(--ss-white);
 	text-align: left;
 	min-height: 4.7em;
