@@ -127,6 +127,7 @@ img {
 }
 
 
+
 a { color: var(--ss-white); }
 a:hover {color: var(--ss-yolk0); }
 
@@ -1345,7 +1346,7 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: var(--ss-white);
+	background: var(--ss-pink);
 }
 
 .account_icon.account_icon-item {
