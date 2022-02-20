@@ -1085,7 +1085,7 @@ button:focus { outline: none; }
 	width: 6em;
 	height: 6em;
 	margin: var(--ss-space-sm);
-	border: var(--ss-space-sm) solid var(--ss-blue4);
+	border: var(--ss-space-sm) solid #A03E22;
 	box-shadow:
 		inset 0em 0em 1em var(--ss-blue3),
 		inset 0em 0em 3em var(--ss-blue5);
