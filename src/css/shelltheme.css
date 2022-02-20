@@ -1234,7 +1234,7 @@ button:focus { outline: none; }
 }
 
 .stream_head {
-	background-color: #45FFCD;
+	background-color: var(--ss-blue2);
 	background-repeat: no-repeat;
 	background-position-x: var(--ss-space-sm);
 	background-position-y: 0.2em;
@@ -1750,7 +1750,7 @@ button:focus { outline: none; }
 
 .weapon_img {
 	box-sizing: border-box;
-	background-color: var(--ss-blue2);
+	background-color: #45FFCD;
 	height: 4em;
 	border: var(--ss-space-sm) solid var(--ss-blue00);
 	margin: 0 -0.1em;
