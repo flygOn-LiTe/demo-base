@@ -454,7 +454,7 @@ button:focus { outline: none; }
 .box_blue3 {
 	padding: var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg);
 	background-color: var(--ss-blue2);
-	border: var(--ss-space-sm) solid var(--ss-blue4);
+	border: var(--ss-space-sm) solid #A03E22;
 }
 
 .box_blue4 {
