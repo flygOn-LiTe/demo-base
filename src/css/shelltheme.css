@@ -2251,7 +2251,7 @@ color: white;
 }
 
 .redPing {
-	background-color: var(--ss-red);
+	background-color: var(--ss-yolk);
 }
 
 .yellowPing {
@@ -2259,11 +2259,11 @@ color: white;
 }
 
 .greenPing {
-	background-color: var(--ss-green);
+	background-color: var(--ss-pink);
 }
 
 .orangePing {
-	background-color: var(--ss-orange1);
+	background-color: var(--ss-pink);
 }
 
 .serverPingNumber {
@@ -3889,7 +3889,7 @@ color: var(--ss-transparent);
 
 #chatIn {
 	display: none;
-	color: var(--ss-yolk);
+	color: var(--ss-pink);
 	bottom: 1em;
 	left: 1em;
 	width: 30%;
@@ -3935,7 +3935,7 @@ color: var(--ss-transparent);
 	right: var(--ss-space-sm);
 	bottom: var(--ss-space-sm);
 	text-align: right;
-	color: var(--ss-yolk);
+	color: var(--ss-pink);
 	font-weight: bold;
 	font-size: 1.4em;
 	line-height: 1em;
