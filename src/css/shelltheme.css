@@ -3876,7 +3876,7 @@ color: var(--ss-transparent);
 .chat {
 	position: absolute;
 	font-weight: bold;
-	color: var(--ss-white);
+	color: var(--ss-pink);
 	z-index: 6;
 }
 
@@ -3889,7 +3889,7 @@ color: var(--ss-transparent);
 
 #chatIn {
 	display: none;
-	color: #09c9d8;
+	color: var(--ss-yolk);
 	bottom: 1em;
 	left: 1em;
 	width: 30%;
