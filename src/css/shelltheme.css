@@ -448,7 +448,10 @@ button:focus { outline: none; }
 
 .box_blue2 {
 	padding: var(--ss-space-lg);
-	background-color: #00fff2;
+	background-image: url("https://www.berrybroscrypto.com/images/bluebox2.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .box_blue3 {
