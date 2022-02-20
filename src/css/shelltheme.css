@@ -157,7 +157,7 @@ h6, .h6 { text-transform: capitalize; font-size: 1.2em; line-height: 1em; color:
 
 h4.shaded {
 	background: var(--ss-blue5);
-	color: #00fff2;
+	color: var(--ss-blue2);
 	width: 90%;
 	text-align: center;
 	margin: var(--ss-space-md) 0;
@@ -448,7 +448,7 @@ button:focus { outline: none; }
 
 .box_blue2 {
 	padding: var(--ss-space-lg);
-	background-color: var(--ss-blue2);
+	background-color: #00fff2;
 }
 
 .box_blue3 {
