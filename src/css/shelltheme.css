@@ -460,7 +460,7 @@ button:focus { outline: none; }
 .box_blue4 {
 	padding: var(--ss-space-lg);
 	background-color: #09c9d8;
-	border: var(--ss-space-sm) solid var(--ss-pink);
+	border: var(--ss-space-sm) solid #A03E22;
 	min-width: 14em;
 }
 
@@ -785,7 +785,7 @@ button:focus { outline: none; }
 
 #equip_sidebox {
 	background-image: var(--ss-blueblend1);
-	border: var(--ss-space-sm) solid var(--ss-pink);
+	border: var(--ss-space-sm) solid #A03E22;
 	min-width: 21em;
 }
 
