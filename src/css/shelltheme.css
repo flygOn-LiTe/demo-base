@@ -931,7 +931,7 @@ button:focus { outline: none; }
 	height: 1.5em;
 	width: auto;
 	margin: var(--ss-space-sm) var(--ss-space-sm) 0 0;
-  content: url('https://berrybroscrypto.com/images/flygonlogobig.png');
+  content: url("https://berrybroscrypto.com/images/flygonlogobig.png");
 }
 
 .equip_pricetag__tag {
@@ -3533,7 +3533,7 @@ color: white;
 	padding-left: 1.45em;
 	padding-top: 0em;
 
-	background-image: url(https://berrybroscrypto.com/images/iberry500.gif);
+	background-image: url('https://www.berrybroscrypto.com/images/flygontitle.png');
     background-position: left center;
 	background-size: contain;
     background-repeat: no-repeat;
