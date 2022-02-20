@@ -157,7 +157,7 @@ h6, .h6 { text-transform: capitalize; font-size: 1.2em; line-height: 1em; color:
 
 h4.shaded {
 	background: var(--ss-blue5);
-	color: var(--ss-blue2);
+	color: #00fff2;
 	width: 90%;
 	text-align: center;
 	margin: var(--ss-space-md) 0;
@@ -1750,7 +1750,7 @@ button:focus { outline: none; }
 
 .weapon_img {
 	box-sizing: border-box;
-	background-color: #45FFCD;
+	background-color: #ff007b;
 	height: 4em;
 	border: var(--ss-space-sm) solid var(--ss-blue00);
 	margin: 0 -0.1em;
