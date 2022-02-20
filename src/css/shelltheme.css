@@ -121,13 +121,6 @@ img {
   -o-user-drag: none;
 }
 
-/*     icons   */
-#corner-buttons{
-	padding-left: 300px;
-}
-
-
-
 a { color: var(--ss-white); }
 a:hover {color: var(--ss-yolk0); }
 
@@ -1346,7 +1339,7 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: var(--ss-pink);
+	background: var(--ss-yolk);
 }
 
 .account_icon.account_icon-item {
@@ -1362,7 +1355,7 @@ button:focus { outline: none; }
 }
 
 .account_icon:hover {
-	background: var(--ss-blue1);
+	background: var(--ss-pink);
 }
 .account_eggs {
 	display: flex;
