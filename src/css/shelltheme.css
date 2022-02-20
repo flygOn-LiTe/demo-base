@@ -1454,7 +1454,7 @@ button:focus { outline: none; }
 
 .news_item,
 .stream_item {
-	background: #ff003c;
+	background: var(--ss-yolk);
 	color: var(--ss-white);
 	text-align: left;
 	min-height: 4.7em;
