@@ -453,7 +453,7 @@ button:focus { outline: none; }
 
 .box_blue3 {
 	padding: var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg);
-	background-color: #BC5A27;
+	background-color: #2EFFEA;
 	border: var(--ss-space-sm) solid #A03E22;
 }
 
@@ -605,7 +605,7 @@ button:focus { outline: none; }
 	top: 0; left: 0;
 	z-index: 20;
 	width: 100%; height: 100%;
-	background-image: var(--ss-lightoverlay);
+	background-image: #9F3D22;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
