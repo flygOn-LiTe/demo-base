@@ -4531,7 +4531,7 @@ color: var(--ss-transparent);
 }
 .playerSlot-player-is-me {
 	background: var(--ss-pink);
-	color: var(--ss-white-90);
+	color: #9500ff;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
 	background: var(--ss-pink);
@@ -4540,10 +4540,10 @@ color: var(--ss-transparent);
 	background: var(--ss-pink);
 }
 .playerSlot-player-is-them {
-	color: var(--ss-white-60);
+	color: var(--ss-pink);
 }
 .playerSlot-them {
-	background: rgb(0, 255, 247, .8);
+	background: rgb(0, 255, 247, .5);
 }
 .playerSlot-them-blue {
 	background: var(--ss-them-blue-bg);
