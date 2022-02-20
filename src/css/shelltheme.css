@@ -39,7 +39,7 @@
 	--ss-blue1: #ffffff;
 	--ss-blue2: #ff0071;
 	--ss-blue3: #ff0071;
-	--ss-blue4: #ff0071;
+	--ss-blue4: #9F3D22;
 	--ss-blue5: #630c95;
 	--ss-green0: #630c95;
 	--ss-green1: #630c95;
@@ -605,7 +605,7 @@ button:focus { outline: none; }
 	top: 0; left: 0;
 	z-index: 20;
 	width: 100%; height: 100%;
-	background-image: #9F3D22;
+	background-image: var(--ss-lightoverlay);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
