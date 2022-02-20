@@ -2259,7 +2259,7 @@ color: white;
 }
 
 .greenPing {
-	background-color: var(--ss-pink);
+	background-color: var(--ss-pink) !important;
 }
 
 .orangePing {
