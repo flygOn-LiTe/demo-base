@@ -1339,7 +1339,7 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: var(--ss-yolk);
+	background: var(--ss-pink);
 }
 
 .account_icon.account_icon-item {
