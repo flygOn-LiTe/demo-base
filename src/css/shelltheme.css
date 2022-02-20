@@ -122,8 +122,8 @@ img {
 }
 
 /*     icons   */
-input .account_icon .roundme_sm{
-content: url("https://www.berrybroscrypto.com/images/flygonlogobig.png");
+#corner-buttons{
+	padding-right: 180px;
 }
 
 
