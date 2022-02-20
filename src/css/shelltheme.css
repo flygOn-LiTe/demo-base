@@ -466,7 +466,7 @@ button:focus { outline: none; }
 
 .box_light {
 	padding: var(--ss-space-lg);
-	background-color: #45FFCD;
+	background-color: #ff0071;
 	margin-bottom: var(--ss-space-md);
 	text-align: left;
 }
@@ -1234,7 +1234,7 @@ button:focus { outline: none; }
 }
 
 .stream_head {
-	background-color: var(--ss-blue2);
+	background-color: #45FFCD;
 	background-repeat: no-repeat;
 	background-position-x: var(--ss-space-sm);
 	background-position-y: 0.2em;
