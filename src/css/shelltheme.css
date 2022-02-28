@@ -3625,7 +3625,7 @@ color: white;
 }
 
 .healthYolk {
-	fill: #F60FB1;
+	fill: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0,252,228,1) 50%, rgba(255,0,113,1) 100%);
 }
 
 .healthSvg {
