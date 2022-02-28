@@ -65,13 +65,13 @@
 
 	--ss-me-player-bg: #0584a4;
 
-	--ss-them-blue-bg: rgba(0,66,87,.8);
-	--ss-them-blue-color: #5ebbd9;
-	--ss-them-red-bg:  rgb(133,0,0,.8);
+	--ss-them-blue-bg: rgba(99,12,149,1);
+	--ss-them-blue-color: rgba(99,12,149,1);
+	--ss-them-red-bg: rgba(255,0,113,1);
 	--ss-them-red-color: #ff4145;
 
 	--ss-me-red-bg: rgba(255,65,69,.8);
-	--ss-me-blue-bg: rgb(94,187,217,.8);
+	--ss-me-blue-bg: rgba(99,12,149,1);
 
 	font-size: 1.95vh;
 
@@ -4276,12 +4276,12 @@ color: var(--ss-transparent);
 
 .teamScore.red.active {
 	color: #fff;
-	background: rgba(255, 0, 0, 0.7);
+	background: rgba(138, 15, 246, 0.7);
 }
 
 .teamScore.red.inactive {
 	color: #f00;
-	background: rgba(64, 0, 0, 0.7);
+	background: rgba(138, 15, 246, 0.7);
 }
 
 .teamScore.blue.active {
@@ -4291,7 +4291,7 @@ color: var(--ss-transparent);
 
 .teamScore.blue.inactive {
 	color: whitesmoke;
-	background: rgba(138, 15, 246, 0.7);
+	background: rgba(246, 15, 177, 0.7);
 }
 
 .teamScore .number {
