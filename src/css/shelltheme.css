@@ -65,10 +65,10 @@
 
 	--ss-me-player-bg: #0584a4;
 
-	--ss-them-blue-bg: rgba(99,12,149,1);
-	--ss-them-blue-color: rgba(99,12,149,1);
-	--ss-them-red-bg: rgba(255,0,113,1);
-	--ss-them-red-color: #ff4145;
+	--ss-them-blue-bg: rgba(99,12,149,.7);
+	--ss-them-blue-color: rgba(99,12,149,.7);
+	--ss-them-red-bg: rgba(255,0,113,.7);
+	--ss-them-red-color: rgba(255,0,113,.7);
 
 	--ss-me-red-bg: rgba(255,65,69,.8);
 	--ss-me-blue-bg: rgba(99,12,149,1);
