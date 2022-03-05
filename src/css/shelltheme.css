@@ -3921,7 +3921,9 @@ color: var(--ss-transparent);
 	display: none;
 	bottom: 2.5em;
 	left: 1em;
-
+	font-family: hobeaux, sans-serif !important;
+	font-weight: 400;
+	font-style: normal;
 }
 
 #chatIn {
@@ -3932,6 +3934,9 @@ color: var(--ss-transparent);
 	width: 30%;
 	border: none;
 	background: none;
+	font-family: snicker, sans-serif !important;
+	font-weight: 700;
+	font-style: normal;
 }
 
 #killTicker {
