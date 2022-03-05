@@ -1,5 +1,7 @@
 /* ----------------------------------------------------------------- Global -- */
 
+@import url("https://use.typekit.net/ega2xty.css");
+
 * {
 	box-sizing: border-box;			/* For Your Health */
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -38,7 +40,7 @@
 	--ss-blue0: #ffffff;
 	--ss-blue1: #ffffff;
 	--ss-blue2: #03fcf0;
-	--ss-blue3: rgb(99, 12, 149, .4);
+	--ss-blue3: rgba(99, 12, 149, .4);
 	--ss-blue4: #03fcf0;
 	--ss-blue5: #630c95;
 	--ss-green0: #630c95;
@@ -103,7 +105,9 @@ html {
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: hobeaux, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	height: 100%;
 	padding: 0; margin: 0;
 	-webkit-touch-callout: none; /* iOS Safari */
@@ -138,8 +142,9 @@ hr.blue {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-	font-family: 'Sigmar One', Sans-Serif;
-	font-weight: 100;
+	font-family: hobeaux,sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	letter-spacing: 0;
 	text-transform: uppercase;
 }
@@ -1666,7 +1671,9 @@ button:focus { outline: none; }
 	font-size: 1em !important;
 	margin-top: 0.5em;
 	padding: 0;
-	font-family: 'Nunito', sans-serif;
+	font-family: hobeaux,sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	text-transform: lowercase;
 }
 
@@ -3524,7 +3531,9 @@ color: white;
 
 	text-shadow: var(--ss-space-micro) var(--ss-space-micro) var(--ss-shadow);
 
-	font-family: 'Nunito', sans-serif !important;
+	font-family: hobeaux, sans-serif !important;
+	font-weight: 700;
+	font-style: normal;
 	font-size: 2.5em !important;
 	color: var(--ss-white) !important;
 	font-weight: bold !important;
