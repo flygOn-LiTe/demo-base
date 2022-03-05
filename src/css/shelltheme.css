@@ -469,7 +469,7 @@ button:focus { outline: none; }
 
 .box_light {
 	padding: var(--ss-space-lg);
-	background-color: #ff0071;
+	background-color: #03fcf0;
 	margin-bottom: var(--ss-space-md);
 	text-align: left;
 }
@@ -3840,7 +3840,7 @@ color: var(--ss-transparent);
 #killBox h3, #deathBox h3 {
 	font-weight: 900;
 	margin: 0;
-	color: var(--ss-white);
+	color: #03fcf0;
 	font-family: 'Nunito', sans-serif;
 }
 
@@ -3849,7 +3849,7 @@ color: var(--ss-transparent);
 	line-height: 1em;
 	margin: 0;
 	font-weight: 900;
-	color: var(--ss-white);
+	color: #03fcf0;
 	font-family: 'Nunito', sans-serif;
 	text-transform: none !important;
 }
