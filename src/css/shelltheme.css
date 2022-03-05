@@ -3598,7 +3598,7 @@ color: white;
 	transform: translateX(-50%);
 	display: inline-block;
 	width: 6em; height: 6em;
-	background: var(--ss-pink);
+	background: rgba(3, 252, 240, .7);
 	border-radius: 50%;
 	text-align: center;
 }
