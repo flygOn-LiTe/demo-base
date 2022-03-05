@@ -1339,11 +1339,11 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: var(--ss-pink);
+	background: #03fcf0;
 }
 
 .account_icon.account_icon-item {
-	background: var(--ss-pink);
+	background: #03fcf0;
 }
 
 .attention_btn {
