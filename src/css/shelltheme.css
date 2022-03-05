@@ -1924,7 +1924,7 @@ button:focus { outline: none; }
 
 .single-egg-store-item-is-item .eggshop_banner_mid,
 .single-egg-store-item-is-item  #eggshop_banner{
-	background-color: var(--ss-pink);
+	background-color: #03fcf0;
 }
 
 .single-egg-store-item-is-item #eggshop_banner:after {
