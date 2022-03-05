@@ -1339,11 +1339,11 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: #03fcf0;
+	background: var(--ss-pink);
 }
 
 .account_icon.account_icon-item {
-	background: #03fcf0;
+	background: var(--ss-pink);
 }
 
 .attention_btn {
@@ -1753,7 +1753,7 @@ button:focus { outline: none; }
 
 .weapon_img {
 	box-sizing: border-box;
-	background-color: #ff007b;
+	background-color: #03fcf0;
 	height: 4em;
 	border: var(--ss-space-sm) solid var(--ss-blue00);
 	margin: 0 -0.1em;
