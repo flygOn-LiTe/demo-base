@@ -1036,7 +1036,9 @@ button:focus { outline: none; }
 	align-items: center;
 	background: none !important;
 	color: var(--ss-white) !important;
-	font-family: 'Sigmar One', Sans-Serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -1111,7 +1113,9 @@ button:focus { outline: none; }
 
 /* ----------------------------------------------------------------- Buy Items -- */
 #buyItemPopup h1, #physicalUnlockPopup h1 {
-	font-family: 'Nunito', sans-serif; 
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-size: 2.5em;
 	font-weight: bold;
 	color: var(--ss-white);
@@ -1248,7 +1252,9 @@ button:focus { outline: none; }
 	background-position-y: 0.2em;
 	background-size: 1.8em;
 	padding: 0.1em 0.4em 0.1em 2.4em;
-	font-family: 'Sigmar One', Sans-Serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-weight: bold;
 	font-size: 1em;
 	color: var(--ss-white);
@@ -1312,8 +1318,9 @@ button:focus { outline: none; }
 #changelogPopup h3 {
 	margin: 0;
 	padding: 0;
-	font-family: 'Nunito', sans-serif;
-	font-weight: bold;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 /* ----------------------------------------------------------------- Account -- */
@@ -1715,11 +1722,12 @@ button:focus { outline: none; }
 
 #stat_item h4 {
 	font-size: 0.8em;
-	font-weight: bold;
 	margin: 0.4em var(--ss-space-md);
 	padding: 0;
 	color: var(--ss-blue2);
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .stat_stat {
@@ -1972,7 +1980,9 @@ button:focus { outline: none; }
 .egg-store-sale-notify .text {
 	display: block;
 	font-size: .6em;
-	font-family: 'Sigmar One', Sans-Serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	line-height: 1;
 }
 
@@ -2071,11 +2081,12 @@ button:focus { outline: none; }
 
 #mainFooter:after { /* Added Code  */ 
 content: 'Theme By | flyg0n LiGht ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
-font-family: 'Nunito', sans-serif;
+font-family: snicker, sans-serif;
+font-weight: 700;
+font-style: normal;
 text-align: center;
 align-items: center;
-font-weight: 100;
-font-size: 1.5em;
+font-size: 1.2em;
 letter-spacing: 0.01em;
 color: white;
 }
@@ -2454,7 +2465,9 @@ color: white;
 }
 
 #feedback_panel h3 {
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-weight: bold;
 	text-transform: none;
 }
@@ -3331,14 +3344,16 @@ color: white;
 	margin: .5em 0;
 	line-height: 1;
 	text-transform: capitalize;
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-style: normal;
     font-size: 1.2em;
     font-weight: 600;
 }
 
 .vip-item .price-tag {
-	/* font-family: 'Sigmar One', Sans-Serif; */
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker,sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-size: 2em;
 	min-width: 4.1em;
 	max-width: 4.1em;
@@ -3487,7 +3502,9 @@ color: white;
 	max-width: 40em;
 	transform: translate(-50%, 4em);
 	text-shadow: var(--ss-space-micro) var(--ss-space-micro) var(--ss-shadow);
-	font-family: 'Nunito', sans-serif !important;
+	font-family: snicker, sans-serif !important;
+	font-weight: 700;
+	font-style: normal;
 	font-size: 1em !important;
 	font-weight: bold;
 	color: var(--ss-white) !important;
@@ -3577,7 +3594,9 @@ color: white;
 
 #weaponName {
 	text-align: right;
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-weight: bold;
 	line-height: 0;
 	display: none;
@@ -3586,7 +3605,9 @@ color: white;
 #ammo {
 	text-align: right;
 	font-size: 3.25em;
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-weight: bold;
 	line-height: 1em;
 	margin: 0;
@@ -3616,7 +3637,9 @@ color: white;
 }
 
 #healthHp {
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
     font-weight: bold;
     color: #03fcf0;
     font-size: 1.2em;
@@ -3651,7 +3674,9 @@ color: white;
 }
 
 #hardBoiledValue {
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
     font-weight: bold;
     color: var(--ss-white);
     font-size: 1.6em;
@@ -3703,8 +3728,9 @@ color: white;
 	color: white;
 	text-shadow: var(--ss-yolk) 0 0 0.1em, black 0 0.1em 0.2em;
 	font-size: 2.5em;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 900;
+	font-family: snicker, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	text-align: center;
 	width: 100%;
 	top: 24%;
@@ -3850,7 +3876,8 @@ color: var(--ss-transparent);
 	font-weight: 900;
 	margin: 0;
 	color: #03fcf0;
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-style: normal;
 }
 
 #killBox h2, #deathBox h2 {
@@ -3859,7 +3886,8 @@ color: var(--ss-transparent);
 	margin: 0;
 	font-weight: 900;
 	color: #03fcf0;
-	font-family: 'Nunito', sans-serif;
+	font-family: snicker, sans-serif;
+	font-style: normal;
 	text-transform: none !important;
 }
 
