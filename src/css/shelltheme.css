@@ -1753,7 +1753,7 @@ button:focus { outline: none; }
 
 .weapon_img {
 	box-sizing: border-box;
-	background-color: #14ccc3;
+	background-color: var(--ss-yolk);
 	height: 4em;
 	border: var(--ss-space-sm) solid var(--ss-blue00);
 	margin: 0 -0.1em;
@@ -1772,7 +1772,7 @@ button:focus { outline: none; }
 }
 
 #weapon_select .weapon_selected {
-	background-color: var(--ss-yolk);
+	background-color: #14ccc3;
 	border: var(--ss-space-sm) solid var(--ss-white);
 }
 
