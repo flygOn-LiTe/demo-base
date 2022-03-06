@@ -4608,6 +4608,7 @@ color: var(--ss-transparent);
 	background: var(--ss-pink);
 	color: whitesmoke;
 	font-style: italic;
+	animation: pulsate 0.11s ease-in-out infinite alternate; 
 }
 .playerSlot-player-is-me.playerSlot-me-red {
 	background: #fc0362;
