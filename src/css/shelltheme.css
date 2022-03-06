@@ -3917,12 +3917,6 @@ color: var(--ss-transparent);
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	text-shadow:
-	0 0 4px #fff,
-	0 0 11px #fff,
-	0 0 19px #fff,
-	0 0 40px #630c95,
-	0 0 80px #630c95,
-	0 0 90px #630c95,
 	0 0 100px #630c95,
 	0 0 150px #630c95;
 }
@@ -3937,12 +3931,6 @@ color: var(--ss-transparent);
 	font-style: normal;
 	text-transform: none !important;
 	text-shadow:
-	0 0 4px #fff,
-	0 0 11px #fff,
-	0 0 19px #fff,
-	0 0 40px #630c95,
-	0 0 80px #630c95,
-	0 0 90px #630c95,
 	0 0 100px #630c95,
 	0 0 150px #630c95;
 }
