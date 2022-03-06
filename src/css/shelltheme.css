@@ -2,6 +2,35 @@
 
 @import url("https://use.typekit.net/ega2xty.css");
 
+
+@keyframes pulsate {
+	100% {
+	  /* Larger blur radius */
+	  text-shadow:
+		0 0 4px #fff,
+		0 0 11px #fff,
+		0 0 19px #fff,
+		0 0 40px #f09,
+		0 0 80px #f09,
+		0 0 90px #f09,
+		0 0 100px #f09,
+		0 0 150px #f09;
+	}
+   0% {
+	  /* A slightly smaller blur radius */
+	  text-shadow:
+		0 0 4px #fff,
+		0 0 10px #fff,
+		0 0 18px #fff,
+		0 0 38px #f09,
+		0 0 73px #f09,
+		0 0 80px #f09,
+		0 0 94px #f09,
+		0 0 140px #f09;
+	}
+  }
+
+
 * {
 	box-sizing: border-box;			/* For Your Health */
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -3611,11 +3640,11 @@ color: white;
 	font-weight: bold;
 	line-height: 1em;
 	margin: 0;
-	
+	color: rgba(3, 252, 240, .7);
 	padding-right: 1.2em;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
-
+	animation: pulsate 0.11s ease-in-out infinite alternate; 
 	background-image: url("https://www.berrybroscrypto.com/images/flygonlogobig.png");
     background-position: right center;
 	background-size: contain;
@@ -3643,6 +3672,7 @@ color: white;
     color: #03fcf0;
     font-size: 1.2em;
     transform: translateY(-3.45em);
+	animation: pulsate 0.11s ease-in-out infinite alternate; 
 }
 
 .healthBar {
@@ -3981,6 +4011,7 @@ color: var(--ss-transparent);
 	font-size: 1.4em;
 	line-height: 1em;
 	z-index: 6;
+	animation: pulsate 0.11s ease-in-out infinite alternate; 
 }
 
 #inGameUI {
