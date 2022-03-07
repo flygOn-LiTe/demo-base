@@ -3643,7 +3643,7 @@ color: white;
 	font-weight: bold;
 	line-height: 1em;
 	margin: 0;
-	color: rgba(3, 252, 240, .7);
+	color: #6a00ff;
 	padding-right: 1.2em;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
@@ -3660,7 +3660,7 @@ color: white;
 	transform: translateX(-50%);
 	display: inline-block;
 	width: 6em; height: 6em;
-	background: rgba(3, 252, 240, .7);
+	background: rgba(3, 252, 240, .6);
 	border-radius: 50%;
 	text-align: center;
 }
