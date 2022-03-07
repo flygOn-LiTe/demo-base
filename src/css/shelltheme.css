@@ -3935,10 +3935,9 @@ color: var(--ss-transparent);
 	position: absolute;
 	display: none;
 	top: 45%; left: 60%;
-	color: #fff;
+	color: #6a00ff;
 	text-align: center;
 	z-index: 6;
-	animation: pulsate 2s ease-in-out infinite alternate;
 }
 
 .chat {
@@ -3955,12 +3954,12 @@ color: var(--ss-transparent);
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
-	color: #ff0073;
+	color: #6a00ff;
 }
 
 #chatIn {
 	display: none;
-	color: var(--ss-pink);
+	color: #ff0073;
 	bottom: 1em;
 	left: 1em;
 	width: 30%;
@@ -3989,6 +3988,7 @@ color: var(--ss-transparent);
 	left: 1em; top: 1em;
 	z-index: 6;
 	width: 12em;
+	color: #6a00ff;
 }
 
 #spectate {
