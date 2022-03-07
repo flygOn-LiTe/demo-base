@@ -4625,7 +4625,7 @@ color: var(--ss-transparent);
 	color: whitesmoke;
 }
 .playerSlot-them {
-	background: rgb(149, 0, 255, .4);
+	background: rgba(105 , 6, 255, .4);
 }
 .playerSlot-them-blue {
 	background: var(--ss-them-blue-bg);
