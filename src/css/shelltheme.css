@@ -3931,9 +3931,10 @@ color: var(--ss-transparent);
 	width: 100%;
 	transform-origin: center top;
 	top: 17%;
-	color: #630c95;
+	color: #6a00ff;
 	text-align: center; 
-	animation: pulsate 2s ease-in-out infinite alternate;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: whitesmoke;
 }
 
 #gameMessage {
