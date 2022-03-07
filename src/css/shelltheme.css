@@ -3575,13 +3575,13 @@ color: white;
 	margin: 0; padding: 0;
 	display: inline;
 
-	text-shadow: var(--ss-space-micro) var(--ss-space-micro) var(--ss-shadow);
+	animation: pulsate 2s ease-in-out infinite alternate;
 
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em !important;
-	color: var(--ss-white) !important;
+	color: var(--ss-pink) !important;
 	font-weight: bold !important;
 	text-transform: lowercase;
 
