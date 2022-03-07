@@ -3938,12 +3938,13 @@ color: var(--ss-transparent);
 	color: #fff;
 	text-align: center;
 	z-index: 6;
+	animation: pulsate 2s ease-in-out infinite alternate;
 }
 
 .chat {
 	position: absolute;
 	font-weight: bold;
-	color: var(--ss-pink);
+	color: #6a00ff;
 	z-index: 6;
 }
 
@@ -3954,6 +3955,7 @@ color: var(--ss-transparent);
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
+	color: #ff0073;
 }
 
 #chatIn {
