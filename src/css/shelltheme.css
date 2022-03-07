@@ -55,7 +55,7 @@
 	--ss-yellow0:#F7FFC1;
 	--ss-yellow: #FAF179;
 	--ss-yolk0: #630c95;
-	--ss-yolk: #630c95;
+	--ss-yolk: #6a00ff;
 	--ss-yolk2: #630c95;
 	--ss-red0: #630c95;
 	--ss-red: #630c95;
@@ -1798,7 +1798,7 @@ button:focus { outline: none; }
 
 .weapon_img {
 	box-sizing: border-box;
-	background-color: var(--ss-yolk);
+	background-color: #6a00ff;
 	height: 4em;
 	border: var(--ss-space-sm) solid var(--ss-blue00);
 	margin: 0 -0.1em;
