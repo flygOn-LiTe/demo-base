@@ -22,11 +22,11 @@
 		0 0 4px #fff,
 		0 0 10px #fff,
 		0 0 18px #fff,
-		0 0 38px #630c95,
-		0 0 73px #630c95,
-		0 0 80px #630c95,
-		0 0 94px #630c95,
-		0 0 140px #630c95;
+		0 0 38px #03fcf0,
+		0 0 73px #03fcf0,
+		0 0 80px #03fcf0,
+		0 0 94px #03fcf0,
+		0 0 140px #03fcf0;
 	}
   }
 
@@ -3928,6 +3928,7 @@ color: var(--ss-transparent);
 	top: 17%;
 	color: #630c95;
 	text-align: center; 
+	animation: pulsate 0.11s ease-in-out infinite alternate;
 }
 
 #gameMessage {
