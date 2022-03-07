@@ -3907,6 +3907,8 @@ color: var(--ss-transparent);
 	color: #03fcf0;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
+	-webkit-text-stroke-width: 3px;
+  	-webkit-text-stroke-color: #6a00ff;
 }
 
 #killBox h2, #deathBox h2 {
@@ -3918,6 +3920,8 @@ color: var(--ss-transparent);
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	text-transform: none !important;
+	-webkit-text-stroke-width: 3px;
+  	-webkit-text-stroke-color: #6a00ff;
 }
 
 #deathBox {
