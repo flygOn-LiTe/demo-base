@@ -1380,11 +1380,11 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: var(--ss-pink);
+	background: #6a00ff;
 }
 
 .account_icon.account_icon-item {
-	background: var(--ss-pink);
+	background: #6a00ff;
 }
 
 .attention_btn {
@@ -1429,8 +1429,6 @@ button:focus { outline: none; }
 	font-weight: bold;
 	color: #6a00ff;
 	animation: pulsate 2s ease-in-out infinite alternate;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: var(--ss-pink);
 }
 
 #loginButton {
@@ -4022,8 +4020,6 @@ color: var(--ss-transparent);
 	z-index: 6;
 	color: #6a00ff;
 	animation: pulsate 2s ease-in-out infinite alternate;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: var(--ss-pink);
 }
 
 #inGameUI {
