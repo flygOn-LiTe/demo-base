@@ -1427,7 +1427,10 @@ button:focus { outline: none; }
 	width: auto;
 	font-size: 1.7em;
 	font-weight: bold;
-	color: var(--ss-white);
+	color: #6a00ff;
+	animation: pulsate 2s ease-in-out infinite alternate;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: var(--ss-pink);
 }
 
 #loginButton {
@@ -1707,7 +1710,7 @@ button:focus { outline: none; }
 	font-size: 1em !important;
 	margin-top: 0.5em;
 	padding: 0;
-	font-family: hobeaux,sans-serif;
+	font-family: hobeaux, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	text-transform: lowercase;
@@ -3907,7 +3910,7 @@ color: var(--ss-transparent);
 	color: #03fcf0;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 2px;
   	-webkit-text-stroke-color: #6a00ff;
 }
 
@@ -3920,7 +3923,7 @@ color: var(--ss-transparent);
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	text-transform: none !important;
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 2px;
   	-webkit-text-stroke-color: #6a00ff;
 }
 
@@ -4013,12 +4016,14 @@ color: var(--ss-transparent);
 	right: var(--ss-space-sm);
 	bottom: var(--ss-space-sm);
 	text-align: right;
-	color: var(--ss-pink);
 	font-weight: bold;
 	font-size: 1.4em;
 	line-height: 1em;
 	z-index: 6;
-	animation: pulsate 3s ease-in-out infinite alternate; 
+	color: #6a00ff;
+	animation: pulsate 2s ease-in-out infinite alternate;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: var(--ss-pink);
 }
 
 #inGameUI {
