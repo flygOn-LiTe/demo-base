@@ -4611,7 +4611,7 @@ color: var(--ss-transparent);
 }
 .playerSlot-player-is-me {
 	background: var(--ss-pink);
-	color: whitesmoke;
+	color: #ff0073;
 	font-style: italic;
 	animation: pulsate 2s ease-in-out infinite alternate; 
 }
