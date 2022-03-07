@@ -3960,6 +3960,8 @@ color: var(--ss-transparent);
 	font-weight: 400;
 	font-style: normal;
 	color: #6a00ff;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: whitesmoke;
 }
 
 #chatIn {
