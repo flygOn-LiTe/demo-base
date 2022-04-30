@@ -1243,7 +1243,7 @@ button:focus { outline: none; }
 #logo img {
 	height: 100%;
 	pointer-events: auto;
-  content: url("https://www.berrybroscrypto.com/images/trippyflygon.gif");
+  content: url("https://www.berrybroscrypto.com/images/cryptic-banner.jpg");
 }
 
 
@@ -3589,7 +3589,7 @@ color: white;
 	padding-left: 1.45em;
 	padding-top: 0em;
 
-	background-image: url("https://www.berrybroscrypto.com/images/trippyflygon.gif");
+	background-image: url("https://www.berrybroscrypto.com/images/cryptic-banner.jpg");
     background-position: left center;
 	background-size: contain;
     background-repeat: no-repeat;
