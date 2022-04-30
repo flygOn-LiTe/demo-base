@@ -490,20 +490,20 @@ button:focus { outline: none; }
 
 .box_blue3 {
 	padding: var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg);
-	background-color: #2EFFEA;
+	background-color: #c91b0e;
 	border: var(--ss-space-sm) solid #A03E22;
 }
 
 .box_blue4 {
 	padding: var(--ss-space-lg);
-	background-color: #09c9d8;
+	background-color: #c91b0e;
 	border: var(--ss-space-sm) solid #A03E22;
 	min-width: 14em;
 }
 
 .box_light {
 	padding: var(--ss-space-lg);
-	background-color: #03fcf0;
+	background-color: #c91b0e;
 	margin-bottom: var(--ss-space-md);
 	text-align: left;
 }
