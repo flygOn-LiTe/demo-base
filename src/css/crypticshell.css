@@ -3582,7 +3582,7 @@ color: white;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em !important;
-	color: #6a00ff !important;
+	color: #c91b0e !important;
 	font-weight: bold !important;
 	text-transform: lowercase;
 
@@ -3641,7 +3641,7 @@ color: white;
 	font-weight: bold;
 	line-height: 1em;
 	margin: 0;
-	color: #6a00ff;
+	color: #c91b0e;
 	padding-right: 1.2em;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
@@ -3658,7 +3658,7 @@ color: white;
 	transform: translateX(-50%);
 	display: inline-block;
 	width: 6em; height: 6em;
-	background: rgba(3, 252, 240, .6);
+	background: rgba(235, 64, 52, .6);
 	border-radius: 50%;
 	text-align: center;
 }
@@ -3670,7 +3670,7 @@ color: white;
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
-    color: #03fcf0;
+    color: #c91b0e;
     font-size: 1.2em;
     transform: translateY(-3.45em);
 	animation: pulsate 0.11s ease-in-out infinite alternate; 
@@ -3680,14 +3680,14 @@ color: white;
 	transform-origin: center;
 	transform: rotate(90deg);
 	fill: transparent;
-	stroke:#8A0FF6;
+	stroke:#c91b0e;
 	stroke-width: 1em;
 	stroke-dasharray: 14.4513em;
 	transition: all 0.3s ease-in-out;
 }
 
 .healthYolk {
-	fill: #8A0FF6;
+	fill: #c91b0e;
 }
 
 .healthSvg {
@@ -3854,7 +3854,7 @@ color: white;
 	width: 100%;
 	transform-origin: center bottom;
 	bottom: 20%;
-	color: #630c95;
+	color: #eb4034;
 	text-align: center;
 }
 
@@ -3905,7 +3905,7 @@ color: var(--ss-transparent);
 #killBox h3, #deathBox h3 {
 	font-weight: 700;
 	margin: 0;
-	color: #03fcf0;
+	color: #eb4034;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	-webkit-text-stroke-width: 2px;
@@ -3917,12 +3917,12 @@ color: var(--ss-transparent);
 	line-height: 1em;
 	margin: 0;
 	font-weight: 700;
-	color: #03fcf0;
+	color: #eb4034;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	text-transform: none !important;
 	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #6a00ff;
+  	-webkit-text-stroke-color: black;
 }
 
 #deathBox {
@@ -3931,7 +3931,7 @@ color: var(--ss-transparent);
 	width: 100%;
 	transform-origin: center top;
 	top: 17%;
-	color: #6a00ff;
+	color: #eb4034;
 	text-align: center; 
 	-webkit-text-stroke-width: 1px;
   	-webkit-text-stroke-color: whitesmoke;
@@ -3941,7 +3941,7 @@ color: var(--ss-transparent);
 	position: absolute;
 	display: none;
 	top: 45%; left: 60%;
-	color: #6a00ff;
+	color: #eb4034;
 	text-align: center;
 	z-index: 6;
 }
@@ -3949,7 +3949,7 @@ color: var(--ss-transparent);
 .chat {
 	position: absolute;
 	font-weight: bold;
-	color: #6a00ff;
+	color: #eb4034;
 	z-index: 6;
 }
 
@@ -3960,14 +3960,14 @@ color: var(--ss-transparent);
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
-	color: #6a00ff;
+	color: #eb4034;
 	-webkit-text-stroke-width: .3px;
   	-webkit-text-stroke-color: whitesmoke;
 }
 
 #chatIn {
 	display: none;
-	color: #ff0073;
+	color: #eb4034;
 	bottom: 1em;
 	left: 1em;
 	width: 30%;
@@ -3996,7 +3996,7 @@ color: var(--ss-transparent);
 	left: 1em; top: 1em;
 	z-index: 6;
 	width: 12em;
-	color: #6a00ff;
+	color: whitesmoke;
 }
 
 #spectate {
@@ -4021,7 +4021,7 @@ color: var(--ss-transparent);
 	font-size: 1.4em;
 	line-height: 1em;
 	z-index: 6;
-	color: #6a00ff;
+	color: #eb4034;
 	animation: pulsate 2s ease-in-out infinite alternate;
 }
 
@@ -4035,7 +4035,7 @@ color: var(--ss-transparent);
 	right: 0em;
 	display: block; 
 	text-align: right; 
-	color: var(--ss-pink);
+	color: #eb4034;
 	font-weight: bold;
 	clear: both;
 	font-size: 1.3em !important;
@@ -4619,10 +4619,10 @@ color: var(--ss-transparent);
 	animation: pulsate 2s ease-in-out infinite alternate; 
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-	background: #fc0362;
+	background: #eb4034;
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-	background: #fc0362;
+	background: #eb4034;
 }
 .playerSlot-player-is-them {
 	color: whitesmoke;
