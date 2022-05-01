@@ -3957,13 +3957,11 @@ color: var(--ss-transparent);
 	font-weight: 400;
 	font-style: normal;
 	color: #4B0082;
-	-webkit-text-stroke-width: .3px;
-  	-webkit-text-stroke-color: whitesmoke;
 }
 
 #chatIn {
 	display: none;
-	color: #630c95;
+	color: #4B0082;
 	bottom: 1em;
 	left: 1em;
 	width: 30%;
@@ -4255,13 +4253,13 @@ color: var(--ss-transparent);
 #readyBrackets.ready {
 	animation: armed 0.2s linear;
 	width: 4em; height: 4em;
-	border-color: rgb(0, 255, 0);
+	border-color: whitesmoke;
 }
 
 #readyBrackets.notReady {
 	animation: unarmed 0.2s linear;
 	width: 8em; height: 8em;
-	border-color: rgb(255, 0, 0);
+	border-color: black;
 }
 
 .readyBracket {
