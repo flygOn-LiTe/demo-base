@@ -2118,7 +2118,7 @@ align-items: center;
 font-size: 1.2em;
 letter-spacing: 0.01em;
 color: white;
-transform: translate(-100px, -200px);
+transform: translate(-200px, -200px);
 }
 
 #gameDescription {
