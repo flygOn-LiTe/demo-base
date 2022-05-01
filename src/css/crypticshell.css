@@ -10,11 +10,11 @@
 		0 0 4px #fff,
 		0 0 11px #fff,
 		0 0 19px #fff,
-		0 0 40px #630c95,
-		0 0 80px #630c95,
-		0 0 90px #630c95,
-		0 0 100px #630c95,
-		0 0 150px #630c95;
+		0 0 40px #ba0b0b,
+		0 0 80px #ba0b0b,
+		0 0 90px #ba0b0b,
+		0 0 100px #ba0b0b,
+		0 0 150px #ba0b0b;
 	}
    0% {
 	  /* A slightly smaller blur radius */
@@ -22,11 +22,11 @@
 		0 0 4px #fff,
 		0 0 10px #fff,
 		0 0 18px #fff,
-		0 0 38px #03fcf0,
-		0 0 73px #03fcf0,
-		0 0 80px #03fcf0,
-		0 0 94px #03fcf0,
-		0 0 140px #03fcf0;
+		0 0 38px black,
+		0 0 73px black,
+		0 0 80px black,
+		0 0 94px black,
+		0 0 140px black;
 	}
   }
 
@@ -54,29 +54,29 @@
 	--ss-offwhite: #FFF3E4;
 	--ss-yellow0:#F7FFC1;
 	--ss-yellow: #FAF179;
-	--ss-yolk0: #c91b0e;
-	--ss-yolk: #c91b0e;
-	--ss-yolk2: #c91b0e;
-	--ss-red0: #c91b0e;
-	--ss-red: #c91b0e;
-	--ss-red2: #c91b0e;
+	--ss-yolk0: #ba0b0b;
+	--ss-yolk: #ba0b0b;
+	--ss-yolk2: #ba0b0b;
+	--ss-red0: #ba0b0b;
+	--ss-red: #ba0b0b;
+	--ss-red2: #ba0b0b;
 	--ss-red-bright: #C0C0C0;
-	--ss-pink: #14ccc3;
-	--ss-pink1: #756616;
+	--ss-pink: black;
+	--ss-pink1: black;
 	--ss-pink-light: #C0C0C0;
-	--ss-brown: #c91b0e;
-	--ss-blue00: #ffffff;
+	--ss-brown: #ba0b0b;
+	--ss-blue00: black;
 	--ss-blue0: #ffffff;
 	--ss-blue1: #ffffff;
-	--ss-blue2: #03fcf0;
-	--ss-blue3: rgba(0, 252, 228, .4);
-	--ss-blue4: #03fcf0;
-	--ss-blue5: #c91b0e;
-	--ss-green0: #c91b0e;
-	--ss-green1: #c91b0e;
-	--ss-green2: #c91b0e;
-	--ss-orange1: #c91b0e;
-	--ss-vip-gold: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0,252,228,1) 100%);
+	--ss-blue2: black;
+	--ss-blue3: rgba(0, 0, 0, .4);
+	--ss-blue4: black;
+	--ss-blue5: #ba0b0b;
+	--ss-green0: #ba0b0b;
+	--ss-green1: #ba0b0b;
+	--ss-green2: #ba0b0b;
+	--ss-orange1: #ba0b0b;
+	--ss-vip-gold: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0, 0, 0,1) 100%);
 	--ss-gold: #D1AA44;
 	--ss-clear: rgba(255, 255, 255, 0);
 	--ss-blue2clear: rgba(94, 186, 217, 0);
@@ -84,25 +84,25 @@
 	--ss-blueshadow: #0a577187;
 	--ss-darkoverlay: rgba(0, 0, 0, 0.8);
 	--ss-darkoverlay2: rgba(0, 0, 0, 0.2);
-	--ss-lightoverlay: linear-gradient(90deg, rgba(201, 27, 14, 1) 0%, rgba(0, 0, 0, 1) 100%);
-	--ss-lightbackground: linear-gradient(90deg, rgba(201, 27, 14, 1) 0%, rgba(0, 0, 0, 1) 100%);
-	--ss-blueblend1: linear-gradient(90deg, rgba(201, 27, 14, 1) 0%, rgba(0, 0, 0, 1) 100%);
-	--ss-scrollmask1: linear-gradient(90deg, rgba(201, 27, 14, 1) 0%, rgba(0, 0, 0, 1) 100%);
-	--ss-scrollmask2: linear-gradient(90deg, rgba(201, 27, 14, 1) 0%, rgba(0, 0, 0, 1) 100%);
-	--ss-fieldbg: linear-gradient(#91CADB, #ffffff, #ffffff, #ffffff, #ffffff);
+	--ss-lightoverlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(186, 11, 11 ,1) 48%);
+	--ss-lightbackground: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(186, 11 , 11,1) 48%);
+	--ss-blueblend1: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(186, 11, 11 ,1) 48%);
+	--ss-scrollmask1: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(186, 11, 11 ,1) 48%);
+	--ss-scrollmask2: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(186, 11, 11 ,1) 48%);
+	--ss-fieldbg: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(186, 11, 11 ,1) 48%);
 	--ss-nugSecs: 3600s;
 	--ss-white-60: rgba(255,255,255,.6);
 	--ss-white-90: rgba(255,255,255,.9);
 
-	--ss-me-player-bg: #0584a4;
+	--ss-me-player-bg: black;
 
-	--ss-them-blue-bg: rgba(105 , 6, 255,.7);
+	--ss-them-blue-bg: rgba(75 , 0, 130,.7);
 	--ss-them-blue-color: whitesmoke;
-	--ss-them-red-bg: rgba(0, 252, 228, .7);
+	--ss-them-red-bg: rgba(0, 0, 0, .7);
 	--ss-them-red-color: whitesmoke;
 
-	--ss-me-red-bg: rgba(0, 252, 228, .7);
-	--ss-me-blue-bg: rgba(0, 252, 228, .7);
+	--ss-me-red-bg: rgba(75, 0, 130, .7);
+	--ss-me-blue-bg: rgba(75, 0, 130, .7);
 
 	font-size: 1.95vh;
 
@@ -134,8 +134,8 @@ html {
 }
 
 body {
-	font-family: hobeaux, sans-serif;
-	font-weight: 400;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
 	height: 100%;
 	padding: 0; margin: 0;
@@ -171,7 +171,7 @@ hr.blue {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-	font-family: hobeaux,sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	letter-spacing: 0;
@@ -482,7 +482,7 @@ button:focus { outline: none; }
 
 .box_blue2 {
 	padding: var(--ss-space-lg);
-	background-image: url("https://www.berrybroscrypto.com/images/cryptic-banner.jpg");
+	background-image: url("https://www.berrybroscrypto.com/images/zombie-bluebox.gif");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -490,20 +490,20 @@ button:focus { outline: none; }
 
 .box_blue3 {
 	padding: var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg);
-	background-color: #c91b0e;
-	border: var(--ss-space-sm) solid #A03E22;
+	background-color: #ba0b0b;
+	border: var(--ss-space-sm) solid black;
 }
 
 .box_blue4 {
 	padding: var(--ss-space-lg);
-	background-color: #c91b0e;
-	border: var(--ss-space-sm) solid #A03E22;
+	background-color: #ba0b0b;
+	border: var(--ss-space-sm) solid black;
 	min-width: 14em;
 }
 
 .box_light {
 	padding: var(--ss-space-lg);
-	background-color: #c91b0e;
+	background-color: #ba0b0b;
 	margin-bottom: var(--ss-space-md);
 	text-align: left;
 }
@@ -965,7 +965,7 @@ button:focus { outline: none; }
 	height: 1.5em;
 	width: auto;
 	margin: var(--ss-space-sm) var(--ss-space-sm) 0 0;
-  content: url("https://berrybroscrypto.com/images/flygonlogobig.png");
+  content: url("https://berrybroscrypto.com/images/cj-logo.png");
 }
 
 .equip_pricetag__tag {
@@ -1065,7 +1065,7 @@ button:focus { outline: none; }
 	align-items: center;
 	background: none !important;
 	color: var(--ss-white) !important;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -1120,11 +1120,11 @@ button:focus { outline: none; }
 }
 
 #equip_equippedslots .equip_item {
-	background: #BC5A27;
+	background: black;
 	width: 6em;
 	height: 6em;
 	margin: var(--ss-space-sm);
-	border: var(--ss-space-sm) solid #A03E22;
+	border: var(--ss-space-sm) solid whitesmoke;
 	box-shadow:
 		inset 0em 0em 1em var(--ss-blue3),
 		inset 0em 0em 3em var(--ss-blue5);
@@ -1142,7 +1142,7 @@ button:focus { outline: none; }
 
 /* ----------------------------------------------------------------- Buy Items -- */
 #buyItemPopup h1, #physicalUnlockPopup h1 {
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em;
@@ -1243,7 +1243,7 @@ button:focus { outline: none; }
 #logo img {
 	height: 100%;
 	pointer-events: auto;
-  content: url("https://www.berrybroscrypto.com/images/cryptic-banner.jpg");
+  content: url("https://www.berrybroscrypto.com/images/cj-logo.png");
 }
 
 
@@ -1281,7 +1281,7 @@ button:focus { outline: none; }
 	background-position-y: 0.2em;
 	background-size: 1.8em;
 	padding: 0.1em 0.4em 0.1em 2.4em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -1347,7 +1347,7 @@ button:focus { outline: none; }
 #changelogPopup h3 {
 	margin: 0;
 	padding: 0;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 }
@@ -1380,11 +1380,11 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: #6a00ff;
+	background: #ba0b0b;
 }
 
 .account_icon.account_icon-item {
-	background: #6a00ff;
+	background: #ba0b0b;
 }
 
 .attention_btn {
@@ -1412,7 +1412,7 @@ button:focus { outline: none; }
 .egg_icon {
 	height: 2em;
 	margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
-  content: url('https://www.berrybroscrypto.com/images/flygonlogobig.png');
+  content: url('https://www.berrybroscrypto.com/images/cj-logo.png');
 }
 
 .egg_icon_sm {
@@ -1427,8 +1427,7 @@ button:focus { outline: none; }
 	width: auto;
 	font-size: 1.7em;
 	font-weight: bold;
-	color: #6a00ff;
-	animation: pulsate 2s ease-in-out infinite alternate;
+	color: #ba0b0b;
 }
 
 #loginButton {
@@ -1708,7 +1707,7 @@ button:focus { outline: none; }
 	font-size: 1em !important;
 	margin-top: 0.5em;
 	padding: 0;
-	font-family: hobeaux, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	text-transform: lowercase;
@@ -1755,7 +1754,7 @@ button:focus { outline: none; }
 	margin: 0.4em var(--ss-space-md);
 	padding: 0;
 	color: var(--ss-blue2);
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 }
@@ -1798,9 +1797,9 @@ button:focus { outline: none; }
 
 .weapon_img {
 	box-sizing: border-box;
-	background-color: #6a00ff;
+	background-color: #ba0b0b;
 	height: 4em;
-	border: var(--ss-space-sm) solid var(--ss-blue00);
+	border: var(--ss-space-sm) solid var(--ss-white);
 	margin: 0 -0.1em;
 }
 
@@ -1817,7 +1816,7 @@ button:focus { outline: none; }
 }
 
 #weapon_select .weapon_selected {
-	background-color: #14ccc3;
+	background-color: black;
 	border: var(--ss-space-sm) solid var(--ss-white);
 }
 
@@ -1945,7 +1944,7 @@ button:focus { outline: none; }
 	background-color: var(--ss-blue4);
     font-size: .9em;
 	line-height: 2em;
-	color: #3ebae1;
+	color: black;
 	position: relative;
 }
 
@@ -1955,7 +1954,7 @@ button:focus { outline: none; }
 	left: 50%;
 	width: 75%;
 	height: .1em;
-	background: #3ebae1;
+	background: black;
 	transform: rotate(2deg) translate(-50%, -50%);
 	content: '';
 }
@@ -1969,7 +1968,7 @@ button:focus { outline: none; }
 
 .single-egg-store-item-is-item .eggshop_banner_mid,
 .single-egg-store-item-is-item  #eggshop_banner{
-	background-color: #03fcf0;
+	background-color: black;
 }
 
 .single-egg-store-item-is-item #eggshop_banner:after {
@@ -2010,7 +2009,7 @@ button:focus { outline: none; }
 .egg-store-sale-notify .text {
 	display: block;
 	font-size: .6em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	line-height: 1;
@@ -2110,8 +2109,8 @@ button:focus { outline: none; }
 }
 
 #mainFooter:after { /* Added Code  */ 
-content: 'Theme By | flyg0n LiGht ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
-font-family: snicker, sans-serif;
+content: 'A CJquiet & flyg0n_LiTe Collab ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
+font-family: fight-to-the-finish-bb, sans-serif !important;
 font-weight: 700;
 font-style: normal;
 text-align: center;
@@ -2495,7 +2494,7 @@ color: white;
 }
 
 #feedback_panel h3 {
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -3210,7 +3209,7 @@ color: white;
 }
 
 #subStorePopup {
-	background: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);;
+	background: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0,0,0,1) 100%);;
 	padding-left: 5em;
 	min-width: 45em;
     padding-right: 5em;
@@ -3284,7 +3283,7 @@ color: white;
 .vip-club-log-content--outer {
 	background-color: rgba(0, 0, 0, 0.6);
 	margin: 2em;
-	box-shadow: 0 0 1em 0.5em rgba(250, 241, 121,.4);
+	box-shadow: 0 0 1em 0.5em whitesmoke;
 }
 
 .vip-club--logo {
@@ -3374,14 +3373,13 @@ color: white;
 	margin: .5em 0;
 	line-height: 1;
 	text-transform: capitalize;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
-    font-size: 1.2em;
-    font-weight: 600;
 }
 
 .vip-item .price-tag {
-	font-family: snicker,sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2em;
@@ -3532,7 +3530,7 @@ color: white;
 	max-width: 40em;
 	transform: translate(-50%, 4em);
 	text-shadow: var(--ss-space-micro) var(--ss-space-micro) var(--ss-shadow);
-	font-family: snicker, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 1em !important;
@@ -3575,21 +3573,18 @@ color: white;
 #best_streak_container h1 {
 	margin: 0; padding: 0;
 	display: inline;
-
-	animation: pulsate 2s ease-in-out infinite alternate;
-
-	font-family: hobeaux, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em !important;
-	color: #c91b0e !important;
+	color: #ba0b0b !important;
 	font-weight: bold !important;
 	text-transform: lowercase;
 
 	padding-left: 1.45em;
 	padding-top: 0em;
 
-	background-image: url("https://www.berrybroscrypto.com/images/cryptic-banner.jpg");
+	background-image: url("https://www.berrybroscrypto.com/images/cj-logo.png");
     background-position: left center;
 	background-size: contain;
     background-repeat: no-repeat;
@@ -3624,7 +3619,7 @@ color: white;
 
 #weaponName {
 	text-align: right;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -3635,18 +3630,18 @@ color: white;
 #ammo {
 	text-align: right;
 	font-size: 3.25em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 1em;
 	margin: 0;
-	color: #c91b0e;
+	color: #ba0b0b !important;
+	text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
 	padding-right: 1.2em;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
-	animation: pulsate 1.5s ease-in-out infinite alternate; 
-	background-image: url("https://www.berrybroscrypto.com/images/flygonglint2.gif");
+	background-image: url("https://www.berrybroscrypto.com/images/cj-logo.png");
     background-position: right center;
 	background-size: contain;
     background-repeat: no-repeat;
@@ -3658,7 +3653,7 @@ color: white;
 	transform: translateX(-50%);
 	display: inline-block;
 	width: 6em; height: 6em;
-	background: rgba(235, 64, 52, .6);
+	background: rgba(0, 0, 0, .6);
 	border-radius: 50%;
 	text-align: center;
 }
@@ -3667,10 +3662,10 @@ color: white;
 }
 
 #healthHp {
-	font-family: hobeaux, sans-serif !important;
-	font-weight: 400;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
-    color: #c91b0e;
+    color: whitesmoke;
     font-size: 1.2em;
     transform: translateY(-3.45em);
 	animation: pulsate 0.11s ease-in-out infinite alternate; 
@@ -3680,14 +3675,14 @@ color: white;
 	transform-origin: center;
 	transform: rotate(90deg);
 	fill: transparent;
-	stroke:#c91b0e;
+	stroke:#ba0b0b;
 	stroke-width: 1em;
 	stroke-dasharray: 14.4513em;
 	transition: all 0.3s ease-in-out;
 }
 
 .healthYolk {
-	fill: #c91b0e;
+	fill: #ba0b0b;
 }
 
 .healthSvg {
@@ -3704,7 +3699,7 @@ color: white;
 }
 
 #hardBoiledValue {
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
     font-weight: bold;
@@ -3726,7 +3721,7 @@ color: white;
 }
 
 #hardBoiledShieldFill { /* Added Code  */
-  content: url("https://www.berrybroscrypto.com/images/flygontitle.png");
+  content: url("https://www.berrybroscrypto.com/images/cj-logo.png");
 }
 
 #eggBreakerContainer {
@@ -3758,7 +3753,7 @@ color: white;
 	color: white;
 	text-shadow: var(--ss-yolk) 0 0 0.1em, black 0 0.1em 0.2em;
 	font-size: 2.5em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
@@ -3845,7 +3840,7 @@ color: white;
 	width: 100%;
 	height: 50%;
 	border-radius: 0.05em;
-	background: #14ccc3;
+	background: #ba0b0b;
 }
 
 #killBox {
@@ -3854,7 +3849,7 @@ color: white;
 	width: 100%;
 	transform-origin: center bottom;
 	bottom: 20%;
-	color: #eb4034;
+	color: #ba0b0b;
 	text-align: center;
 }
 
@@ -3905,11 +3900,12 @@ color: var(--ss-transparent);
 #killBox h3, #deathBox h3 {
 	font-weight: 700;
 	margin: 0;
-	color: #eb4034;
-	font-family: snicker, sans-serif !important;
+	color: black;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
 	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #6a00ff;
+  	-webkit-text-stroke-color: whitesmoke;
 }
 
 #killBox h2, #deathBox h2 {
@@ -3917,12 +3913,13 @@ color: var(--ss-transparent);
 	line-height: 1em;
 	margin: 0;
 	font-weight: 700;
-	color: #eb4034;
-	font-family: snicker, sans-serif !important;
+	color: black;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
 	text-transform: none !important;
 	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: black;
+  	-webkit-text-stroke-color: whitesmoke;
 }
 
 #deathBox {
@@ -3931,7 +3928,7 @@ color: var(--ss-transparent);
 	width: 100%;
 	transform-origin: center top;
 	top: 17%;
-	color: #eb4034;
+	color: #ba0b0b;
 	text-align: center; 
 	-webkit-text-stroke-width: 1px;
   	-webkit-text-stroke-color: whitesmoke;
@@ -3941,7 +3938,7 @@ color: var(--ss-transparent);
 	position: absolute;
 	display: none;
 	top: 45%; left: 60%;
-	color: #eb4034;
+	color: #ba0b0b;
 	text-align: center;
 	z-index: 6;
 }
@@ -3949,7 +3946,7 @@ color: var(--ss-transparent);
 .chat {
 	position: absolute;
 	font-weight: bold;
-	color: #eb4034;
+	color: #ba0b0b;
 	z-index: 6;
 }
 
@@ -3957,23 +3954,21 @@ color: var(--ss-transparent);
 	display: none;
 	bottom: 2.5em;
 	left: 1em;
-	font-family: hobeaux, sans-serif !important;
-	font-weight: 400;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
-	color: #eb4034;
-	-webkit-text-stroke-width: .3px;
-  	-webkit-text-stroke-color: whitesmoke;
+	color: #ba0b0b;
 }
 
 #chatIn {
 	display: none;
-	color: #eb4034;
+	color: #ba0b0b;
 	bottom: 1em;
 	left: 1em;
 	width: 30%;
 	border: none;
 	background: none;
-	font-family: snicker, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
 	font-weight: 700;
 	font-style: normal;
 }
@@ -3996,7 +3991,7 @@ color: var(--ss-transparent);
 	left: 1em; top: 1em;
 	z-index: 6;
 	width: 12em;
-	color: whitesmoke;
+	color: #ba0b0b;
 }
 
 #spectate {
@@ -4021,8 +4016,7 @@ color: var(--ss-transparent);
 	font-size: 1.4em;
 	line-height: 1em;
 	z-index: 6;
-	color: #eb4034;
-	animation: pulsate 2s ease-in-out infinite alternate;
+	color: #ba0b0b;
 }
 
 #inGameUI {
@@ -4035,7 +4029,7 @@ color: var(--ss-transparent);
 	right: 0em;
 	display: block; 
 	text-align: right; 
-	color: #eb4034;
+	color: var(--ss-pink);
 	font-weight: bold;
 	clear: both;
 	font-size: 1.3em !important;
@@ -4260,13 +4254,13 @@ color: var(--ss-transparent);
 #readyBrackets.ready {
 	animation: armed 0.2s linear;
 	width: 4em; height: 4em;
-	border-color: rgb(0, 255, 0);
+	border-color: whitesmoke;
 }
 
 #readyBrackets.notReady {
 	animation: unarmed 0.2s linear;
 	width: 8em; height: 8em;
-	border-color: rgb(255, 0, 0);
+	border-color: black;
 }
 
 .readyBracket {
@@ -4359,22 +4353,22 @@ color: var(--ss-transparent);
 
 .teamScore.red.active {
 	color: #fff;
-	background: rgba(138, 15, 246, 0.7);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .teamScore.red.inactive {
-	color: #f00;
+	color: black;
 	background: rgba(138, 15, 246, 0.7);
 }
 
 .teamScore.blue.active {
-	color: #fff;
-	background: rgba(246, 15, 177, 0.7);
+	color: whitesmoke;
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .teamScore.blue.inactive {
 	color: whitesmoke;
-	background: rgba(246, 15, 177, 0.7);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .teamScore .number {
@@ -4588,7 +4582,7 @@ color: var(--ss-transparent);
 
 .playerSlot--icons .vip-egg {
 	text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
-  content: url('https://www.berrybroscrypto.com/images/flygonlogobig.png') !important;
+  content: url('https://www.berrybroscrypto.com/images/cj-logo.png') !important;
   max-height: 1.1em;
   max-width: 1.1em;
 }
@@ -4614,21 +4608,21 @@ color: var(--ss-transparent);
 }
 .playerSlot-player-is-me {
 	background: var(--ss-pink);
-	color: #ff0073;
+	color: #ba0b0b;
 	font-style: italic;
 	animation: pulsate 2s ease-in-out infinite alternate; 
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-	background: #eb4034;
+	background: #ba0b0b;
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-	background: #eb4034;
+	background: #ba0b0b;
 }
 .playerSlot-player-is-them {
 	color: whitesmoke;
 }
 .playerSlot-them {
-	background: rgba(105 , 6, 255, .4);
+	background: rgba(99, 12, 149, .4);
 }
 .playerSlot-them-blue {
 	background: var(--ss-them-blue-bg);
