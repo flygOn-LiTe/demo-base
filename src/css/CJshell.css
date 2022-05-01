@@ -61,16 +61,16 @@
 	--ss-red: #4B0082;
 	--ss-red2: #4B0082;
 	--ss-red-bright: #C0C0C0;
-	--ss-pink: #14ccc3;
+	--ss-pink: black;
 	--ss-pink1: #756616;
 	--ss-pink-light: #C0C0C0;
 	--ss-brown: #4B0082;
 	--ss-blue00: black;
 	--ss-blue0: #ffffff;
 	--ss-blue1: #ffffff;
-	--ss-blue2: #03fcf0;
-	--ss-blue3: rgba(0, 252, 228, .4);
-	--ss-blue4: #03fcf0;
+	--ss-blue2: black;
+	--ss-blue3: rgba(0, 0, 0, .4);
+	--ss-blue4: black;
 	--ss-blue5: #4B0082;
 	--ss-green0: #4B0082;
 	--ss-green1: #4B0082;
@@ -84,12 +84,12 @@
 	--ss-blueshadow: #0a577187;
 	--ss-darkoverlay: rgba(0, 0, 0, 0.8);
 	--ss-darkoverlay2: rgba(0, 0, 0, 0.2);
-	--ss-lightoverlay: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	--ss-lightbackground: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	--ss-blueblend1: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	--ss-scrollmask1: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	--ss-scrollmask2: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	--ss-fieldbg: linear-gradient(#91CADB, #ffffff, #ffffff, #ffffff, #ffffff);
+	--ss-lightoverlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,130,1) 48%);
+	--ss-lightbackground: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,130,1) 48%);
+	--ss-blueblend1: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,130,1) 48%);
+	--ss-scrollmask1: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,130,1) 48%);
+	--ss-scrollmask2: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,130,1) 48%);
+	--ss-fieldbg: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(75,0,130,1) 48%);
 	--ss-nugSecs: 3600s;
 	--ss-white-60: rgba(255,255,255,.6);
 	--ss-white-90: rgba(255,255,255,.9);
@@ -965,7 +965,7 @@ button:focus { outline: none; }
 	height: 1.5em;
 	width: auto;
 	margin: var(--ss-space-sm) var(--ss-space-sm) 0 0;
-  content: url("https://berrybroscrypto.com/images/flygonlogobig.png");
+  content: url("https://berrybroscrypto.com/images/cj-logo.png");
 }
 
 .equip_pricetag__tag {
@@ -1243,7 +1243,7 @@ button:focus { outline: none; }
 #logo img {
 	height: 100%;
 	pointer-events: auto;
-  content: url("https://www.berrybroscrypto.com/images/trippyflygon.gif");
+  content: url("https://www.berrybroscrypto.com/images/cj-logo.png");
 }
 
 
@@ -3589,7 +3589,7 @@ color: white;
 	padding-left: 1.45em;
 	padding-top: 0em;
 
-	background-image: url("https://www.berrybroscrypto.com/images/trippyflygon.gif");
+	background-image: url("https://www.berrybroscrypto.com/images/cj-logo.png");
     background-position: left center;
 	background-size: contain;
     background-repeat: no-repeat;
@@ -3646,7 +3646,7 @@ color: white;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
 	animation: pulsate 1.5s ease-in-out infinite alternate; 
-	background-image: url("https://www.berrybroscrypto.com/images/flygonglint2.gif");
+	background-image: url("https://www.berrybroscrypto.com/images/cj-logo.png");
     background-position: right center;
 	background-size: contain;
     background-repeat: no-repeat;
@@ -3726,7 +3726,7 @@ color: white;
 }
 
 #hardBoiledShieldFill { /* Added Code  */
-  content: url("https://www.berrybroscrypto.com/images/flygontitle.png");
+  content: url("https://www.berrybroscrypto.com/images/cj-logo.png");
 }
 
 #eggBreakerContainer {
@@ -4588,7 +4588,7 @@ color: var(--ss-transparent);
 
 .playerSlot--icons .vip-egg {
 	text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
-  content: url('https://www.berrybroscrypto.com/images/flygonlogobig.png') !important;
+  content: url('https://www.berrybroscrypto.com/images/cj-logo.png') !important;
   max-height: 1.1em;
   max-width: 1.1em;
 }
