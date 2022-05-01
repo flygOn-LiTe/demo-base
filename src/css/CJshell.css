@@ -76,7 +76,7 @@
 	--ss-green1: #4B0082;
 	--ss-green2: #4B0082;
 	--ss-orange1: #4B0082;
-	--ss-vip-gold: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0,252,228,1) 100%);
+	--ss-vip-gold: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0, 0, 0,1) 100%);
 	--ss-gold: #D1AA44;
 	--ss-clear: rgba(255, 255, 255, 0);
 	--ss-blue2clear: rgba(94, 186, 217, 0);
@@ -94,7 +94,7 @@
 	--ss-white-60: rgba(255,255,255,.6);
 	--ss-white-90: rgba(255,255,255,.9);
 
-	--ss-me-player-bg: #0584a4;
+	--ss-me-player-bg: black;
 
 	--ss-them-blue-bg: rgba(75 , 0, 130,.7);
 	--ss-them-blue-color: whitesmoke;
@@ -1120,11 +1120,11 @@ button:focus { outline: none; }
 }
 
 #equip_equippedslots .equip_item {
-	background: #BC5A27;
+	background: black;
 	width: 6em;
 	height: 6em;
 	margin: var(--ss-space-sm);
-	border: var(--ss-space-sm) solid #A03E22;
+	border: var(--ss-space-sm) solid whitesmoke;
 	box-shadow:
 		inset 0em 0em 1em var(--ss-blue3),
 		inset 0em 0em 3em var(--ss-blue5);
@@ -3901,11 +3901,11 @@ color: var(--ss-transparent);
 #killBox h3, #deathBox h3 {
 	font-weight: 700;
 	margin: 0;
-	color: #03fcf0;
+	color: black;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #4B0082;
+  	-webkit-text-stroke-color: whitesmoke;
 }
 
 #killBox h2, #deathBox h2 {
@@ -3913,12 +3913,12 @@ color: var(--ss-transparent);
 	line-height: 1em;
 	margin: 0;
 	font-weight: 700;
-	color: #03fcf0;
+	color: black;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	text-transform: none !important;
 	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #4B0082;
+  	-webkit-text-stroke-color: whitesmoke;
 }
 
 #deathBox {
