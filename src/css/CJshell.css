@@ -1944,7 +1944,7 @@ button:focus { outline: none; }
 	background-color: var(--ss-blue4);
     font-size: .9em;
 	line-height: 2em;
-	color: #3ebae1;
+	color: black;
 	position: relative;
 }
 
@@ -1954,7 +1954,7 @@ button:focus { outline: none; }
 	left: 50%;
 	width: 75%;
 	height: .1em;
-	background: #3ebae1;
+	background: black;
 	transform: rotate(2deg) translate(-50%, -50%);
 	content: '';
 }
@@ -1968,7 +1968,7 @@ button:focus { outline: none; }
 
 .single-egg-store-item-is-item .eggshop_banner_mid,
 .single-egg-store-item-is-item  #eggshop_banner{
-	background-color: #03fcf0;
+	background-color: black;
 }
 
 .single-egg-store-item-is-item #eggshop_banner:after {
@@ -2109,7 +2109,7 @@ button:focus { outline: none; }
 }
 
 #mainFooter:after { /* Added Code  */ 
-content: 'Theme By | flyg0n LiGht ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
+content: 'A CJquiet & flyg0n_LiTe Collab ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
 font-family: snicker, sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -3209,7 +3209,7 @@ color: white;
 }
 
 #subStorePopup {
-	background: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(255,0,113,1) 100%);;
+	background: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0,0,0,1) 100%);;
 	padding-left: 5em;
 	min-width: 45em;
     padding-right: 5em;
@@ -3283,7 +3283,7 @@ color: white;
 .vip-club-log-content--outer {
 	background-color: rgba(0, 0, 0, 0.6);
 	margin: 2em;
-	box-shadow: 0 0 1em 0.5em rgba(250, 241, 121,.4);
+	box-shadow: 0 0 1em 0.5em whitesmoke;
 }
 
 .vip-club--logo {
@@ -4358,18 +4358,18 @@ color: var(--ss-transparent);
 }
 
 .teamScore.red.inactive {
-	color: #f00;
+	color: black;
 	background: rgba(138, 15, 246, 0.7);
 }
 
 .teamScore.blue.active {
-	color: #fff;
-	background: rgba(246, 15, 177, 0.7);
+	color: whitesmoke;
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .teamScore.blue.inactive {
 	color: whitesmoke;
-	background: rgba(246, 15, 177, 0.7);
+	background: rgba(0, 0, 0, 0.7);
 }
 
 .teamScore .number {
