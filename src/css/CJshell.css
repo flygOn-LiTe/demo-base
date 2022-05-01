@@ -2289,6 +2289,7 @@ color: white;
 	margin: 0;
 	padding: var(--ss-space-xs) var(--ss-space-sm);
 	background: var(--ss-blue4);
+	color: black !important;
 }
 
 .pingBar {
