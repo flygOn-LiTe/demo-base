@@ -22,11 +22,11 @@
 		0 0 4px #fff,
 		0 0 10px #fff,
 		0 0 18px #fff,
-		0 0 38px #03fcf0,
-		0 0 73px #03fcf0,
-		0 0 80px #03fcf0,
-		0 0 94px #03fcf0,
-		0 0 140px #03fcf0;
+		0 0 38px black,
+		0 0 73px black,
+		0 0 80px black,
+		0 0 94px black,
+		0 0 140px black;
 	}
   }
 
@@ -96,13 +96,13 @@
 
 	--ss-me-player-bg: #0584a4;
 
-	--ss-them-blue-bg: rgba(105 , 6, 255,.7);
+	--ss-them-blue-bg: rgba(75 , 0, 130,.7);
 	--ss-them-blue-color: whitesmoke;
-	--ss-them-red-bg: rgba(0, 252, 228, .7);
+	--ss-them-red-bg: rgba(0, 0, 0, .7);
 	--ss-them-red-color: whitesmoke;
 
-	--ss-me-red-bg: rgba(0, 252, 228, .7);
-	--ss-me-blue-bg: rgba(0, 252, 228, .7);
+	--ss-me-red-bg: rgba(75, 0, 130, .7);
+	--ss-me-blue-bg: rgba(75, 0, 130, .7);
 
 	font-size: 1.95vh;
 
