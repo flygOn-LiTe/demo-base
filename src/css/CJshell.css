@@ -2316,6 +2316,7 @@ color: white;
 .serverPingNumber {
 	width: 3em;
 	text-align: right;
+	color: black !important;
 }
 
 /* ----------------------------------------------------------------- Settings Popup -- */
