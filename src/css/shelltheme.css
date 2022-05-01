@@ -4015,6 +4015,7 @@ color: var(--ss-transparent);
 	line-height: 1em;
 	z-index: 6;
 	color: #6a00ff;
+	text-shadow: 3px 2px 0px rgba(0, 247, 255, 1);
 }
 
 #inGameUI {
@@ -4579,7 +4580,7 @@ color: var(--ss-transparent);
 }
 
 .playerSlot--icons .vip-egg {
-	text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
   content: url('https://www.berrybroscrypto.com/images/flygonlogobig.png') !important;
   max-height: 1.1em;
   max-width: 1.1em;
