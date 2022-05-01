@@ -54,28 +54,28 @@
 	--ss-offwhite: #FFF3E4;
 	--ss-yellow0:#F7FFC1;
 	--ss-yellow: #FAF179;
-	--ss-yolk0: #6a00ff;
-	--ss-yolk: #6a00ff;
-	--ss-yolk2: #6a00ff;
-	--ss-red0: #6a00ff;
-	--ss-red: #6a00ff;
-	--ss-red2: #6a00ff;
+	--ss-yolk0: #4B0082;
+	--ss-yolk: #4B0082;
+	--ss-yolk2: #4B0082;
+	--ss-red0: #4B0082;
+	--ss-red: #4B0082;
+	--ss-red2: #4B0082;
 	--ss-red-bright: #C0C0C0;
 	--ss-pink: #14ccc3;
 	--ss-pink1: #756616;
 	--ss-pink-light: #C0C0C0;
-	--ss-brown: #6a00ff;
-	--ss-blue00: #ffffff;
+	--ss-brown: #4B0082;
+	--ss-blue00: black;
 	--ss-blue0: #ffffff;
 	--ss-blue1: #ffffff;
 	--ss-blue2: #03fcf0;
 	--ss-blue3: rgba(0, 252, 228, .4);
 	--ss-blue4: #03fcf0;
-	--ss-blue5: #6a00ff;
-	--ss-green0: #6a00ff;
-	--ss-green1: #6a00ff;
-	--ss-green2: #6a00ff;
-	--ss-orange1: #6a00ff;
+	--ss-blue5: #4B0082;
+	--ss-green0: #4B0082;
+	--ss-green1: #4B0082;
+	--ss-green2: #4B0082;
+	--ss-orange1: #4B0082;
 	--ss-vip-gold: linear-gradient(90deg, rgba(99,12,149,1) 0%, rgba(0,252,228,1) 100%);
 	--ss-gold: #D1AA44;
 	--ss-clear: rgba(255, 255, 255, 0);
@@ -490,20 +490,20 @@ button:focus { outline: none; }
 
 .box_blue3 {
 	padding: var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg);
-	background-color: #2EFFEA;
-	border: var(--ss-space-sm) solid #A03E22;
+	background-color: #4B0082;
+	border: var(--ss-space-sm) solid black;
 }
 
 .box_blue4 {
 	padding: var(--ss-space-lg);
-	background-color: #09c9d8;
-	border: var(--ss-space-sm) solid #A03E22;
+	background-color: #4B0082;
+	border: var(--ss-space-sm) solid black;
 	min-width: 14em;
 }
 
 .box_light {
 	padding: var(--ss-space-lg);
-	background-color: #03fcf0;
+	background-color: #4B0082;
 	margin-bottom: var(--ss-space-md);
 	text-align: left;
 }
@@ -1380,11 +1380,11 @@ button:focus { outline: none; }
 .account_icon {
 	margin: 0 0 0 var(--ss-space-sm);
 	height: 2.3em;
-	background: #6a00ff;
+	background: #4B0082;
 }
 
 .account_icon.account_icon-item {
-	background: #6a00ff;
+	background: #4B0082;
 }
 
 .attention_btn {
@@ -1427,7 +1427,7 @@ button:focus { outline: none; }
 	width: auto;
 	font-size: 1.7em;
 	font-weight: bold;
-	color: #6a00ff;
+	color: #4B0082;
 	animation: pulsate 2s ease-in-out infinite alternate;
 }
 
@@ -1798,7 +1798,7 @@ button:focus { outline: none; }
 
 .weapon_img {
 	box-sizing: border-box;
-	background-color: #6a00ff;
+	background-color: #4B0082;
 	height: 4em;
 	border: var(--ss-space-sm) solid var(--ss-blue00);
 	margin: 0 -0.1em;
@@ -3582,7 +3582,7 @@ color: white;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em !important;
-	color: #6a00ff !important;
+	color: #4B0082 !important;
 	font-weight: bold !important;
 	text-transform: lowercase;
 
@@ -3641,7 +3641,7 @@ color: white;
 	font-weight: bold;
 	line-height: 1em;
 	margin: 0;
-	color: #6a00ff;
+	color: #4B0082;
 	padding-right: 1.2em;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
@@ -3909,7 +3909,7 @@ color: var(--ss-transparent);
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #6a00ff;
+  	-webkit-text-stroke-color: #4B0082;
 }
 
 #killBox h2, #deathBox h2 {
@@ -3922,7 +3922,7 @@ color: var(--ss-transparent);
 	font-style: normal;
 	text-transform: none !important;
 	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #6a00ff;
+  	-webkit-text-stroke-color: #4B0082;
 }
 
 #deathBox {
@@ -3931,7 +3931,7 @@ color: var(--ss-transparent);
 	width: 100%;
 	transform-origin: center top;
 	top: 17%;
-	color: #6a00ff;
+	color: #4B0082;
 	text-align: center; 
 	-webkit-text-stroke-width: 1px;
   	-webkit-text-stroke-color: whitesmoke;
@@ -3941,7 +3941,7 @@ color: var(--ss-transparent);
 	position: absolute;
 	display: none;
 	top: 45%; left: 60%;
-	color: #6a00ff;
+	color: #4B0082;
 	text-align: center;
 	z-index: 6;
 }
@@ -3949,7 +3949,7 @@ color: var(--ss-transparent);
 .chat {
 	position: absolute;
 	font-weight: bold;
-	color: #6a00ff;
+	color: #4B0082;
 	z-index: 6;
 }
 
@@ -3960,7 +3960,7 @@ color: var(--ss-transparent);
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
-	color: #6a00ff;
+	color: #4B0082;
 	-webkit-text-stroke-width: .3px;
   	-webkit-text-stroke-color: whitesmoke;
 }
@@ -3996,7 +3996,7 @@ color: var(--ss-transparent);
 	left: 1em; top: 1em;
 	z-index: 6;
 	width: 12em;
-	color: #6a00ff;
+	color: #4B0082;
 }
 
 #spectate {
@@ -4021,7 +4021,7 @@ color: var(--ss-transparent);
 	font-size: 1.4em;
 	line-height: 1em;
 	z-index: 6;
-	color: #6a00ff;
+	color: #4B0082;
 	animation: pulsate 2s ease-in-out infinite alternate;
 }
 
