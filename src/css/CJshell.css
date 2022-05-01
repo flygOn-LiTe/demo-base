@@ -2289,35 +2289,38 @@ color: white;
 	margin: 0;
 	padding: var(--ss-space-xs) var(--ss-space-sm);
 	background: var(--ss-blue4);
-	color: black !important;
 }
 
 .pingBar {
 	display: inline-block;
 	height: 0.75em;
 	border-radius: 0.25em;
+	color: black !important;
 }
 
 .redPing {
 	background-color: var(--ss-yolk);
+	color: black !important;
 }
 
 .yellowPing {
 	background-color: var(--ss-yolk);
+	color: black !important;
 }
 
 .greenPing {
 	background-color: var(--ss-pink) !important;
+	color: black !important;
 }
 
 .orangePing {
 	background-color: var(--ss-pink);
+	color: black !important;
 }
 
 .serverPingNumber {
 	width: 3em;
 	text-align: right;
-	color: black !important;
 }
 
 /* ----------------------------------------------------------------- Settings Popup -- */
