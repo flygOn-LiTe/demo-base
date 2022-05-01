@@ -134,8 +134,8 @@ html {
 }
 
 body {
-	font-family: hobeaux, sans-serif;
-	font-weight: 400;
+	font-family: fight-to-the-finish-bb, sans-serif;
+	font-weight: 700;
 	font-style: normal;
 	height: 100%;
 	padding: 0; margin: 0;
@@ -171,7 +171,7 @@ hr.blue {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-	font-family: hobeaux,sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	letter-spacing: 0;
@@ -1065,7 +1065,7 @@ button:focus { outline: none; }
 	align-items: center;
 	background: none !important;
 	color: var(--ss-white) !important;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -1142,7 +1142,7 @@ button:focus { outline: none; }
 
 /* ----------------------------------------------------------------- Buy Items -- */
 #buyItemPopup h1, #physicalUnlockPopup h1 {
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em;
@@ -1281,7 +1281,7 @@ button:focus { outline: none; }
 	background-position-y: 0.2em;
 	background-size: 1.8em;
 	padding: 0.1em 0.4em 0.1em 2.4em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -1347,7 +1347,7 @@ button:focus { outline: none; }
 #changelogPopup h3 {
 	margin: 0;
 	padding: 0;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
@@ -1707,7 +1707,7 @@ button:focus { outline: none; }
 	font-size: 1em !important;
 	margin-top: 0.5em;
 	padding: 0;
-	font-family: hobeaux, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	text-transform: lowercase;
@@ -1754,7 +1754,7 @@ button:focus { outline: none; }
 	margin: 0.4em var(--ss-space-md);
 	padding: 0;
 	color: var(--ss-blue2);
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
@@ -2009,7 +2009,7 @@ button:focus { outline: none; }
 .egg-store-sale-notify .text {
 	display: block;
 	font-size: .6em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	line-height: 1;
@@ -2110,7 +2110,7 @@ button:focus { outline: none; }
 
 #mainFooter:after { /* Added Code  */ 
 content: 'A CJquiet & flyg0n_LiTe Collab ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
-font-family: snicker, sans-serif;
+font-family: fight-to-the-finish-bb, sans-serif;
 font-weight: 700;
 font-style: normal;
 text-align: center;
@@ -2295,27 +2295,22 @@ color: white;
 	display: inline-block;
 	height: 0.75em;
 	border-radius: 0.25em;
-	color: black !important;
 }
 
 .redPing {
 	background-color: var(--ss-yolk);
-	color: black !important;
 }
 
 .yellowPing {
 	background-color: var(--ss-yolk);
-	color: black !important;
 }
 
 .greenPing {
 	background-color: var(--ss-pink) !important;
-	color: black !important;
 }
 
 .orangePing {
 	background-color: var(--ss-pink);
-	color: black !important;
 }
 
 .serverPingNumber {
@@ -2499,7 +2494,7 @@ color: white;
 }
 
 #feedback_panel h3 {
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -3536,7 +3531,7 @@ color: white;
 	max-width: 40em;
 	transform: translate(-50%, 4em);
 	text-shadow: var(--ss-space-micro) var(--ss-space-micro) var(--ss-shadow);
-	font-family: snicker, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 1em !important;
@@ -3579,7 +3574,7 @@ color: white;
 #best_streak_container h1 {
 	margin: 0; padding: 0;
 	display: inline;
-	font-family: hobeaux, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em !important;
@@ -3625,7 +3620,7 @@ color: white;
 
 #weaponName {
 	text-align: right;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -3636,7 +3631,7 @@ color: white;
 #ammo {
 	text-align: right;
 	font-size: 3.25em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb,sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-weight: bold;
@@ -3668,8 +3663,8 @@ color: white;
 }
 
 #healthHp {
-	font-family: hobeaux, sans-serif !important;
-	font-weight: 400;
+	font-family: fight-to-the-finish-bb,sans-serif;
+	font-weight: 700;
 	font-style: normal;
     color: whitesmoke;
     font-size: 1.2em;
@@ -3705,7 +3700,7 @@ color: white;
 }
 
 #hardBoiledValue {
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif;
 	font-weight: 700;
 	font-style: normal;
     font-weight: bold;
@@ -3759,7 +3754,7 @@ color: white;
 	color: white;
 	text-shadow: var(--ss-yolk) 0 0 0.1em, black 0 0.1em 0.2em;
 	font-size: 2.5em;
-	font-family: snicker, sans-serif;
+	font-family: fight-to-the-finish-bb, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	text-align: center;
@@ -3907,7 +3902,8 @@ color: var(--ss-transparent);
 	font-weight: 700;
 	margin: 0;
 	color: black;
-	font-family: snicker, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
 	-webkit-text-stroke-width: 2px;
   	-webkit-text-stroke-color: whitesmoke;
@@ -3919,7 +3915,8 @@ color: var(--ss-transparent);
 	margin: 0;
 	font-weight: 700;
 	color: black;
-	font-family: snicker, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif !important;
+	font-weight: 700;
 	font-style: normal;
 	text-transform: none !important;
 	-webkit-text-stroke-width: 2px;
@@ -3958,8 +3955,8 @@ color: var(--ss-transparent);
 	display: none;
 	bottom: 2.5em;
 	left: 1em;
-	font-family: hobeaux, sans-serif !important;
-	font-weight: 400;
+	font-family: fight-to-the-finish-bb, sans-serif;
+	font-weight: 700;
 	font-style: normal;
 	color: #4B0082;
 }
@@ -3972,7 +3969,7 @@ color: var(--ss-transparent);
 	width: 30%;
 	border: none;
 	background: none;
-	font-family: snicker, sans-serif !important;
+	font-family: fight-to-the-finish-bb, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
