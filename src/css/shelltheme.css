@@ -7,34 +7,6 @@
 	100% {background-position: right}
   }
 
-@keyframes pulsate {
-	100% {
-	  /* Larger blur radius */
-	  text-shadow:
-		0 0 4px #fff,
-		0 0 11px #fff,
-		0 0 19px #fff,
-		0 0 40px #6a00ff,
-		0 0 80px #6a00ff,
-		0 0 90px #6a00ff,
-		0 0 100px #6a00ff,
-		0 0 150px #6a00ff;
-	}
-   0% {
-	  /* A slightly smaller blur radius */
-	  text-shadow:
-		0 0 4px #fff,
-		0 0 10px #fff,
-		0 0 18px #fff,
-		0 0 38px #03fcf0,
-		0 0 73px #03fcf0,
-		0 0 80px #03fcf0,
-		0 0 94px #03fcf0,
-		0 0 140px #03fcf0;
-	}
-  }
-
-
 * {
 	box-sizing: border-box;			/* For Your Health */
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -4626,7 +4598,6 @@ color: var(--ss-transparent);
 	background: var(--ss-pink);
 	color: #ff0073;
 	font-style: italic;
-	animation: pulsate 2s ease-in-out infinite alternate; 
 }
 .playerSlot-player-is-me.playerSlot-me-red {
 	background: #fc0362;
