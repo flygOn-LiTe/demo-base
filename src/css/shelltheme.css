@@ -3613,7 +3613,9 @@ color: white;
 	font-weight: bold;
 	line-height: 1em;
 	margin: 0;
-	color: #6a00ff !important;
+	background-image: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
+	background-clip: text;
+	color: transparent;
 	padding-right: 1.2em;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
@@ -3633,7 +3635,7 @@ color: white;
 	border-radius: 50%;
 	text-align: center;
 	background-size: 400%;
-	animation: shift-color 2s infinite alternate;
+	animation: shift-color 3s infinite alternate;
 }
 
 #health {
@@ -3658,7 +3660,7 @@ color: white;
 	transform-origin: center;
 	transform: rotate(90deg);
 	fill: transparent;
-	animation: stroke-shift 2s infinite alternate;
+	animation: stroke-shift 3s infinite alternate;
 	stroke-width: 1em;
 	stroke-dasharray: 14.4513em;
 	transition: all 0.3s ease-in-out;
@@ -3671,7 +3673,7 @@ color: white;
 }
 
 .healthYolk {
-	animation: svg-shift 2s infinite alternate;
+	animation: svg-shift 3s infinite alternate;
 }
 
 .healthSvg {
@@ -4611,7 +4613,7 @@ color: var(--ss-transparent);
 .playerSlot-them {
 	background-image: linear-gradient(90deg, rgba(105 , 6, 255, .5) 0%, rgba(0,252,228, .5) 100%);
 	background-size: 400%;
-	animation: shift-color 10s infinite alternate;
+	animation: shift-color 6s infinite alternate;
 }
 .playerSlot-them-blue {
 	background: var(--ss-them-blue-bg);
