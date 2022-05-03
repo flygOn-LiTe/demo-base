@@ -3602,10 +3602,10 @@ color: white;
 	font-weight: bold;
 	line-height: 0;
 	display: none;
-	color:rgb(106, 0, 255) !important;
 }
 
 #ammo {
+	color:rgb(106, 0, 255) !important;
 	text-align: right;
 	font-size: 3.25em;
 	font-family: snicker, sans-serif;
