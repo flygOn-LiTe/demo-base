@@ -3681,21 +3681,20 @@ color: white;
 	transform-origin: center;
 	transform: rotate(90deg);
 	fill: transparent;
-	stroke:#8A0FF6;
+	stroke:#6a00ff;
 	stroke-width: 1em;
 	stroke-dasharray: 14.4513em;
 	transition: all 0.3s ease-in-out;
 }
 
 
-@keyframes col {
-0%,71% {fill:none}
-72% {fill:black}
-75%,100% {fill:none}
+@keyframes svg-shift {
+0%{fill:#6a00ff}
+100% {fill:#ff0073}
 }
 
 .healthYolk {
-	animation: col 3s linear infinite;
+	animation: svg-shift 3s linear infinite;
 }
 
 .healthSvg {
