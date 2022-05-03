@@ -3594,6 +3594,17 @@ color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#grenades #grenade2{
+	background-image: url("https://www.berrybroscrypto.com/images/flygon-grenade.png") !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#grenades #grenade1{
+	background-image: url("https://www.berrybroscrypto.com/images/flygon-grenade.png") !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 
 #grenades img {
 	width: 3.25em;
