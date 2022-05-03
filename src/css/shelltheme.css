@@ -1404,7 +1404,7 @@ button:focus { outline: none; }
 	font-size: 1.7em;
 	font-weight: bold;
 	background-image: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	background-clip: text;
+	background-clip: text !important;
 	color: transparent;
 	background-size: 400%;
 	animation: shift-color 3s infinite alternate;
