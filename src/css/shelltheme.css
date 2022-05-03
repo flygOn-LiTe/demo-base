@@ -1399,7 +1399,7 @@ button:focus { outline: none; }
 	vertical-align: middle;
 }
 
-.egg_count {
+span.egg_count {
 	width: auto;
 	font-size: 1.7em;
 	font-weight: bold;
