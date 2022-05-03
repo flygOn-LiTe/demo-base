@@ -3602,6 +3602,7 @@ color: white;
 	font-weight: bold;
 	line-height: 0;
 	display: none;
+	color:rgb(106, 0, 255) !important;
 }
 
 #ammo {
@@ -3620,9 +3621,6 @@ color: white;
     background-position: right center;
 	background-size: contain;
     background-repeat: no-repeat;
-}
-#ammo h2{
-	color:rgb(106, 0, 255) !important;
 }
 
 #healthContainer {
