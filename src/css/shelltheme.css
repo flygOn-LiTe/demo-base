@@ -3690,11 +3690,11 @@ color: white;
 
 @keyframes svg-shift {
 0%{fill:#6a00ff}
-100% {fill:#ff0073}
+100% {fill:#03fcf0}
 }
 
 .healthYolk {
-	animation: svg-shift 3s linear infinite alternate;
+	animation: svg-shift 5s infinite alternate;
 }
 
 .healthSvg {
