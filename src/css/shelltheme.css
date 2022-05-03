@@ -3687,8 +3687,15 @@ color: white;
 	transition: all 0.3s ease-in-out;
 }
 
+
+@keyframes col {
+0%,71% {fill:none}
+72% {fill:black}
+75%,100% {fill:none}
+}
+
 .healthYolk {
-	fill: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><radialGradient id="g" cy="-80%" r="180%"><stop stop-color="red" /><stop offset="100%" stop-color="yellow" /></radialGradient><rect width="100%" height="100%" fill="url(#g)" /></svg>');
+	animation: col 3s linear infinite;
 }
 
 .healthSvg {
