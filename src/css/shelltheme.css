@@ -3657,7 +3657,7 @@ color: white;
 	transform: translateX(-50%);
 	display: inline-block;
 	width: 6em; height: 6em;
-	background-image: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
+	background-image: radial-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
 	border-radius: 50%;
 	text-align: center;
 	background-size: 400%;
@@ -3688,7 +3688,7 @@ color: white;
 }
 
 .healthYolk {
-	background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><radialGradient id="g" cy="-80%" r="180%"><stop stop-color="red" /><stop offset="100%" stop-color="yellow" /></radialGradient><rect width="100%" height="100%" fill="url(#g)" /></svg>');
+	fill: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><radialGradient id="g" cy="-80%" r="180%"><stop stop-color="red" /><stop offset="100%" stop-color="yellow" /></radialGradient><rect width="100%" height="100%" fill="url(#g)" /></svg>');
 }
 
 .healthSvg {
