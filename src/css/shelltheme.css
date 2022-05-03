@@ -3677,11 +3677,16 @@ color: white;
 	text-shadow: 2px 2px 2px black;
 }
 
+@keyframes stroke-shift {
+	0%{stroke:#6a00ff}
+	100% {stroke:#03fcf0}
+	}
+
 .healthBar {
 	transform-origin: center;
 	transform: rotate(90deg);
 	fill: transparent;
-	stroke:#6a00ff;
+	animation: stroke-shift 5s infinite alternate;
 	stroke-width: 1em;
 	stroke-dasharray: 14.4513em;
 	transition: all 0.3s ease-in-out;
