@@ -3591,6 +3591,9 @@ color: white;
 
 #grenades #grenade3{
 	background-image: url("https://www.berrybroscrypto.com/images/flygon-grenade.png") !important;
+	background-repeat: no-repeat;
+	width: 3.25em;
+	height: auto;
 }
 
 #grenades img {
