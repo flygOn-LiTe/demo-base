@@ -4341,7 +4341,7 @@ color: var(--ss-transparent);
 	top: 0.5em;
 	padding: 2vh;
 	box-sizing: border-box;
-	border: solid rgba(106, 0, 255, 0.5);
+	border: solid rgba(106, 0, 255, 1);
 	text-shadow: none;
 	text-align: center;
 	z-index: 6;
