@@ -1404,8 +1404,7 @@ span.egg_count {
 	font-size: 1.7em;
 	font-weight: bold;
 	background-image: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	background-clip: text !important;
-	color: transparent !important;
+	color: #fc0362 !important;
 	background-size: 400%;
 	animation: shift-color 3s infinite alternate;
 	text-shadow: 3px 2px 0px rgba(0, 0, 0, .5) !important;
