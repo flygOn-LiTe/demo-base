@@ -1403,7 +1403,11 @@ button:focus { outline: none; }
 	width: auto;
 	font-size: 1.7em;
 	font-weight: bold;
-	color: #6a00ff;
+	background-image: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
+	background-clip: text;
+	color: transparent;
+	background-size: 400%;
+	animation: shift-color 3s infinite alternate;
 	text-shadow: 3px 2px 0px rgba(0, 0, 0, .5) !important;
 }
 
@@ -3661,7 +3665,7 @@ color: white;
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
-    color: #03fcf0;
+    color: #fc0362;
     font-size: 1.2em;
     transform: translateY(-3.45em);
 	text-shadow: 2px 2px 2px black;
