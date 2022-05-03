@@ -3668,7 +3668,7 @@ color: white;
     color: #03fcf0;
     font-size: 1.2em;
     transform: translateY(-3.45em);
-	animation: pulsate 0.11s ease-in-out infinite alternate; 
+	text-shadow: 2px 2px 2px black;
 }
 
 .healthBar {
