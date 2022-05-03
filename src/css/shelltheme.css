@@ -3694,7 +3694,7 @@ color: white;
 }
 
 .healthYolk {
-	animation: svg-shift 3s linear infinite;
+	animation: svg-shift 3s linear infinite alternate;
 }
 
 .healthSvg {
