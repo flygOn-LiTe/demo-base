@@ -4369,12 +4369,12 @@ color: var(--ss-transparent);
 
 .teamScore.red.active {
 	color: #fff;
-	background: rgba(138, 15, 246, 0.7);
+	background: rgba(106, 0, 255, 0.7);
 }
 
 .teamScore.red.inactive {
 	color: #f00;
-	background: rgba(138, 15, 246, 0.7);
+	background: rgba(106, 0, 255, 0.7);
 }
 
 .teamScore.blue.active {
@@ -4638,7 +4638,7 @@ color: var(--ss-transparent);
 	color: whitesmoke;
 }
 .playerSlot-them {
-	background: rgba(105 , 6, 255, .4);
+	background: rgba(105 , 6, 255, 1);
 }
 .playerSlot-them-blue {
 	background: var(--ss-them-blue-bg);
