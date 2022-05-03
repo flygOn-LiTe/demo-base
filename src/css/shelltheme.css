@@ -3587,6 +3587,10 @@ color: white;
 #grenades {
 	padding-bottom: 0; 
 	margin-bottom: 0;
+} 
+
+#grenades #grenade3{
+	background-image: url("https://www.berrybroscrypto.com/images/trippyflygon.gif") !important;
 }
 
 #grenades img {
