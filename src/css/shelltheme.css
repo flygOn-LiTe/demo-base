@@ -3661,7 +3661,7 @@ color: white;
 	border-radius: 50%;
 	text-align: center;
 	background-size: 400%;
-	animation: shift-color 5s infinite alternate;
+	animation: shift-color 2s infinite alternate;
 }
 
 #health {
@@ -3686,7 +3686,7 @@ color: white;
 	transform-origin: center;
 	transform: rotate(90deg);
 	fill: transparent;
-	animation: stroke-shift 5s infinite alternate;
+	animation: stroke-shift 2s infinite alternate;
 	stroke-width: 1em;
 	stroke-dasharray: 14.4513em;
 	transition: all 0.3s ease-in-out;
@@ -3699,7 +3699,7 @@ color: white;
 }
 
 .healthYolk {
-	animation: svg-shift 5s infinite alternate;
+	animation: svg-shift 2s infinite alternate;
 }
 
 .healthSvg {
