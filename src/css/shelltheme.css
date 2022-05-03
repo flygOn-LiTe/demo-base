@@ -10,11 +10,11 @@
 		0 0 4px #fff,
 		0 0 11px #fff,
 		0 0 19px #fff,
-		0 0 40px #630c95,
-		0 0 80px #630c95,
-		0 0 90px #630c95,
-		0 0 100px #630c95,
-		0 0 150px #630c95;
+		0 0 40px #6a00ff,
+		0 0 80px #6a00ff,
+		0 0 90px #6a00ff,
+		0 0 100px #6a00ff,
+		0 0 150px #6a00ff;
 	}
    0% {
 	  /* A slightly smaller blur radius */
@@ -89,12 +89,12 @@
 	--ss-blueblend1: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
 	--ss-scrollmask1: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
 	--ss-scrollmask2: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	--ss-fieldbg: linear-gradient(#91CADB, #ffffff, #ffffff, #ffffff, #ffffff);
+	--ss-fieldbg: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
 	--ss-nugSecs: 3600s;
 	--ss-white-60: rgba(255,255,255,.6);
 	--ss-white-90: rgba(255,255,255,.9);
 
-	--ss-me-player-bg: #0584a4;
+	--ss-me-player-bg: #03fcf0;
 
 	--ss-them-blue-bg: rgba(105 , 6, 255,.7);
 	--ss-them-blue-color: whitesmoke;
@@ -1120,11 +1120,11 @@ button:focus { outline: none; }
 }
 
 #equip_equippedslots .equip_item {
-	background: #BC5A27;
+	background: #03fcf0;
 	width: 6em;
 	height: 6em;
 	margin: var(--ss-space-sm);
-	border: var(--ss-space-sm) solid #A03E22;
+	border: var(--ss-space-sm) solid #03fcf0;
 	box-shadow:
 		inset 0em 0em 1em var(--ss-blue3),
 		inset 0em 0em 3em var(--ss-blue5);
@@ -1816,7 +1816,7 @@ button:focus { outline: none; }
 }
 
 #weapon_select .weapon_selected {
-	background-color: #14ccc3;
+	background-color: #03fcf0;
 	border: var(--ss-space-sm) solid var(--ss-white);
 }
 
@@ -1954,7 +1954,7 @@ button:focus { outline: none; }
 	left: 50%;
 	width: 75%;
 	height: .1em;
-	background: #3ebae1;
+	background: #03fcf0;
 	transform: rotate(2deg) translate(-50%, -50%);
 	content: '';
 }
@@ -2590,7 +2590,7 @@ color: white;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid #F00;
+	border: 1px solid #03fcf0;
 }
 
 .devbutton {
@@ -3066,7 +3066,7 @@ color: white;
 .music-widget--volume-control input[type='range']::-webkit-slider-runnable-track {
 	height: 10px;
 	-webkit-appearance: none;
-	color: #13bba4;
+	color: #03fcf0;
 	margin-top: -1px;
 }
 
@@ -3281,9 +3281,9 @@ color: white;
 }
 
 .vip-club-log-content--outer {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(3, 252, 240, 0.6);
 	margin: 2em;
-	box-shadow: 0 0 1em 0.5em rgba(250, 241, 121,.4);
+	box-shadow: 0 0 1em 0.5em rgba(0, 0, 0,.4);
 }
 
 .vip-club--logo {
@@ -3840,7 +3840,7 @@ color: white;
 	width: 100%;
 	height: 50%;
 	border-radius: 0.05em;
-	background: #14ccc3;
+	background: #03fcf0;
 }
 
 #killBox {
@@ -3849,7 +3849,7 @@ color: white;
 	width: 100%;
 	transform-origin: center bottom;
 	bottom: 20%;
-	color: #630c95;
+	color: #6a00ff;
 	text-align: center;
 }
 
@@ -3960,7 +3960,7 @@ color: var(--ss-transparent);
 
 #chatIn {
 	display: none;
-	color: #ff0073;
+	color: #6a00ff;
 	bottom: 1em;
 	left: 1em;
 	width: 30%;
@@ -4094,7 +4094,7 @@ color: var(--ss-transparent);
 	position: absolute;
 	transform-origin: 50% top;
 	top: 50%;
-	border: solid 0.05em #022741;
+	border: solid 0.05em #6a00ff;
 	height: 0.8em;
 	margin-bottom: 0.12em;
 	opacity: 0.7;
@@ -4190,7 +4190,7 @@ color: var(--ss-transparent);
 }
 
 .shotReticle.fill.normal {
-	border-color: #55acee;
+	border-color: #6a00ff;
 	border-left: solid transparent;
 	border-right: solid transparent;
 	border-width: 0.1em;
@@ -4217,7 +4217,7 @@ color: var(--ss-transparent);
    }
 
 .shotReticle.border.normal {
-	border-color: #55acee;
+	border-color: #6a00ff;
 	border-left: solid transparent;
 	border-right: solid transparent;
 	border-width: 0.2em;
@@ -4253,13 +4253,13 @@ color: var(--ss-transparent);
 #readyBrackets.ready {
 	animation: armed 0.2s linear;
 	width: 4em; height: 4em;
-	border-color: rgb(0, 255, 0);
+	border-color: rgb(106, 0, 255);
 }
 
 #readyBrackets.notReady {
 	animation: unarmed 0.2s linear;
 	width: 8em; height: 8em;
-	border-color: rgb(255, 0, 0);
+	border-color: rgb(106, 0, 255);
 }
 
 .readyBracket {
@@ -4324,7 +4324,7 @@ color: var(--ss-transparent);
 	top: 0.5em;
 	padding: 2vh;
 	box-sizing: border-box;
-	border: solid rgba(0, 0, 0, 0.5);
+	border: solid rgba(106, 0, 255, 0.5);
 	text-shadow: none;
 	text-align: center;
 	z-index: 6;
