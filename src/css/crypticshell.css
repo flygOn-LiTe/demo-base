@@ -1244,6 +1244,7 @@ button:focus { outline: none; }
 	height: 100%;
 	pointer-events: auto;
   content: url("https://www.berrybroscrypto.com/images/cryptic-logo.png");
+  border-radius: 10px;
 }
 
 
