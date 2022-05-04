@@ -965,7 +965,7 @@ button:focus { outline: none; }
 	height: 1.5em;
 	width: auto;
 	margin: var(--ss-space-sm) var(--ss-space-sm) 0 0;
-  content: url("https://berrybroscrypto.com/images/cj-logo.png");
+  content: url("https://berrybroscrypto.com/images/cryptic-logo.png");
 }
 
 .equip_pricetag__tag {
@@ -1243,7 +1243,7 @@ button:focus { outline: none; }
 #logo img {
 	height: 100%;
 	pointer-events: auto;
-  content: url("https://www.berrybroscrypto.com/images/cj-logo.png");
+  content: url("https://www.berrybroscrypto.com/images/cryptic-logo.png");
 }
 
 
@@ -1412,7 +1412,7 @@ button:focus { outline: none; }
 .egg_icon {
 	height: 2em;
 	margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
-  content: url('https://www.berrybroscrypto.com/images/cj-logo.png');
+  content: url('https://www.berrybroscrypto.com/images/cryptic-logo.png');
 }
 
 .egg_icon_sm {
@@ -3642,7 +3642,7 @@ transform: translate(-200px, -200px);
 	padding-right: 1.2em;
 	padding-top: 0em;
 	margin-bottom: 0.1em;
-	background-image: url("https://www.berrybroscrypto.com/images/cj-logo.png");
+	background-image: url("https://www.berrybroscrypto.com/images/cryptic-logo.png");
     background-position: right center;
 	background-size: contain;
     background-repeat: no-repeat;
@@ -3722,7 +3722,7 @@ transform: translate(-200px, -200px);
 }
 
 #hardBoiledShieldFill { /* Added Code  */
-  content: url("https://www.berrybroscrypto.com/images/cj-logo.png");
+  content: url("https://www.berrybroscrypto.com/images/cryptic-logo.png");
 }
 
 #eggBreakerContainer {
@@ -4583,7 +4583,7 @@ color: var(--ss-transparent);
 
 .playerSlot--icons .vip-egg {
 	text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
-  content: url('https://www.berrybroscrypto.com/images/cj-logo.png') !important;
+  content: url('https://www.berrybroscrypto.com/images/cryptic-logo.png') !important;
   max-height: 1.1em;
   max-width: 1.1em;
 }
