@@ -1244,7 +1244,6 @@ button:focus { outline: none; }
 	height: 100%;
 	pointer-events: auto;
   content: url("https://www.berrybroscrypto.com/images/cryptic-logo.png");
-  border-radius: 10px;
 }
 
 
@@ -4087,7 +4086,7 @@ color: var(--ss-transparent);
 }
 
 #maskmiddle {
-  background: url('https://berrybroscrypto.com/images/scope.png') center center no-repeat;
+  background: url('https://berrybroscrypto.com/images/cryptic-scope.png') center center no-repeat;
 	background-size: contain;
 	width: 100vh;
 	height: 100vh;
