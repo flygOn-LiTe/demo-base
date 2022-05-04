@@ -3,32 +3,6 @@
 @import url("https://use.typekit.net/ega2xty.css");
 
 
-@keyframes pulsate {
-	100% {
-	  /* Larger blur radius */
-	  text-shadow:
-		0 0 4px #fff,
-		0 0 11px #fff,
-		0 0 19px #fff,
-		0 0 40px #ba0b0b,
-		0 0 80px #ba0b0b,
-		0 0 90px #ba0b0b,
-		0 0 100px #ba0b0b,
-		0 0 150px #ba0b0b;
-	}
-   0% {
-	  /* A slightly smaller blur radius */
-	  text-shadow:
-		0 0 4px #fff,
-		0 0 10px #fff,
-		0 0 18px #fff,
-		0 0 38px black,
-		0 0 73px black,
-		0 0 80px black,
-		0 0 94px black,
-		0 0 140px black;
-	}
-  }
 
 
 * {
@@ -3669,7 +3643,6 @@ transform: translate(-200px, -200px);
     color: whitesmoke;
     font-size: 1.2em;
     transform: translateY(-3.45em);
-	animation: pulsate 0.11s ease-in-out infinite alternate; 
 }
 
 .healthBar {
@@ -4611,7 +4584,6 @@ color: var(--ss-transparent);
 	background: var(--ss-pink);
 	color: #ba0b0b;
 	font-style: italic;
-	animation: pulsate 2s ease-in-out infinite alternate; 
 }
 .playerSlot-player-is-me.playerSlot-me-red {
 	background: #ba0b0b;
