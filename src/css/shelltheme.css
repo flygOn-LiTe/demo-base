@@ -4623,8 +4623,8 @@ color: var(--ss-transparent);
 	white-space: nowrap;
 }
 .playerSlot-player-is-me {
-	background: var(--ss-pink);
-	color: whitesmoke;
+	background: #6a00ff;
+	color: #fc0362;
 	font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
