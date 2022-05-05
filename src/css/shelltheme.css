@@ -4624,7 +4624,7 @@ color: var(--ss-transparent);
 }
 .playerSlot-player-is-me {
 	background: var(--ss-pink);
-	color: #ff0073;
+	color: whitesmoke;
 	font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
