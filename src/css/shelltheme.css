@@ -3917,11 +3917,10 @@ color: var(--ss-transparent);
 #killBox h3, #deathBox h3 {
 	font-weight: 700;
 	margin: 0;
-	color: #03fcf0;
+	color: #6a00ff;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
-	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #6a00ff;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 
 #killBox h2, #deathBox h2 {
@@ -3929,12 +3928,11 @@ color: var(--ss-transparent);
 	line-height: 1em;
 	margin: 0;
 	font-weight: 700;
-	color: #03fcf0;
+	color: #6a00ff;
 	font-family: snicker, sans-serif !important;
 	font-style: normal;
 	text-transform: none !important;
-	-webkit-text-stroke-width: 2px;
-  	-webkit-text-stroke-color: #6a00ff;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 
 #deathBox {
@@ -3945,8 +3943,7 @@ color: var(--ss-transparent);
 	top: 17%;
 	color: #6a00ff;
 	text-align: center; 
-	-webkit-text-stroke-width: 1px;
-  	-webkit-text-stroke-color: whitesmoke;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 
 #gameMessage {
