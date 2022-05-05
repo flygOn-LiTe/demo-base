@@ -1383,7 +1383,7 @@ button:focus { outline: none; }
 .egg_icon {
 	height: 2em;
 	margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
-  content: url('https://www.berrybroscrypto.com/images/cryptic-logo.png');
+  content: url('https://www.berrybroscrypto.com/images/cryptic-eggcount.jpg');
 }
 
 .egg_icon_sm {
