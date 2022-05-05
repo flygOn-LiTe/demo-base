@@ -4628,10 +4628,10 @@ color: var(--ss-transparent);
 	font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-	background: #fc0362;
+	background: #6a00ff;
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-	background: #fc0362;
+	background: #6a00ff;
 }
 .playerSlot-player-is-them {
 	color: whitesmoke;
