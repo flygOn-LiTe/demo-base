@@ -3738,7 +3738,7 @@ color: white;
 }
 
 #hardBoiledShieldFill { /* Added Code  */
-  content: url("https://www.berrybroscrypto.com/images/flygontitle.png");
+  content: url("https://www.berrybroscrypto.com/images/flygon-shield.png");
 }
 
 #eggBreakerContainer {
@@ -3762,7 +3762,7 @@ color: white;
 #eggBreakerIcon {
 	position: absolute;
 	height: 100%;
-  content: url('https://cdn.discordapp.com/attachments/720146565096013874/848438865085726720/eggbreaker.png');
+  content: url('https://www.berrybroscrypto.com/images/flygon-shield.png');
 }
 
 #eggBreakerTimer {
