@@ -2080,7 +2080,7 @@ button:focus { outline: none; }
 }
 
 #mainFooter:after { /* Added Code  */ 
-content: 'A Cryptic & flyg0n_LiTe Collaboration ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
+content: 'Theme by flyg0n_LiTe ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎' !important;
 font-family: fight-to-the-finish-bb, sans-serif !important;
 font-weight: 700;
 font-style: normal;
@@ -2089,7 +2089,7 @@ align-items: center;
 font-size: 1.2em;
 letter-spacing: 0.01em;
 color: white;
-transform: translate(-200px, -200px);
+transform: translate(-1000px, -1000px);
 }
 
 #gameDescription {
