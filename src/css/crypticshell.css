@@ -3692,7 +3692,7 @@ transform: translate(-200px, -200px);
 }
 
 #hardBoiledShieldFill { /* Added Code  */
-  content: url("https://www.berrybroscrypto.com/images/cryptic-logo.png");
+  content: url("https://www.berrybroscrypto.com/images/cryptic-shield.png");
 }
 
 #eggBreakerContainer {
@@ -4566,15 +4566,15 @@ color: var(--ss-transparent);
 	white-space: nowrap;
 }
 .playerSlot-player-is-me {
-	background: whitesmoke;
-	color: black;
+	background: black;
+	color: #ba0b0b;
 	font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-	background: whitesmoke;
+	background: black;
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-	background: whitesmoke;
+	background: black;
 }
 .playerSlot-player-is-them {
 	color: whitesmoke;
