@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1></h1>
+
+  <div id="test"></div>
+ <canvas id="g" height="130" width="130"></canvas>
+<button onclick="roll()">Roll dice</button>
+<p id="dice"> </p>
+<p id="t1"> </p>
+
+<p id="t2"> </p>
+
+  <script>
+
+var px=15;
+var py=15;
+var game=true;
+var Nrolling=true;
+
+a=document.getElementById("g");
+b=a.getContext("2d");
+setInterval(d,1000/5);
+
+var di=true;
+
+function d(){
+b.fillStyle="blue";
+b.fillRect(0,0,a.width,a.height);
+board();
+player();
+}
+
+function sq(x,y,col){
+b.beginPath();
+if(col){
+b.fillStyle="black";}
+else{
+b.fillStyle="white";}
+b.fillRect(x,y,10,10);}
+
+function player(){
+b.beginPath();
+b.strokeStyle="black";
+b.fillStyle="yellow";
+
+b.arc(px,py,3,0,100);
+b.fill();
+b.stroke();
+}
+var iii=0;
+var dc=0;
+
+
+function roll(){
+if(game&&Nrolling){
+
+
+
+dc=Math.floor((Math.random() * 6) + 1);
+
+
+setTimeout(move,500);
+
+document.getElementById("dice").innerHTML="dice rolls at "+dc;
+
+
+}
+
+
+
+}
+
+function board(){
+
+var col=true;
+var dir=true;
+var x=10; 
+var y=10;
+for(var i=1; i<=121; i++){
+
+sq(x,y,col);
+
+col=!col;
+if(dir){
+if(x==110){
+y+=10;
+dir=!dir;}
+else{
+x+=10;}
+
+}
+else{
+
+if(x==10){
+y+=10;
+dir=!dir;}
+else{
+x-=10;}}
+
+}}
+
+
+var di=true;
+
+function move(){
+if(dc!=iii){
+Nrolling=false;
+iii++;
+if(di){
+if(px==115){
+if(py!=115){
+di=!di;
+py+=10;}
+else{
+px=15}
+
+
+}
+else{
+
+px+=10;}
+}
+else{
+if(px==15){
+di=!di;
+py+=10;}
+else{
+px-=10;}
+
+
+
+}
+
+setTimeout(move,500);
+}
+else{
+
+iii=0;
+dc=0;
+if(py==115&&px==115){
+game=!game;
+document.getElementById("dice").innerHTML="You win";
+
+}
+Nrolling=true;
+
+}
+}
+
+
+</script>
+</body>
+</html>

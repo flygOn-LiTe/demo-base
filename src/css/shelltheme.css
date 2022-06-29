@@ -1404,7 +1404,7 @@ span.egg_count {
 	font-size: 1.7em;
 	font-weight: bold;
 	background-image: linear-gradient(90deg, rgba(105 , 6, 255, 1) 0%, rgba(0,252,228,1) 100%);
-	color: #fc0362 !important;
+	color: #D4A537 !important;
 	border-radius: 5px;
 	background-size: 400%;
 	animation: shift-color 3s infinite alternate;
@@ -3565,7 +3565,7 @@ color: white;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 2.5em !important;
-	color: #fc0362 !important;
+	color: #D4A537 !important;
 	font-weight: bold !important;
 	text-transform: lowercase;
 
@@ -3671,7 +3671,7 @@ color: white;
 	font-family: hobeaux, sans-serif !important;
 	font-weight: 400;
 	font-style: normal;
-    color: #fc0362;
+    color: #D4A537;
     font-size: 1.2em;
     transform: translateY(-3.45em);
 	text-shadow: 2px 2px 2px black;
@@ -4621,7 +4621,7 @@ color: var(--ss-transparent);
 }
 .playerSlot-player-is-me {
 	background: #6a00ff;
-	color: #fc0362;
+	color: #D4A537;
 	font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
