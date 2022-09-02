@@ -1,3 +1,42 @@
+// ==UserScript==
+// @name         Player Spawned Mod
+// @namespace    Shell Shockers | Themes, Design & Mods - https://discord.gg/tTYGUVkqMj
+// @version      1.0
+// @description  A Shell Shockers Mod by Agent Adam
+// @author       Agent Adam, TheDarkLord, TDStuart
+// @match        *://shellshock.io/*
+// @match        *://eggcombat.com/*
+// @match        *://eggfacts.fun/*
+// @match        *://biologyclass.club/*
+// @match        *://egghead.institute/*
+// @match        *://egg.dance/*
+// @match        *://eggisthenewblack.com/*
+// @match        *://mathfun.rocks/*
+// @match        *://hardboiled.life/*
+// @match        *://overeasy.club/*
+// @match        *://zygote.cafe/*
+// @match        *://eggsarecool.com/*
+// @match        *://deadlyegg.com/*
+// @match        *://mathgames.world/*
+// @match        *://hardshell.life/*
+// @match        *://violentegg.club/*
+// @match        *://softboiled.club/*
+// @match        *://scrambled.world/*
+// @match        *://algebra.best/*
+// @match        *://scrambled.today/*
+// @match        *://deathegg.world/*
+// @match        *://violentegg.fun/*
+// @run-at       document-start
+// @icon         https://www.google.com/s2/favicons?domain=shellshock.io
+// @grant        none
+// ==/UserScript==
+
+/*
+    Thanks to the following people for their contributions to the project:
+    @TDStuart for their help with script protection
+    @TheDarkLord for their help with the programming
+*/
+
 (function (_0x244a78, _0x2e1f14) {
   const _0x1d9f12 = _0x322e,
     _0x227ab4 = _0x244a78();
@@ -110,7 +149,7 @@ function _0x3d8e() {
       _0x5d3639(0x1bd),
       _0x5d3639(0x1e1),
       _0x5d3639(0x1b1),
-      ".playing?\x27✔\x27:\x27❌\x27;window.rebuildPlayerList=arguments.callee;",
+      ".playing?\x27🙌🏻\x27:\x27☠️\x27;window.rebuildPlayerList=arguments.callee;",
       "</a></b><br><br>The\x20Following\x20Properties\x20Are\x20Invalid:<br>",
       "924660iECKwy",
       _0x5d3639(0x1c8),
@@ -249,7 +288,7 @@ function _0x217e() {
     "response",
     "9208962VkgKZQ",
     "3106408elJytE",
-    ".playing?\x27✔\x27:\x27❌\x27;window.rebuildPlayerList=arguments.callee;",
+    ".playing?\x27🙌🏻\x27:\x27☠️\x27;window.rebuildPlayerList=arguments.callee;",
     "<b>",
     "open",
     "2012640cUarwF",
