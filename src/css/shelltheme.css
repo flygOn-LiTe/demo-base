@@ -4183,10 +4183,10 @@ span.egg_count {
 }
 
 #killBox::before {
-  font-size: 0em;
+  font-size: 5em;
   font-weight: 900;
   content: "YOU DEFEATED" !important;
-  color: var(--ss-transparent);
+  color: #6a00ff;
 }
 
 #deathBox h3 {
@@ -4194,10 +4194,10 @@ span.egg_count {
 }
 
 #deathBox::before {
-  font-size: 0em;
+  font-size: 5em;
   font-weight: 900;
   content: "YOU GOT DESTROYED BY" !important;
-  color: var(--ss-transparent);
+  color: #6a00ff;
 }
 
 #KILL_STREAK {
