@@ -1640,6 +1640,8 @@ button:focus {
   height: 2em;
   margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
   content: url("https://www.berrybroscrypto.com/images/eggcount-icon.png");
+  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate;
+  animation: rotate-center 3s ease-in-out 1s infinite alternate;
 }
 
 .egg_icon_sm {
