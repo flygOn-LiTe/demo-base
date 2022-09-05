@@ -1466,7 +1466,9 @@ button:focus {
 #logo img {
   height: 100%;
   pointer-events: auto;
-  content: url("https://www.berrybroscrypto.com/images/trippyflygon.gif");
+  content: url("https://www.berrybroscrypto.com/images/babyflygon.png");
+  -webkit-animation: rotate-center 3s ease-in-out infinite alternate;
+  animation: rotate-center 3s ease-in-out infinite alternate;
 }
 
 /* ----------------------------------------------------------------- Streamers -- */
