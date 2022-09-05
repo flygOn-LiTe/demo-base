@@ -3845,8 +3845,8 @@ span.egg_count {
   border-radius: 5px;
   background-size: 400%;
   animation: shift-color 3s infinite alternate;
-  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate both;
-  animation: rotate-center 3s ease-in-out 1s infinite alternate both;
+  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate;
+  animation: rotate-center 3s ease-in-out 1s infinite alternate;
 }
 @-webkit-keyframes rotate-center {
   0% {
@@ -3854,8 +3854,8 @@ span.egg_count {
     transform: rotate(0);
   }
   100% {
-    -webkit-transform: rotate(60deg);
-    transform: rotate(60deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
   }
 }
 @keyframes rotate-center {
@@ -3864,8 +3864,8 @@ span.egg_count {
     transform: rotate(0);
   }
   100% {
-    -webkit-transform: rotate(60deg);
-    transform: rotate(60deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
   }
 }
 #best_streak_container h1 {
