@@ -1640,8 +1640,8 @@ button:focus {
   height: 2em;
   margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
   content: url("https://www.berrybroscrypto.com/images/eggcount-icon.png");
-  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate;
-  animation: rotate-center 3s ease-in-out 1s infinite alternate;
+  -webkit-animation: rotate-center 3s ease-in-out infinite alternate;
+  animation: rotate-center 3s ease-in-out infinite alternate;
 }
 
 .egg_icon_sm {
@@ -3847,8 +3847,8 @@ span.egg_count {
   border-radius: 5px;
   background-size: 400%;
   animation: shift-color 3s infinite alternate;
-  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate;
-  animation: rotate-center 3s ease-in-out 1s infinite alternate;
+  -webkit-animation: rotate-center 3s ease-in-out infinite alternate;
+  animation: rotate-center 3s ease-in-out infinite alternate;
 }
 @-webkit-keyframes rotate-center {
   0% {
@@ -3856,8 +3856,8 @@ span.egg_count {
     transform: rotate(0);
   }
   100% {
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
   }
 }
 @keyframes rotate-center {
@@ -3866,8 +3866,8 @@ span.egg_count {
     transform: rotate(0);
   }
   100% {
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
   }
 }
 #best_streak_container h1 {
