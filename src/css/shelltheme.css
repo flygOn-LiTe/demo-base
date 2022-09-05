@@ -3852,8 +3852,8 @@ span.egg_count {
 }
 @-webkit-keyframes rotate-center {
   0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
   }
   100% {
     -webkit-transform: rotate(3deg);
@@ -3862,8 +3862,8 @@ span.egg_count {
 }
 @keyframes rotate-center {
   0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
   }
   100% {
     -webkit-transform: rotate(3deg);
