@@ -3846,29 +3846,6 @@ span.egg_count {
   background-size: 400%;
   animation: shift-color 3s infinite alternate;
 }
-
-#best_streak_container h1 {
-  margin: 0;
-  padding: 0;
-  display: inline;
-  font-family: hobeaux, sans-serif !important;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5em !important;
-  color: #d4a537 !important;
-  font-weight: bold !important;
-  text-transform: lowercase;
-
-  padding-left: 1.45em;
-  padding-top: 0em;
-
-  background-image: url("https://www.berrybroscrypto.com/images/babyflygon.png");
-  background-position: left center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate both;
-  animation: rotate-center 3s ease-in-out 1s infinite alternate both;
-}
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
@@ -3888,6 +3865,28 @@ span.egg_count {
     -webkit-transform: rotate(60deg);
     transform: rotate(60deg);
   }
+}
+#best_streak_container h1 {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-family: hobeaux, sans-serif !important;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5em !important;
+  color: #d4a537 !important;
+  font-weight: bold !important;
+  text-transform: lowercase;
+
+  padding-left: 1.45em;
+  padding-top: 0em;
+
+  background-image: url("https://www.berrybroscrypto.com/images/babyflygon.png");
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate both !important;
+  animation: rotate-center 3s ease-in-out 1s infinite alternate both !important;
 }
 
 #teamScores {
