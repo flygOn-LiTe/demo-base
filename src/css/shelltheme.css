@@ -4179,7 +4179,7 @@ span.egg_count {
 
 #killBox h3 {
   /* Added Code */
-  display: initial;
+  display: none;
 }
 
 #killBox::before {
@@ -4190,7 +4190,7 @@ span.egg_count {
 }
 
 #deathBox h3 {
-  display: initial;
+  display: none;
 }
 
 #deathBox::before {
