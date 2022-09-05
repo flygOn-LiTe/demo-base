@@ -3845,6 +3845,8 @@ span.egg_count {
   border-radius: 5px;
   background-size: 400%;
   animation: shift-color 3s infinite alternate;
+  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate both;
+  animation: rotate-center 3s ease-in-out 1s infinite alternate both;
 }
 @-webkit-keyframes rotate-center {
   0% {
@@ -3885,8 +3887,6 @@ span.egg_count {
   background-position: left center;
   background-size: contain;
   background-repeat: no-repeat;
-  -webkit-animation: rotate-center 3s ease-in-out 1s infinite alternate both !important;
-  animation: rotate-center 3s ease-in-out 1s infinite alternate both !important;
 }
 
 #teamScores {
