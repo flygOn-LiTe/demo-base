@@ -4185,7 +4185,7 @@ span.egg_count {
 #killBox::before {
   font-size: 2em;
   font-weight: 700;
-  content: "YOU DEFEATED" !important;
+  content: "YOU OWNED" !important;
   color: #6a00ff;
 }
 
@@ -4196,7 +4196,7 @@ span.egg_count {
 #deathBox::before {
   font-size: 2em;
   font-weight: 700;
-  content: "YOU GOT DESTROYED BY" !important;
+  content: "YOU GOT OWNED BY" !important;
   color: #6a00ff;
 }
 
