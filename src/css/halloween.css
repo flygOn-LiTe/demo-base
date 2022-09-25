@@ -49,7 +49,7 @@
   --ss-blue0: #ffffff;
   --ss-blue1: #ffffff;
   --ss-blue2: #000000;
-  --ss-blue3: rgba(0, 252, 228, 0.4);
+  --ss-blue3: rgba(0, 0, 0, 0.4);
   --ss-blue4: #000000;
   --ss-blue5: #ff9a00;
   --ss-green0: #ff9a00;
@@ -1660,8 +1660,8 @@ span.egg_count {
   font-weight: bold;
   background-image: linear-gradient(
     90deg,
-    rgba(105, 6, 255, 1) 0%,
-    rgba(0, 252, 228, 1) 100%
+    rgba(255, 154, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
   );
   color: #d4a537 !important;
   border-radius: 5px;
@@ -5020,15 +5020,15 @@ span.egg_count {
   white-space: nowrap;
 }
 .playerSlot-player-is-me {
-  background: #ff9a00;
-  color: #d4a537;
+  background: #c900ff;
+  color: #09ff00;
   font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-  background: #ff9a00;
+  background: #09ff00;
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-  background: #ff9a00;
+  background: #09ff00;
 }
 .playerSlot-player-is-them {
   color: whitesmoke;
@@ -5036,8 +5036,8 @@ span.egg_count {
 .playerSlot-them {
   background-image: linear-gradient(
     90deg,
-    rgba(105, 6, 255, 0.5) 0%,
-    rgba(0, 252, 228, 0.5) 100%
+    rgba(255, 154, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
   );
   background-size: 400%;
   animation: shift-color 6s infinite alternate;
