@@ -3959,7 +3959,7 @@ span.egg_count {
   padding-right: 1.2em;
   padding-top: 0em;
   margin-bottom: 0.1em;
-  background-image: url("https://www.berrybroscrypto.com/images/flygonglint2.gif");
+  background-image: url("https://www.berrybroscrypto.com/images/cauldron.png");
   background-position: right center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -5025,10 +5025,10 @@ span.egg_count {
   font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-  background: #09ff00;
+  background: #c900ff;
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-  background: #09ff00;
+  background: #c900ff;
 }
 .playerSlot-player-is-them {
   color: whitesmoke;
