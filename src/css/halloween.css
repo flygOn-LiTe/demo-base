@@ -1466,7 +1466,7 @@ button:focus {
 #logo img {
   height: 100%;
   pointer-events: auto;
-  content: url("https://www.berrybroscrypto.com/images/babyflygon.png");
+  content: url("https://www.berrybroscrypto.com/images/cauldron.png");
   -webkit-animation: rotate-center 3s ease-in-out infinite alternate;
   animation: rotate-center 3s ease-in-out infinite alternate;
 }
@@ -1641,7 +1641,7 @@ button:focus {
 .egg_icon {
   height: 2em;
   margin: var(--ss-space-micro) var(--ss-space-sm) 0 0;
-  content: url("https://www.berrybroscrypto.com/images/eggcount-icon.png");
+  content: url("https://www.berrybroscrypto.com/images/pumpkin.png");
   -webkit-animation: rotate-center 3s ease-in-out infinite alternate;
   animation: rotate-center 3s ease-in-out infinite alternate;
 }
@@ -3887,7 +3887,7 @@ span.egg_count {
   padding-left: 1.45em;
   padding-top: 0em;
 
-  background-image: url("https://www.berrybroscrypto.com/images/babyflygon.png");
+  background-image: url("https://www.berrybroscrypto.com/images/cauldron.png");
   background-position: left center;
   background-size: contain;
   background-repeat: no-repeat;
