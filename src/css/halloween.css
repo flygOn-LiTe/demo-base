@@ -680,14 +680,14 @@ button:focus {
 .box_blue3 {
   padding: var(--ss-space-lg) var(--ss-space-lg) var(--ss-space-lg)
     var(--ss-space-lg);
-  background-color: #2effea;
-  border: var(--ss-space-sm) solid #a03e22;
+  background-color: #000000;
+  border: var(--ss-space-sm) solid#000000;
 }
 
 .box_blue4 {
   padding: var(--ss-space-lg);
-  background-color: #09c9d8;
-  border: var(--ss-space-sm) solid #a03e22;
+  background-color: #000000;
+  border: var(--ss-space-sm) solid#000000;
   min-width: 14em;
 }
 
