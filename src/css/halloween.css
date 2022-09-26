@@ -206,7 +206,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: hobeaux, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0;
@@ -1289,7 +1289,7 @@ button:focus {
   align-items: center;
   background: none !important;
   color: var(--ss-white) !important;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
@@ -1365,7 +1365,7 @@ button:focus {
 /* ----------------------------------------------------------------- Buy Items -- */
 #buyItemPopup h1,
 #physicalUnlockPopup h1 {
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 2.5em;
@@ -1504,7 +1504,7 @@ button:focus {
   background-position-y: 0.2em;
   background-size: 1.8em;
   padding: 0.1em 0.4em 0.1em 2.4em;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
@@ -1574,7 +1574,7 @@ button:focus {
 #changelogPopup h3 {
   margin: 0;
   padding: 0;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -1958,7 +1958,7 @@ span.egg_count {
   font-size: 1em !important;
   margin-top: 0.5em;
   padding: 0;
-  font-family: hobeaux, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: lowercase;
@@ -2004,7 +2004,7 @@ span.egg_count {
   margin: 0.4em var(--ss-space-md);
   padding: 0;
   color: var(--ss-blue2);
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -2258,7 +2258,7 @@ span.egg_count {
 .egg-store-sale-notify .text {
   display: block;
   font-size: 0.6em;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 1;
@@ -2360,7 +2360,7 @@ span.egg_count {
 #mainFooter:after {
   /* Added Code  */
   content: "Theme By | flyg0n LiGht ‎‏‏‎ ‎‏‏‎ ‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎" !important;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   text-align: center;
@@ -2746,7 +2746,7 @@ span.egg_count {
 }
 
 #feedback_panel h3 {
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
@@ -3640,14 +3640,14 @@ span.egg_count {
   margin: 0.5em 0;
   line-height: 1;
   text-transform: capitalize;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-style: normal;
   font-size: 1.2em;
   font-weight: 600;
 }
 
 .vip-item .price-tag {
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 2em;
@@ -3800,7 +3800,7 @@ span.egg_count {
   max-width: 40em;
   transform: translate(-50%, 4em);
   text-shadow: var(--ss-space-micro) var(--ss-space-micro) var(--ss-shadow);
-  font-family: snicker, sans-serif !important;
+  font-family: macho, sans-serif !important;
   font-weight: 700;
   font-style: normal;
   font-size: 1em !important;
@@ -3876,7 +3876,7 @@ span.egg_count {
   margin: 0;
   padding: 0;
   display: inline;
-  font-family: hobeaux, sans-serif !important;
+  font-family: macho, sans-serif !important;
   font-weight: 700;
   font-style: normal;
   font-size: 2.5em !important;
@@ -3938,7 +3938,7 @@ span.egg_count {
 
 #weaponName {
   text-align: right;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
@@ -3950,7 +3950,7 @@ span.egg_count {
   color: rgb(255, 154, 0) !important;
   text-align: right;
   font-size: 3.25em;
-  font-family: snicker, sans-serif;
+  font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
@@ -3988,7 +3988,7 @@ span.egg_count {
 }
 
 #healthHp {
-  font-family: hobeaux, sans-serif !important;
+  font-family: ccclobberintimecrunchy, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #09ff00;
@@ -4046,10 +4046,9 @@ span.egg_count {
 }
 
 #hardBoiledValue {
-  font-family: snicker, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   color: var(--ss-white);
   font-size: 1.6em;
   transform: translateY(-2.6em);
@@ -4103,8 +4102,8 @@ span.egg_count {
   color: white;
   text-shadow: var(--ss-yolk) 0 0 0.1em, black 0 0.1em 0.2em;
   font-size: 2.5em;
-  font-family: snicker, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif;
+  font-weight: 400;
   font-style: normal;
   text-align: center;
   width: 100%;
@@ -4251,7 +4250,7 @@ span.egg_count {
   font-weight: 700;
   margin: 0;
   color: #ff9a00;
-  font-family: snicker, sans-serif !important;
+  font-family: macho, sans-serif !important;
   font-style: normal;
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
@@ -4263,7 +4262,7 @@ span.egg_count {
   margin: 0;
   font-weight: 700;
   color: #ff9a00;
-  font-family: snicker, sans-serif !important;
+  font-family: macho, sans-serif !important;
   font-style: normal;
   text-transform: none !important;
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
@@ -4315,7 +4314,7 @@ span.egg_count {
   width: 30%;
   border: none;
   background: none;
-  font-family: snicker, sans-serif !important;
+  font-family: macho, sans-serif !important;
   font-weight: 700;
   font-style: normal;
 }
