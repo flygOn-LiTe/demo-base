@@ -1629,10 +1629,22 @@ button:focus {
   vertical-align: center;
   height: 2.3em;
   min-width: 6.4em;
-  background: var(--ss-transparent);
+
   text-align: right;
   padding: 0.05em var(--ss-space-lg) 0 var(--ss-space-md);
   position: relative;
+
+  width: auto;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 154, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #09ff00 !important;
+  border-radius: 5px;
+  background-size: 400%;
+  animation: shift-color 3s infinite alternate;
+  text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.5) !important;
 }
 
 .egg_icon {
@@ -1652,19 +1664,7 @@ button:focus {
 }
 
 span.egg_count {
-  width: auto;
   font-size: 1.7em;
-  background-image: linear-gradient(
-    90deg,
-    rgba(255, 154, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  color: #09ff00 !important;
-  border-radius: 5px;
-  background-size: 400%;
-  animation: shift-color 3s infinite alternate;
-  text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.5) !important;
-  padding: 3px 3px 3px 3px;
 }
 
 #loginButton {
