@@ -1,7 +1,12 @@
+var targetNode = document.getElementById("killBox");
+
 var soundEffect = new Audio();
 soundEffect.src = "https://berrybroscrypto.com/images/witchlaugh.mp3";
 
-var targetNode = document.getElementById("killBox");
+var img = document.createElement("img");
+img.src = "https://berrybroscrypto.com/images/animated-witch.gif";
+targetNode.appendChild(img);
+
 var observer = new MutationObserver(function () {
   if (targetNode.style.display != "none") {
     console.log("you got a kill!");
