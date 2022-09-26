@@ -3903,11 +3903,18 @@ span.egg_count {
 }
 
 #weaponBox {
-  display: none;
   position: absolute;
   right: 0.75em;
   bottom: 0.5em;
   text-align: right;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 154, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 5px;
+  background-size: 400%;
+  animation: shift-color 3s infinite alternate;
 }
 
 #grenades {
