@@ -3475,8 +3475,8 @@ span.egg_count {
 #subStorePopup {
   background: linear-gradient(
     90deg,
-    rgba(99, 12, 149, 1) 0%,
-    rgba(255, 0, 113, 1) 100%
+    rgba(255, 154, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
   );
   padding-left: 5em;
   min-width: 45em;
@@ -4210,7 +4210,7 @@ span.egg_count {
 #killBox::before {
   font-size: 2em;
   font-weight: 700;
-  content: "YOU OWNED" !important;
+  content: "YOU SCARED" !important;
   color: #ff9a00;
 }
 
@@ -4221,7 +4221,7 @@ span.egg_count {
 #deathBox::before {
   font-size: 2em;
   font-weight: 700;
-  content: "YOU GOT OWNED BY" !important;
+  content: "YOU GOT SCARED BY" !important;
   color: #ff9a00;
 }
 
