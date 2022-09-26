@@ -7,3 +7,11 @@ function isItHidden() {
   }
 }
 isItHidden();
+
+var targetNode = document.getElementById("killBox");
+var observer = new MutationObserver(function () {
+  if (targetNode.style.display != "none") {
+    console.log("something changed!");
+  }
+});
+observer.observe(targetNode, { attributes: true, childList: true });
