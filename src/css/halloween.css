@@ -3947,7 +3947,7 @@ span.egg_count {
 }
 
 #ammo {
-  color: rgb(201, 0, 255) !important;
+  color: rgb(255, 154, 0) !important;
   text-align: right;
   font-size: 3.25em;
   font-family: snicker, sans-serif;
@@ -4364,7 +4364,7 @@ span.egg_count {
   font-size: 1.4em;
   line-height: 1em;
   z-index: 6;
-  color: #c900ff;
+  color: #ff9a00;
   text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -4444,6 +4444,7 @@ span.egg_count {
   background-size: contain;
   width: 100vh;
   height: 100vh;
+  z-index: 100;
 }
 
 .crosshair {
