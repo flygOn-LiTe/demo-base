@@ -5020,15 +5020,15 @@ span.egg_count {
   white-space: nowrap;
 }
 .playerSlot-player-is-me {
-  background: #c900ff;
+  background: black;
   color: #09ff00;
   font-style: italic;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
-  background: #c900ff;
+  background: black;
 }
 .playerSlot-player-is-me.playerSlot-me-blue {
-  background: #c900ff;
+  background: black;
 }
 .playerSlot-player-is-them {
   color: whitesmoke;
