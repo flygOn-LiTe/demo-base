@@ -1186,7 +1186,7 @@ button:focus {
   height: 1.5em;
   width: auto;
   margin: var(--ss-space-sm) var(--ss-space-sm) 0 0;
-  content: url("https://berrybroscrypto.com/images/flygonlogobig.png");
+  content: url("https://berrybroscrypto.com/images/pumpkin.png");
 }
 
 .equip_pricetag__tag {
@@ -1465,7 +1465,7 @@ button:focus {
 #logo img {
   height: 100%;
   pointer-events: auto;
-  content: url("https://www.berrybroscrypto.com/images/cauldron.png");
+  content: url("https://www.berrybroscrypto.com/images/pumpkin.png");
   -webkit-animation: rotate-center 3s ease-in-out infinite alternate;
   animation: rotate-center 3s ease-in-out infinite alternate;
 }
