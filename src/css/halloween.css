@@ -1292,7 +1292,6 @@ button:focus {
   font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -1369,7 +1368,6 @@ button:focus {
   font-weight: 700;
   font-style: normal;
   font-size: 2.5em;
-  font-weight: bold;
   color: var(--ss-white);
 }
 
@@ -1507,7 +1505,6 @@ button:focus {
   font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-weight: bold;
   font-size: 1em;
   color: var(--ss-white);
   margin-bottom: var(--ss-space-md);
@@ -1951,7 +1948,6 @@ span.egg_count {
 .map_playercount {
   display: flex;
   flex-direction: row;
-  font-weight: bold;
   justify-content: center;
   align-items: center;
 
@@ -3940,7 +3936,6 @@ span.egg_count {
   font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-weight: bold;
   line-height: 0;
   display: none;
 }
@@ -3952,7 +3947,6 @@ span.egg_count {
   font-family: macho, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-weight: bold;
   line-height: 1em;
   margin: 0;
   padding-right: 1.2em;
@@ -4358,7 +4352,7 @@ span.egg_count {
   right: var(--ss-space-sm);
   bottom: var(--ss-space-sm);
   text-align: right;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.4em;
   line-height: 1em;
   z-index: 6;
@@ -4379,7 +4373,7 @@ span.egg_count {
   display: block;
   text-align: right;
   color: var(--ss-pink);
-  font-weight: bold;
+  font-weight: 700;
   clear: both;
   font-size: 1.3em !important;
   text-transform: uppercase;
