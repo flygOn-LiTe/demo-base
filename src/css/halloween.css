@@ -3876,12 +3876,11 @@ span.egg_count {
   margin: 0;
   padding: 0;
   display: inline;
-  font-family: macho, sans-serif !important;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 2.5em !important;
   color: #d4a537 !important;
-  font-weight: bold !important;
   text-transform: lowercase;
 
   padding-left: 1.45em;
@@ -4300,8 +4299,8 @@ span.egg_count {
   display: none;
   bottom: 2.5em;
   left: 1em;
-  font-family: hobeaux, sans-serif !important;
-  font-weight: 400;
+  font-family: macho, sans-serif !important;
+  font-weight: 700;
   font-style: normal;
   color: #ff9a00;
 }
