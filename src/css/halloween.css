@@ -3909,8 +3909,8 @@ span.egg_count {
   text-align: right;
   background-image: linear-gradient(
     90deg,
-    rgba(255, 154, 0, .8) 0%,
-    rgba(0, 0, 0, .8) 100%
+    rgba(255, 154, 0, .9) 0%,
+    rgba(0, 0, 0, .9) 100%
   );
   border-radius: 5px;
   padding: 8px 8px 8px 8px;
