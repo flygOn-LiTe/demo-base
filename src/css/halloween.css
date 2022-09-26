@@ -1,10 +1,7 @@
 /* ----------------------------------------------------------------- Global -- */
 
 @import url("https://use.typekit.net/ega2xty.css");
-@font-face {
-  font-family: creepyPumpkin;
-  src: url("https://berrybroscrypto.com/images/CreepyPumkin.otf");
-}
+
 @keyframes shift-color {
   0% {
     background-position: left;
@@ -154,8 +151,8 @@ html {
 }
 
 body {
-  font-family: creepyPumpkin, sans-serif;
-  font-weight: 400;
+  font-family: macho, sans-serif;
+  font-weight: 700;
   font-style: normal;
   height: 100%;
   padding: 0;
