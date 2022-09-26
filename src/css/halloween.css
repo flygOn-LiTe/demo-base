@@ -1640,7 +1640,6 @@ button:focus {
     rgba(255, 154, 0, 1) 0%,
     rgba(0, 0, 0, 1) 100%
   );
-  color: #09ff00 !important;
   border-radius: 5px;
   background-size: 400%;
   animation: shift-color 3s infinite alternate;
@@ -1664,6 +1663,7 @@ button:focus {
 }
 
 span.egg_count {
+  color: #09ff00 !important;
   font-size: 1.7em;
   font-family: macho, sans-serif !important;
   font-weight: 700;
