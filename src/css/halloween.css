@@ -1654,7 +1654,6 @@ button:focus {
 span.egg_count {
   width: auto;
   font-size: 1.7em;
-  font-weight: bold;
   background-image: linear-gradient(
     90deg,
     rgba(255, 154, 0, 1) 0%,
@@ -3872,11 +3871,11 @@ span.egg_count {
   margin: 0;
   padding: 0;
   display: inline;
-  font-family: ccclobberintimecrunchy, sans-serif;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em !important;
-  color: #d4a537 !important;
+  color: #09ff00 !important;
   text-transform: lowercase;
 
   padding-left: 1.45em;
