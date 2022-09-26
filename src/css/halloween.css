@@ -1613,7 +1613,7 @@ button:focus {
   background: #ff9a00;
 }
 
-.attention_btn {
+.attention_btn {account_eggs
   position: absolute;
   right: 0.3em;
   top: -0.5em;
@@ -1665,6 +1665,9 @@ button:focus {
 
 span.egg_count {
   font-size: 1.7em;
+  font-family: macho, sans-serif !important;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #loginButton {
