@@ -151,8 +151,8 @@ html {
 }
 
 body {
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   height: 100%;
   padding: 0;
@@ -206,8 +206,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -675,9 +675,6 @@ button:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: ccclobberintimecrunchy, sans-serif !important;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .box_blue3 {
@@ -1505,8 +1502,8 @@ button:focus {
   background-position-y: 0.2em;
   background-size: 1.8em;
   padding: 0.1em 0.4em 0.1em 2.4em;
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   font-size: 1em;
   color: var(--ss-white);
@@ -1574,8 +1571,8 @@ button:focus {
 #changelogPopup h3 {
   margin: 0;
   padding: 0;
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -1959,8 +1956,8 @@ span.egg_count {
   font-size: 1em !important;
   margin-top: 0.5em;
   padding: 0;
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   text-transform: lowercase;
 }
@@ -2262,8 +2259,8 @@ span.egg_count {
 .egg-store-sale-notify .text {
   display: block;
   font-size: 0.6em;
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   line-height: 1;
 }
@@ -2750,10 +2747,9 @@ span.egg_count {
 }
 
 #feedback_panel h3 {
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
-  font-weight: bold;
   text-transform: none;
 }
 
@@ -3644,10 +3640,10 @@ span.egg_count {
   margin: 0.5em 0;
   line-height: 1;
   text-transform: capitalize;
-  font-family: macho, sans-serif;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   font-size: 1.2em;
-  font-weight: 600;
 }
 
 .vip-item .price-tag {
@@ -3949,8 +3945,8 @@ span.egg_count {
 
 #weaponName {
   text-align: right;
-  font-family: macho, sans-serif;
-  font-weight: 700;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   line-height: 0;
   display: none;
@@ -4188,7 +4184,7 @@ span.egg_count {
   transform: translate(-6em, -3em);
   width: 1em;
   height: 6em;
-  background: rgba(106, 0, 255, 0.25);
+  background: rgba(0, 0, 0, 0.25);
   border-radius: 0.3em;
   padding: 0.25em;
 }
@@ -4260,12 +4256,12 @@ span.egg_count {
 
 #killBox h3,
 #deathBox h3 {
-  font-weight: 700;
   margin: 0;
   color: #ff9a00;
-  font-family: macho, sans-serif !important;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
-  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  text-shadow: 4px 4px 2px rgba(201, 0, 255, 1);
 }
 
 #killBox h2,
@@ -4273,9 +4269,9 @@ span.egg_count {
   font-size: 2em;
   line-height: 1em;
   margin: 0;
-  font-weight: 700;
   color: #ff9a00;
-  font-family: macho, sans-serif !important;
+  font-family: ccclobberintimecrunchy, sans-serif !important;
+  font-weight: 400;
   font-style: normal;
   text-transform: none !important;
   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
@@ -4289,7 +4285,7 @@ span.egg_count {
   top: 17%;
   color: #ff9a00;
   text-align: center;
-  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  text-shadow: 4px 4px 2px rgba(201, 0, 255, 1);
 }
 
 #gameMessage {
