@@ -12,9 +12,9 @@ var observer = new MutationObserver(function () {
     console.log("you got a kill!");
     soundEffect.play();
     const playerName = document.querySelector(".playerSlot-player-is-me");
-    playerName.setAttribute("transform", "scale(2);");
+    playerName.setAttribute("style", "transform: scale(2);");
     setTimeout(() => {
-      playerName.setAttribute("transform", "scale(1);");
+      playerName.setAttribute("style", "transform: scale(1);");
     }, 3000);
   }
 });
