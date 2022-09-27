@@ -12,9 +12,9 @@ var observer = new MutationObserver(function () {
   if (targetNode.style.display != "none") {
     console.log("you got a kill!");
     soundEffect.play();
-    playerName.setAttribute("font-size", "3em");
+    playerName.setAttribute("style", "font-size: 3em !important;");
     setTimeout(() => {
-      playerName.setAttribute("font-size", "1em");
+      playerName.setAttribute("style", "font-size: 1em !important;");
     }, 5000);
   }
 });
