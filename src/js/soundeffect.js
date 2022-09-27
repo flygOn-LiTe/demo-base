@@ -1,5 +1,4 @@
 const targetNode = document.getElementById("killBox");
-const playerName = document.querySelector(".playerSlot-player-is-me");
 
 var soundEffect = new Audio();
 soundEffect.src = "https://berrybroscrypto.com/images/witchlaugh.mp3";
@@ -9,6 +8,7 @@ img.src = "https://berrybroscrypto.com/images/animated-witch.gif";
 targetNode.appendChild(img);
 
 var observer = new MutationObserver(function () {
+  const playerName = document.querySelector(".playerSlot-player-is-me");
   if (targetNode.style.display != "none") {
     console.log("you got a kill!");
     soundEffect.play();
