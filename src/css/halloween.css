@@ -5012,7 +5012,7 @@ span.egg_count {
   max-height: 1.1em;
   max-width: 1.1em;
 }
-
+.playerslot
 .playerSlot--name-score {
   display: block;
   width: 12em;
@@ -5036,6 +5036,7 @@ span.egg_count {
   background: black;
   color: #09ff00;
   font-style: italic;
+  transition: font-size 5s;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
   background: black;
