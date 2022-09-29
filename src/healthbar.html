@@ -1,5 +1,6 @@
 <div class="health-bar"></div>
 <script>
+  var container = document.querySelector("health-bar");
   var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   var rect1 = document.createElementNS("http://www.w3.org/2000/svg", "rect");
   var path1 = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -28,4 +29,8 @@
     "d",
     "M1055.8,388a15.09,15.09,0,0,1,15.08,15.08v15.84A15.09,15.09,0,0,1,1055.8,434H586a15.09,15.09,0,0,1-15.08-15.08V403.08A15.09,15.09,0,0,1,586,388H1055.8m0-15H586a30.17,30.17,0,0,0-30.08,30.08v15.84A30.17,30.17,0,0,0,586,449H1055.8a30.17,30.17,0,0,0,30.08-30.08V403.08A30.17,30.17,0,0,0,1055.8,373Z"
   );
+
+  container.appendChild(svg);
+  svg.appendChild(rect1);
+  svg.appendChild(path1);
 </script>
