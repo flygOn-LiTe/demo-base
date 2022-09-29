@@ -11,6 +11,8 @@
 <script>
   var container = document.querySelector(".health-bar");
   var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  var defs = document.createElementNS(svgns, "defs");
+  var gradient = document.createElementNS(svgns, "linearGradient");
   var rect1 = document.createElementNS("http://www.w3.org/2000/svg", "rect");
   var path1 = document.createElementNS("http://www.w3.org/2000/svg", "path");
   var path2 = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -29,10 +31,52 @@
   svg.setAttribute("width", "530px");
   svg.setAttribute("height", "76px");
 
+  // Store an array of stop information for the <linearGradient>
+  var stops = [
+    {
+      color: "#03fcf0",
+      offset: "0%",
+    },
+    {
+      color: "#1700D2",
+      offset: "0.03%",
+    },
+    {
+      color: "#1700D2",
+      offset: "0.54%",
+    },
+    {
+      color: "#1700D2",
+      offset: "0.99%",
+    },
+    {
+      color: "#3200D2",
+      offset: "100%",
+    },
+  ];
+
+  // Parses an array of stop information and appends <stop> elements to the <linearGradient>
+  for (var i = 0, length = stops.length; i < length; i++) {
+    // Create a <stop> element and set its offset based on the position of the for loop.
+    var stop = document.createElementNS(svgns, "stop");
+    stop.setAttribute("offset", stops[i].offset);
+    stop.setAttribute("stop-color", stops[i].color);
+
+    // Add the stop to the <lineargradient> element.
+    gradient.appendChild(stop);
+  }
+  gradient.id = "linear-gradient";
+  gradient.setAttribute("x1", "15");
+  gradient.setAttribute("x2", "515");
+  gradient.setAttribute("y1", "42");
+  gradient.setAttribute("y2", "42");
+  defs.appendChild(gradient);
+
   rect1.setAttribute("width", "530px");
   rect1.setAttribute("height", "76px");
   rect1.setAttribute("y", "3");
   rect1.setAttribute("rx", "30.08");
+  rect1.setAttribute("fill", "url(#linear-gradient)");
   rect1.classList.add("cls-2");
 
   path1.setAttribute(
@@ -41,7 +85,9 @@
   );
   path1.classList.add("cls-3");
 
-  container.appendChild(svg);
+  svg.appendChild(defs);
+  svg.appendChild(rect);
   svg.appendChild(rect1);
   svg.appendChild(path1);
+  container.appendChild(svg);
 </script>
