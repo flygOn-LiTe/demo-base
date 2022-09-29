@@ -11,8 +11,11 @@
 <script>
   var container = document.querySelector(".health-bar");
   var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  var defs = document.createElementNS(svgns, "defs");
-  var gradient = document.createElementNS(svgns, "linearGradient");
+  var defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+  var gradient = document.createElementNS(
+    "http://www.w3.org/2000/svg",
+    "linearGradient"
+  );
   var rect1 = document.createElementNS("http://www.w3.org/2000/svg", "rect");
   var path1 = document.createElementNS("http://www.w3.org/2000/svg", "path");
   var path2 = document.createElementNS("http://www.w3.org/2000/svg", "path");
