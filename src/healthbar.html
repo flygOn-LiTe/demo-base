@@ -1,6 +1,6 @@
 <style>
   .cls-2 {
-    fill: #9f3b14;
+    fill: url(#linear-gradient);
   }
   .cls-3 {
     fill: #bc5810;
@@ -9,6 +9,7 @@
 </style>
 <div class="health-bar"></div>
 <script>
+  //create SVG
   var container = document.querySelector(".health-bar");
   var svgns = "http://www.w3.org/2000/svg";
   var svg = document.createElementNS(svgns, "svg");
@@ -74,7 +75,6 @@
   rect1.setAttribute("height", "76px");
   rect1.setAttribute("y", "3");
   rect1.setAttribute("rx", "30.08");
-  rect1.setAttribute("fill", "url(#linear-gradient)");
   rect1.classList.add("cls-2");
 
   path1.setAttribute(
