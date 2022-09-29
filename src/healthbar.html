@@ -1,3 +1,8 @@
+<style>
+  .cls-2 {
+    fill: #9f3b14;
+  }
+</style>
 <div class="health-bar"></div>
 <script>
   var container = document.querySelector(".health-bar");
@@ -17,13 +22,14 @@
 
   svg.setAttribute("aria-hidden", "true");
   svg.setAttribute("viewbox", "0 0 530 80");
-  svg.setAttribute("width", "76px");
-  svg.setAttribute("height", "530px");
+  svg.setAttribute("width", "530px");
+  svg.setAttribute("height", "76px");
 
-  rect1.setAttribute("width", "76px");
-  rect1.setAttribute("height", "530px");
+  rect1.setAttribute("width", "530px");
+  rect1.setAttribute("height", "76px");
   rect1.setAttribute("y", "3");
   rect1.setAttribute("rx", "30.08");
+  rect1.classList.add("cls-2");
 
   path1.setAttribute(
     "d",
