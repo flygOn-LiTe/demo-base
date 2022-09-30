@@ -6,6 +6,17 @@
     fill: #bc5810;
     transform: translate(-555.88px, -371px);
   }
+  .cls-4 {
+    transform: translate(-555.88px, -371px);
+  }
+  .cls-4,
+  .cls-5,
+  .cls-8 {
+    opacity: 0.4;
+  }
+  .cls-6 {
+    fill: url(#linear-gradient);
+  }
 </style>
 <div class="health-bar"></div>
 <script>
@@ -71,8 +82,30 @@
   );
   path1.classList.add("cls-3");
 
+  path2.setAttribute(
+    "d",
+    "M1055.8,371H586a30.17,30.17,0,0,0-30.08,30.08v5A30.17,30.17,0,0,1,586,376H1055.8a30.17,30.17,0,0,1,30.08,30.08v-5A30.17,30.17,0,0,0,1055.8,371Z"
+  );
+  path2.classList.add("cls-4");
+
+  path3.setAttribute(
+    "d",
+    "M1055.8,445H586a30.17,30.17,0,0,1-30.08-30.08v6A30.17,30.17,0,0,0,586,451H1055.8a30.17,30.17,0,0,0,30.08-30.08v-6A30.17,30.17,0,0,1,1055.8,445Z"
+  );
+  path2.classList.add("cls-5");
+
+  rect2.setAttribute("width", "500px");
+  rect2.setAttribute("height", "46px");
+  rect2.setAttribute("y", "19");
+  rect2.setAttribute("x", "15");
+  rect2.setAttribute("rx", "15.08");
+  rect2.classList.add("fill cls-6");
+
   svg.appendChild(defs);
   svg.appendChild(rect1);
   svg.appendChild(path1);
+  svg.appendChild(path2);
+  svg.appendChild(path3);
+  svg.appendChild(rect2);
   container.appendChild(svg);
 </script>
