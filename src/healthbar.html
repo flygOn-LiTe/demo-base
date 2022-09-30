@@ -31,10 +31,7 @@
   var path2 = document.createElementNS(svgns, "path");
   var path3 = document.createElementNS(svgns, "path");
   var rect2 = document.createElementNS(svgns, "rect");
-  var path4 = document.createElementNS(svgns, "path");
-  var path5 = document.createElementNS(svgns, "path");
   var fillOverlay = document.createElementNS(svgns, "rect");
-  var path6 = document.createElementNS(svgns, "path");
 
   svg.setAttribute("aria-hidden", "true");
   svg.setAttribute("viewbox", "0 0 530 80");
@@ -101,11 +98,19 @@
   rect2.setAttribute("rx", "15.08");
   rect2.classList.add("fill", "cls-6");
 
+  fillOverlay.setAttribute("width", "500px");
+  fillOverlay.setAttribute("height", "46px");
+  fillOverlay.setAttribute("y", "19");
+  fillOverlay.setAttribute("x", "15");
+  fillOverlay.setAttribute("rx", "15.08");
+  fillOverlay.classList.add("fill-overlay");
+
   svg.appendChild(defs);
   svg.appendChild(rect1);
   svg.appendChild(path1);
   svg.appendChild(path2);
   svg.appendChild(path3);
   svg.appendChild(rect2);
+  svg.appendChild(fillOverlay);
   container.appendChild(svg);
 </script>
