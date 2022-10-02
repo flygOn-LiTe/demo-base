@@ -3997,6 +3997,7 @@ span.egg_count {
   display: inline-block;
   width: 600px;
   height: 100px;
+  background: transparent;
 }
 
 #healthHp {
