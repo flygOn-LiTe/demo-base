@@ -3994,7 +3994,7 @@ span.egg_count {
 
 #healthContainer {
   position: absolute;
-  left: 600px !important;
+  left: 1000px !important;
   bottom: 1em;
   transform: translateY(-50px) !important;
   display: inline-block;
@@ -4045,7 +4045,7 @@ span.egg_count {
 
 #hardBoiledContainer {
   position: absolute;
-  left: 200px !important;
+  left: 500px !important;
   bottom: 1em;
   transform: translateX(-50%);
   display: inline-block;
