@@ -5031,6 +5031,7 @@ span.egg_count {
   background: #6a00ff;
   color: #d4a537;
   font-style: italic;
+  transition: transform 3s;
 }
 .playerSlot-player-is-me.playerSlot-me-red {
   background: #6a00ff;
