@@ -3999,17 +3999,8 @@ span.egg_count {
   height: 100px;
 }
 
-#health {
-}
-
 #healthHp {
-  font-family: hobeaux, sans-serif !important;
-  font-weight: 400;
-  font-style: normal;
-  color: #d4a537;
-  font-size: 1.2em;
-  transform: translateY(-3.45em);
-  text-shadow: 2px 2px 2px black;
+  visibility: hidden;
 }
 
 @keyframes stroke-shift {
@@ -4022,13 +4013,7 @@ span.egg_count {
 }
 
 .healthBar {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: transparent;
-  animation: stroke-shift 3s infinite alternate;
-  stroke-width: 1em;
-  stroke-dasharray: 14.4513em;
-  transition: all 0.3s ease-in-out;
+  display: none;
 }
 
 @keyframes svg-shift {
@@ -4041,7 +4026,7 @@ span.egg_count {
 }
 
 .healthYolk {
-  animation: svg-shift 3s infinite alternate;
+  display: none;
 }
 
 .healthSvg {
