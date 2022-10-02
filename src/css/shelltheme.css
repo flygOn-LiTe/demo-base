@@ -36,7 +36,7 @@
   opacity: 0.3;
 }
 .fill {
-  transition: width 1s;
+  transition: width 3s;
 }
 * {
   box-sizing: border-box; /* For Your Health */
