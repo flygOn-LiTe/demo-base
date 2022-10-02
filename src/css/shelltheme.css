@@ -3994,7 +3994,7 @@ span.egg_count {
 
 #healthContainer {
   position: absolute;
-  left: 400px !important;
+  left: 50% !important;
   bottom: 1em;
   transform: translateY(-50px) !important;
   display: inline-block;
