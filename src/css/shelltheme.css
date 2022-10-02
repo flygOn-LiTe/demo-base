@@ -3996,7 +3996,7 @@ span.egg_count {
   position: absolute;
   left: 50%;
   bottom: 1em;
-  transform: translateX(-50%) !important;
+  transform: translateX(-80%) !important;
   transform: translateY(-50px) !important;
   display: inline-block;
   width: 600px;
