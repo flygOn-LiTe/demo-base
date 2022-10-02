@@ -4001,7 +4001,13 @@ span.egg_count {
 }
 
 #healthHp {
-  visibility: hidden;
+  font-family: snicker, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  font-size: 1.2em;
+  transform: translateY(-6.45em);
+  text-shadow: 2px 2px 2px black;
 }
 
 @keyframes stroke-shift {
