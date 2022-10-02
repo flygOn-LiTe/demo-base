@@ -25,6 +25,7 @@
 .cls-5 {
   transform: translate(-555.88px, -371px);
   opacity: 0.4;
+  mix-blend-mode: overlay;
 }
 .cls-6 {
   fill: url(#linear-gradient);
