@@ -4004,9 +4004,9 @@ span.egg_count {
   font-family: snicker, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: whitesmoke;
+  color: #d4a537;
   font-size: 1.2em;
-  transform: translateY(10em);
+  transform: translateY(-10em);
   text-shadow: 2px 2px 2px black;
 }
 
@@ -4469,7 +4469,6 @@ span.egg_count {
 }
 
 .crosshair.powerful {
-  //Thanks Aden and Crow! :)
   animation: colorchange 10s linear 1s infinite;
   -webkit-animation: colorchange 5s linear 0s infinite alternate;
   position: absolute;
