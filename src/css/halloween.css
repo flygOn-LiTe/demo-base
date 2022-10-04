@@ -1,6 +1,38 @@
-/* ----------------------------------------------------------------- Global -- */
 
 @import url("https://use.typekit.net/ega2xty.css");
+
+
+
+.cls-2 {
+    fill: #bc5810;
+  }
+  .cls-3 {
+    fill: #bc5810;
+    transform: translate(-555.88px, -371px);
+  }
+  .cls-4 {
+    transform: translate(-555.88px, -371px);
+    opacity: 0.4;
+    fill: #f5feff;
+    mix-blend-mode: screen;
+  }
+  .cls-5 {
+    transform: translate(-555.88px, -371px);
+    opacity: 0.4;
+    mix-blend-mode: overlay;
+  }
+  .cls-6 {
+    fill: url(#linear-gradient);
+  }
+  .fill-overlay {
+    fill: #f5feff;
+    opacity: 0.3;
+  }
+  .fill {
+    transition: width 1.5s;
+  }
+
+
 
 @keyframes shift-color {
   0% {
@@ -3976,34 +4008,25 @@ span.egg_count {
 
 #healthContainer {
   position: absolute;
-  left: 50%;
+  left: 1000px !important;
   bottom: 1em;
-  transform: translateX(-50%);
+  transform: translateY(-50px) !important;
   display: inline-block;
-  width: 6em;
-  height: 6em;
-  background-image: linear-gradient(
-    90deg,
-    rgba(255, 154, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
-  );
-  border-radius: 50%;
-  text-align: center;
-  background-size: 400%;
-  animation: shift-color 3s infinite alternate;
-}
-
-#health {
+  width: 600px;
+  height: 100px;
+  background: transparent !important;
+  text-align: center !important;
 }
 
 #healthHp {
-  font-family: ccclobberintimecrunchy, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #09ff00;
-  font-size: 1.2em;
-  transform: translateY(-3.45em);
-  text-shadow: 2px 2px 2px black;
+    font-family: snicker, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    font-size: 1.2em;
+    transform: translateY(65px) !important;
+    text-shadow: 2px 2px 2px black;
+    text-align: center !important;
 }
 
 @keyframes stroke-shift {
@@ -4016,14 +4039,15 @@ span.egg_count {
 }
 
 .healthBar {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: transparent;
-  animation: stroke-shift 3s infinite alternate;
-  stroke-width: 1em;
-  stroke-dasharray: 14.4513em;
-  transition: all 0.3s ease-in-out;
-}
+    display: none;
+  }
+  .healthYolk {
+    display: none;
+  }
+  
+  .healthSvg {
+    display: none;
+  }
 
 @keyframes svg-shift {
   0% {
@@ -4032,15 +4056,6 @@ span.egg_count {
   100% {
     fill: #000000;
   }
-}
-
-.healthYolk {
-  animation: svg-shift 3s infinite alternate;
-}
-
-.healthSvg {
-  width: 100%;
-  height: 100%;
 }
 
 #hardBoiledContainer {
