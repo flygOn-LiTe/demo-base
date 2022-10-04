@@ -4,10 +4,10 @@
 
 
 .cls-2 {
-    fill: #bc5810;
+    fill: #000;
   }
   .cls-3 {
-    fill: #bc5810;
+    fill: #000;
     transform: translate(-555.88px, -371px);
   }
   .cls-4 {
@@ -4022,7 +4022,7 @@ span.egg_count {
     font-family: snicker, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #000;
+    color: whitesmoke;
     font-size: 1.2em;
     transform: translateY(65px) !important;
     text-shadow: 2px 2px 2px black;
