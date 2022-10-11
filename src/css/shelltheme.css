@@ -3967,6 +3967,7 @@ span.egg_count {
 #grenades {
   padding-bottom: 0;
   margin-bottom: 0;
+  transform: translateY(-50px) !important;
 }
 
 #grenades #grenade3 {
