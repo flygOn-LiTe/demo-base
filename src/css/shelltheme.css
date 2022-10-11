@@ -3931,8 +3931,8 @@ span.egg_count {
 
 #weaponBox {
   position: absolute;
-  right: -500px;
-  bottom: -100px;
+  right: 500px;
+  bottom: 100px;
   text-align: center !important;
 }
 
