@@ -3991,10 +3991,10 @@ span.egg_count {
 #ammo {
   position: relative;
   color: #d4a537 !important;
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: snicker, sans-serif;
   font-weight: 700;
-  transform: translateY(50px) !important;
+  transform: translateY(45px) !important;
   font-style: normal;
   font-weight: bold;
   background-image: none !important;
