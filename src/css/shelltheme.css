@@ -3975,21 +3975,11 @@ span.egg_count {
 
 #ammo {
   color: rgb(106, 0, 255) !important;
-  text-align: right;
-  font-size: 3.25em;
+  font-size: 1em;
   font-family: snicker, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
-  line-height: 1em;
-  margin: 0;
-  padding-right: 1.2em;
-  padding-top: 0em;
-  margin-bottom: 0.1em;
-  background-image: url("https://www.berrybroscrypto.com/images/flygonglint2.gif");
-  background-position: right center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 #healthContainer {
