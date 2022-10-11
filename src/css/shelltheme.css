@@ -3987,6 +3987,14 @@ span.egg_count {
   padding-bottom: 0;
   margin-bottom: 0;
   transform: translateY(20px) !important;
+  background-image: linear-gradient(
+    90deg,
+    rgba(105, 6, 255, 0.5) 0%,
+    rgba(0, 252, 228, 0.5) 100%
+  );
+  background-size: 400%;
+  animation: shift-color 3s infinite alternate;
+  border-radius: 12px;
 }
 
 #grenades #grenade3 {
