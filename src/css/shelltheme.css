@@ -3964,6 +3964,7 @@ span.egg_count {
 
 #weaponName {
   background-image: none !important;
+  display: none !important;
 }
 
 #ammo {
@@ -3973,6 +3974,7 @@ span.egg_count {
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
+  background-image: none !important;
 }
 
 #healthContainer {
