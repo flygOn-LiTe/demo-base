@@ -10,6 +10,27 @@
     background-position: right;
   }
 }
+.goal-container {
+  width: 100%;
+  height: 32px;
+  border: 3px solid#bc5810;
+  border-radius: 12px;
+  position: relative;
+  margin: 8px 0;
+  padding: 2px;
+  background: #bc5810;
+}
+.goal-bar {
+  position: absolute;
+  top: 0px;
+  left: -2px;
+  overflow: hidden;
+  transition: 750ms width;
+  background-color: #6a00ff;
+  height: 100%;
+  border-radius: 12px;
+}
+
 .cls-2 {
   fill: #bc5810;
 }
