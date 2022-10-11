@@ -3989,12 +3989,13 @@ span.egg_count {
   color: #d4a537 !important;
   font-size: 1em;
   font-family: snicker, sans-serif;
-  transform: translateY(50px) !important;
+  transform: translateY(45px) !important;
   font-weight: 700;
   font-style: normal;
   font-weight: bold;
   background-image: none !important;
   text-align: center !important;
+  z-index: 10;
 }
 
 #healthContainer {
