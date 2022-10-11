@@ -3963,13 +3963,7 @@ span.egg_count {
 }
 
 #weaponName {
-  text-align: right;
-  font-family: snicker, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 0;
-  display: none;
+  background-image: none !important;
 }
 
 #ammo {
