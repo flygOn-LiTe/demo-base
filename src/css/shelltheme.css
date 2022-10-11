@@ -3959,8 +3959,8 @@ span.egg_count {
 }
 
 #grenades img {
-  width: 3.25em;
-  height: auto;
+  width: 50px !important;
+  height: 50px !important;
 }
 
 #weaponName {
