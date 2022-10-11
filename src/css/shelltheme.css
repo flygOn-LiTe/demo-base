@@ -63,6 +63,7 @@
 }
 .fill {
   transition: width 1.5s ease, fill 1s ease;
+  animation: svg-shift 3s infinite alternate;
 }
 * {
   box-sizing: border-box; /* For Your Health */
