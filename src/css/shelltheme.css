@@ -3931,9 +3931,9 @@ span.egg_count {
 
 #weaponBox {
   position: absolute;
-  right: 0.75em;
-  bottom: 0.5em;
-  text-align: center;
+  right: -500px;
+  bottom: -100px;
+  text-align: center !important;
 }
 
 #grenades {
@@ -3975,6 +3975,7 @@ span.egg_count {
   font-style: normal;
   font-weight: bold;
   background-image: none !important;
+  text-align: center !important;
 }
 
 #healthContainer {
