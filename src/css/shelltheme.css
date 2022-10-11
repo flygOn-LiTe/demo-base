@@ -10,6 +10,25 @@
     background-position: right;
   }
 }
+
+@keyframes svg-shift {
+  0% {
+    fill: #6a00ff;
+  }
+  100% {
+    fill: #03fcf0;
+  }
+}
+
+@keyframes svg-shift-two {
+  0% {
+    fill: #ff0000;
+  }
+  100% {
+    fill: #990000;
+  }
+}
+
 .goal-container {
   width: 265px;
   height: 38px;
@@ -3967,7 +3986,7 @@ span.egg_count {
 #grenades {
   padding-bottom: 0;
   margin-bottom: 0;
-  transform: translateY(100px) !important;
+  transform: translateY(50px) !important;
 }
 
 #grenades #grenade3 {
@@ -4042,15 +4061,6 @@ span.egg_count {
 
 .healthBar {
   display: none;
-}
-
-@keyframes svg-shift {
-  0% {
-    fill: #6a00ff;
-  }
-  100% {
-    fill: #03fcf0;
-  }
 }
 
 .healthYolk {
