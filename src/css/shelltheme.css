@@ -19,6 +19,7 @@
   margin: 8px 0;
   padding: 2px;
   background: #bc5810;
+  z-index: 0;
 }
 .goal-bar {
   overflow: hidden;
@@ -26,6 +27,7 @@
   background: #6a00ff;
   height: 100%;
   border-radius: 12px;
+  z-index: 1;
 }
 
 .cls-2 {
@@ -3995,7 +3997,7 @@ span.egg_count {
   font-weight: bold;
   background-image: none !important;
   text-align: center !important;
-  z-index: 10;
+  z-index: 10 !important;
 }
 
 #healthContainer {
