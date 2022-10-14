@@ -74,7 +74,11 @@
   mix-blend-mode: overlay;
 }
 .cls-6 {
-  fill: url(#linear-gradient);
+  fill: linear-gradient(
+    90deg,
+    rgba(105, 6, 255, 1) 0%,
+    rgba(0, 252, 228, 1) 100%
+  );
 }
 .fill-overlay {
   fill: #f5feff;

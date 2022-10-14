@@ -1,5 +1,5 @@
 const targetNode = document.getElementById("killBox");
-
+console.log(vueData);
 var soundEffect = new Audio();
 soundEffect.src = "https://berrybroscrypto.com/images/witchlaugh.mp3";
 
