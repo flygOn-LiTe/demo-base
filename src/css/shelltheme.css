@@ -3997,22 +3997,6 @@ span.egg_count {
   transform: translateY(20px) !important;
 }
 
-#grenades #grenade3 {
-  background-image: url("https://www.berrybroscrypto.com/images/flygon-grenade.png") !important;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-#grenades #grenade2 {
-  background-image: url("https://www.berrybroscrypto.com/images/flygon-grenade.png") !important;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-#grenades #grenade1 {
-  background-image: url("https://www.berrybroscrypto.com/images/flygon-grenade.png") !important;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 #grenades img {
   width: 50px !important;
   height: 50px !important;
