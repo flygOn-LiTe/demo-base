@@ -3981,7 +3981,7 @@ span.egg_count {
 
 #weaponBox {
   position: absolute;
-  right: 1125px;
+  right: 42%;
   bottom: 140px;
   text-align: center !important;
   z-index: 9 !important;
@@ -4023,7 +4023,7 @@ span.egg_count {
 
 #healthContainer {
   position: absolute;
-  left: 1000px !important;
+  left: 40% !important;
   bottom: 1em;
   transform: translateY(-50px) !important;
   display: inline-block;
